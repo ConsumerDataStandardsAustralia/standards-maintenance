@@ -38,7 +38,7 @@ The key dates for the next iteration are as follows:
 
 A project board for each sector will be maintained in this repository.  These poject boards will be used to track progress on each of the prioritised issues.
 
-Currently only a single project board exists: the[Banking Maintenance Project Board](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/projects/1)
+Currently only a single project board exists: the [Banking Maintenance Project Board](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/projects/1)
 
 ## Key Processes
 
