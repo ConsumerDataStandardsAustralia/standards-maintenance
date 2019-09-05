@@ -10,7 +10,7 @@ assignees: ''
 # Description
 Brief description of the issue that is leading to the change being required
 
-#Area Affected
+# Area Affected
 Describe the area of the standard that is proposed to be amended.  This could be one or more API end points or a specific section of the information security profile
 
 # Change Proposed
