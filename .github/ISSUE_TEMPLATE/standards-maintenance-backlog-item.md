@@ -2,7 +2,7 @@
 name: Standards maintenance backlog item
 about: Create a new standards maintenance backlog item for consideration by the community
 title: "[Descriptive Issue Title]"
-labels: ''
+labels: change request
 assignees: ''
 
 ---
