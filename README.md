@@ -5,6 +5,26 @@ This repository is used to contain discussions and contributions from the commun
 ## Trial Period
 The information below describes the processes that will be utilised for standards maintenance for an initial trial period.  This trial period is intended to cover a single iteration spanning for eight weeks from the first week of October.  At the end of this trial period a retrospective will be conducted and the processes will be improved based on the outcomes of the initial trial.
 
+### Key Phase Dates
+
+**Phase 1: 	Backlog Grooming** - *14th October Commencement*. 2 weeks duration
+
+**Phase 2: 	Consultation** - *28th November Commencement*. 4 weeks duration
+
+**Phase 3: 	Approval** - *25th November Commencement*. 1 week duration
+
+**Phase 4: 	Documentation** - *2nd December Commencement*. 1 week duration
+
+### Ritual Dates
+
+**Call to discuss backlog** - *23rd October @2pm* for 1 hour
+
+**Call to discuss proposals** - *20th November @2pm* for 2 hours
+
+**Call to conduct retrospective** - *4th December @2pm* for 2 hours
+
+Call details for each teleconference will be posted in this README
+
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
 
