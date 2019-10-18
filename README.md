@@ -17,13 +17,26 @@ The information below describes the processes that will be utilised for standard
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *23rd October @2pm* for 1 hour
+**Call to discuss backlog** - *23rd October @2pm* for 1 hour<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mdfd287a77b161b54a75372820e5ce0f4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 575 696 578<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,575696578%23%23<br/>
 
-**Call to discuss proposals** - *20th November @2pm* for 2 hours
+**Call to discuss proposals** - *20th November @2pm* for 2 hours<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m1c4fd0b87fb7bc9525e96b719a408c18<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 579 327 509<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,579327509%23%23<br/>
 
-**Call to conduct retrospective** - *4th December @2pm* for 2 hours
-
-Call details for each teleconference will be posted in this README
+**Call to conduct retrospective** - *4th December @2pm* for 2 hours<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m171df0849226857bc069469d070b984c<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 575 304 724<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,575304724%23%23<br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
