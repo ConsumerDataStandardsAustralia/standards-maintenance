@@ -57,16 +57,6 @@ In addition to this consultation two additional rituals are expected to be condu
 * A teleconference to discuss the selected backlog items during week 2 of each iteration
 * A teleconference to discuss the final proposals prior to submission to the Advisory Council during week 6 of each iteration
 
-## Key Dates
-
-The key dates for the next iteration are as follows:
-* 30th September - Iteration 1 Commences.  Start of grooming phase
-* 9th October - Backlog review teleconference (To be confirmed)
-* 14th October - Backlog published.  Start of consultation phase
-* 6th November - Proposal review teleconference (To be confirmed)
-* 11th November - Proposals finalised.  Start of approval phase
-* 22nd November - Standards updated to accommodate approved proposals
-
 ## Visual Project Boards
 
 A project board for each sector will be maintained in this repository.  These poject boards will be used to track progress on each of the prioritised issues.
