@@ -9,7 +9,7 @@ The information below describes the processes that will be utilised for standard
 
 **Phase 1: 	Backlog Grooming** - *14th October Commencement*. 2 weeks duration
 
-**Phase 2: 	Consultation** - *28th November Commencement*. 4 weeks duration
+**Phase 2: 	Consultation** - *28th October Commencement*. 4 weeks duration
 
 **Phase 3: 	Approval** - *25th November Commencement*. 1 week duration
 
