@@ -2,6 +2,8 @@
 
 This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.accc.gov.au/focus-areas/consumer-data-right "ACCC Consumer Data Right webpage") regime.  Please refer to the [Main Standards Repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
 
+**Note:** The link to contribute to the retrospective board is https://secure.teamretro.com/join/627-185-516
+
 ## Trial Period
 The information below describes the processes that will be utilised for standards maintenance for an initial trial period.  This trial period is intended to cover a single iteration spanning for eight weeks from the first week of October.  At the end of this trial period a retrospective will be conducted and the processes will be improved based on the outcomes of the initial trial.
 
