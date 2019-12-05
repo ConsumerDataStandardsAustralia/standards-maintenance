@@ -2,43 +2,26 @@
 
 This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.accc.gov.au/focus-areas/consumer-data-right "ACCC Consumer Data Right webpage") regime.  Please refer to the [Main Standards Repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
 
-**Note:** The link to contribute to the retrospective board is https://secure.teamretro.com/join/627-185-516
-
-## Trial Period
-The information below describes the processes that will be utilised for standards maintenance for an initial trial period.  This trial period is intended to cover a single iteration spanning for eight weeks from the first week of October.  At the end of this trial period a retrospective will be conducted and the processes will be improved based on the outcomes of the initial trial.
+## Next Iteration
+At the request of community members during the retrospective for the first iteration, the next maintenance iteration will not commence until after Christmas.  In the meantime the DSB will still respond to queries and change items that are urgently required to support the February milestone.
 
 ### Key Phase Dates
 
-**Phase 1: 	Backlog Grooming** - *14th October Commencement*. 2 weeks duration
+**Phase 1: 	Backlog Grooming** - *<TBD>*. 2 weeks duration
 
-**Phase 2: 	Consultation** - *28th October Commencement*. 4 weeks duration
+**Phase 2: 	Consultation** - *<TBD>*. 4 weeks duration
 
-**Phase 3: 	Approval** - *25th November Commencement*. 1 week duration
+**Phase 3: 	Approval** - *<TBD>*. 1 week duration
 
-**Phase 4: 	Documentation** - *2nd December Commencement*. 1 week duration
+**Phase 4: 	Documentation** - *<TBD>*. 1 week duration
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *23rd October @2pm* for 1 hour<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mdfd287a77b161b54a75372820e5ce0f4<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 575 696 578<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,575696578%23%23<br/>
+**Call to discuss backlog** - *<TBD>* for 1 hour<br/>
 
-**Call to discuss proposals** - *20th November @2pm* for 2 hours<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m1c4fd0b87fb7bc9525e96b719a408c18<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 579 327 509<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,579327509%23%23<br/>
+**Call to discuss proposals** - *<TBD>* for 2 hours<br/>
 
-**Call to conduct retrospective** - *4th December @2pm* for 2 hours<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m171df0849226857bc069469d070b984c<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 575 304 724<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,575304724%23%23<br/>
+**Call to conduct retrospective** - *<TBD>* for 1 hour<br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
