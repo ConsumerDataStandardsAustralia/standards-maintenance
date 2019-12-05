@@ -7,21 +7,21 @@ At the request of community members during the retrospective for the first itera
 
 ### Key Phase Dates
 
-**Phase 1: 	Backlog Grooming** - *<TBD>*. 2 weeks duration
+**Phase 1: 	Backlog Grooming** - *TBD*. 2 weeks duration
 
-**Phase 2: 	Consultation** - *<TBD>*. 4 weeks duration
+**Phase 2: 	Consultation** - *TBD*. 4 weeks duration
 
-**Phase 3: 	Approval** - *<TBD>*. 1 week duration
+**Phase 3: 	Approval** - *TBD*. 1 week duration
 
-**Phase 4: 	Documentation** - *<TBD>*. 1 week duration
+**Phase 4: 	Documentation** - *TBD*. 1 week duration
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *<TBD>* for 1 hour<br/>
+**Call to discuss backlog** - *TBD* for 1 hour<br/>
 
-**Call to discuss proposals** - *<TBD>* for 2 hours<br/>
+**Call to discuss proposals** - *TBD* for 2 hours<br/>
 
-**Call to conduct retrospective** - *<TBD>* for 1 hour<br/>
+**Call to conduct retrospective** - *TBD* for 1 hour<br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
