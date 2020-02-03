@@ -19,7 +19,7 @@ The next maintenance iteration will commence in the first week of February 2020.
 
 **Call to discuss backlog** - *13th February 2020 @2pm* for 1 hour<br/>
 
-**Call to discuss proposals** - *11th March 2020 @2pm* for 2 hours<br/>
+**Call to discuss proposals** - *12th March 2020 @2pm* for 2 hours<br/>
 
 **Call to conduct retrospective** - *1st April 2020 @2pm* for 1 hour<br/>
 
