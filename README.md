@@ -9,7 +9,7 @@ The next maintenance iteration will commence in the first week of February 2020.
 
 **Phase 1: 	Backlog Grooming** - *3rd February 2020 commencement*. 2 weeks duration
 
-**Phase 2: 	Consultation** - *17th Februaryu 2020 commencement*. 4 weeks duration
+**Phase 2: 	Consultation** - *17th February 2020 commencement*. 4 weeks duration
 
 **Phase 3: 	Approval** - *16th March 2020 commencement*. 1 week duration
 
