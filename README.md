@@ -18,10 +18,27 @@ The next maintenance iteration will commence in the first week of February 2020.
 ### Ritual Dates
 
 **Call to discuss backlog** - *13th February 2020 @2pm* for 1 hour<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
+https://csiro.webex.com/csiro/j.php?MTID=m1271d08eb37e3d4380bbcc546b42f80a<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 785 851 394<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,785851394%23%23<br/>
 
 **Call to discuss proposals** - *12th March 2020 @2pm* for 2 hours<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mc79426491aed32ee54e2121dcdb32d0a<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 780 996 986<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,780996986%23%23<br/>
 
 **Call to conduct retrospective** - *1st April 2020 @2pm* for 1 hour<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
+https://csiro.webex.com/csiro/j.php?MTID=m398fe57fc03fb821a6c4bad34637c607<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 789 498 587<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,789498587%23%23<br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
