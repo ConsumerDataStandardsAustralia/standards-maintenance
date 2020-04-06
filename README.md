@@ -17,7 +17,7 @@ The next maintenance iteration will commence in the first week of April 2020.
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *6th April 2020 @2pm* for 1 hour<br/>
+**Call to discuss backlog** - *9th April 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
 https://csiro.webex.com/csiro/j.php?MTID=mc8d05a7751925374edd395e45e81b723<br/>
