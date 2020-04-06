@@ -3,42 +3,42 @@
 This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.accc.gov.au/focus-areas/consumer-data-right "ACCC Consumer Data Right webpage") regime.  Please refer to the [Main Standards Repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
 
 ## Next Iteration
-The next maintenance iteration will commence in the first week of February 2020.
+The next maintenance iteration will commence in the first week of April 2020.
 
 ### Key Phase Dates
 
-**Phase 1: 	Backlog Grooming** - *3rd February 2020 commencement*. 2 weeks duration
+**Phase 1: Backlog Grooming** - *6th April 2020 commencement*. 2 weeks duration
 
-**Phase 2: 	Consultation** - *17th February 2020 commencement*. 4 weeks duration
+**Phase 2: Consultation** - *20th April 2020 commencement*. 4 weeks duration
 
-**Phase 3: 	Approval** - *16th March 2020 commencement*. 1 week duration
+**Phase 3: Approval** - *18th May 2020 commencement*. 1 week duration
 
-**Phase 4: 	Documentation** - *23rd March 2020 commencement*. 1 week duration
+**Phase 4: Documentation** - *25th May 2020 commencement*. 1 week duration
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *13th February 2020 @2pm* for 1 hour<br/>
+**Call to discuss backlog** - *6th April 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=m1271d08eb37e3d4380bbcc546b42f80a<br/>
+https://csiro.webex.com/csiro/j.php?MTID=mc8d05a7751925374edd395e45e81b723<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 785 851 394<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,785851394%23%23<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 786 191 844<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,786191844%23%23<br/>
 
-**Call to discuss proposals** - *12th March 2020 @2pm* for 2 hours<br/>
+**Call to discuss proposals** - *14th May 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mc79426491aed32ee54e2121dcdb32d0a<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m04f83fb26610fae4b1db5d007f573fe3<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 780 996 986<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,780996986%23%23<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 782 783 445<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,782783445%23%23<br/>
 
-**Call to conduct retrospective** - *1st April 2020 @2pm* for 1 hour<br/>
+**Call to conduct Maintenance Iteration 3 retrospective and Maintenance Iteration 4: Kickoff and backlog review** - *4th June 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=m398fe57fc03fb821a6c4bad34637c607<br/>
+https://csiro.webex.com/csiro/j.php?MTID=m42eb4e5db9f2b31ac97dda244915fecd<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 789 498 587<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,789498587%23%23<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 786 481 756 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,786481756%23%23<br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
