@@ -80,6 +80,9 @@ If an issue is identified as being too complex or impactful to the standards to 
 ### Issue Prioritisation
 The DSB will prioritise the open issues taking participant feedback into account.  This priortisation will be managed via the order of the issues in the 'Full Backlog' column of the relevant project board.
 
+### Closing Issues
+Issues may be closed by the original poster if they have received an answer that resolves their query. Alternatively, the DSB may close issues after seven (7) days where an answer has been supplied with an "answer provided" label and there has been not further comments or discussion on the issue. From time to time, the DSB may also close issues that are considered stale because there has been no feedback for an extended period of time.
+
 ### Backlog Selection
 At the end of the grooming phase the DSB will select a set of issues to be considered for the iteration.  Issues will be selected according to priority but selection will also take into account the relative complexity of the issues and the capacity of the DSB team available for the iteration.  Final decision of backlog items rests with the API Standards and InfoSec Lead under the supervision of the Data Standards Chair.
 
