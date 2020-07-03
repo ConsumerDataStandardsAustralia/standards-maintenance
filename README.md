@@ -3,61 +3,68 @@
 This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.accc.gov.au/focus-areas/consumer-data-right "ACCC Consumer Data Right webpage") regime.  Please refer to the [Main Standards Repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
 
 ## Next Iteration
-The next maintenance iteration will commence in the first week of April 2020.
+The next maintenance iteration will commence in the second week of July 2020.
 
 ### Key Phase Dates
 
-**Phase 1: Backlog Grooming** - *6th April 2020 commencement*. 2 weeks duration
+**Phase 1: Retrospective and Backlog Grooming** - *9th July 2020 commencement*. 2 weeks duration
 
-**Phase 2: Consultation** - *20th April 2020 commencement*. 4 weeks duration
+**Phase 2: Consultation** - *22nd July 2020 commencement*. 4 weeks duration
 
-**Phase 3: Approval** - *18th May 2020 commencement*. 1 week duration
-
-**Phase 4: Documentation** - *25th May 2020 commencement*. 1 week duration
+**Phase 3: Approvals and Documentation** - *19th August 2020 commencement*. 1 week duration
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *9th April 2020 @2pm* for 1 hour<br/>
+**Call to discuss backlog** - *9th July 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=mc8d05a7751925374edd395e45e81b723<br/>
+https://csiro.webex.com/csiro/j.php?MTID=m0132b1995d8d01d9e9d4e93f4198d923<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 786 191 844<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,786191844%23%23<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 295 9175<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1652959175%23%23<br/>
 
-**Call to discuss proposals** - *14th May 2020 @2pm* for 1 hour<br/>
+**Call to discuss proposals** - *22nd of July 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m04f83fb26610fae4b1db5d007f573fe3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m1a847c216c0578e19845184f08cdd878 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 782 783 445<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,782783445%23%23<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 673 5848 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1656735848%23%23 <br/>
 
-**Call to conduct Maintenance Iteration 3 retrospective and Maintenance Iteration 4: Kickoff and backlog review** - *4th June 2020 @2pm* for 1 hour<br/>
+**Call to conduct checkpoint on proposals** - *5th of August 2020 @2pm* for 1 hour<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=m1a847c216c0578e19845184f08cdd878 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 673 5848<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1656735848%23%23 <br/>
+
+**Call to conduct Maintenance Iteration 3 retrospective and Maintenance Iteration 4: Kickoff and backlog review** - *19th of August 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=m42eb4e5db9f2b31ac97dda244915fecd<br/>
+https://csiro.webex.com/csiro/j.php?MTID=m1a847c216c0578e19845184f08cdd878 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 786 481 756 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,786481756%23%23<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 673 5848 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1656735848%23%23 <br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
 
 **Backlog Grooming - 2 weeks**
-During this phase participants will comment on issues that have been raised and the DSB will assess the relevant complexity and importance of the issues (as identified by the community).  The phase will culminate in the selection of items for the iteration backlog by the DSB according to perceieved priority and team capacity.
+During this phase participants will comment on issues that have been raised and the DSB will assess the relevant complexity and importance of the issues (as identified by the community).  The phase will culminate in the selection of items for the iteration backlog by the DSB according to perceieved priority and team capacity. This phase has two rituals:
+* Retrospective, kickoff and discuss backlog: Includes a retrospective of the previous iteration as well as kicking off the next iteration with a backlog grooming of all outstanding change requests. It is an opportunity to actively discuss the priority of the change requests, concerns and considerations as well as the focus of the iteration.
+* Finalise backlog: The end of the backlog grooming will agree on the prioritised list of change requests.
 
 **Consultation - 4 weeks**
-During this phase the DSB, and the community, will provide proposed changes to the standards and provide feedback on their relative merits.  At the end of this phase a specific proposal will be formulated for submission to the Data Standards Chair for approval.  If a single acceptable proposal cannot be identified then the issue may be carried over to a subsequent iteration.
+During this phase the DSB, and the community, will review the prioritised backlog of change requests and provide proposed changes to the standards and provide feedback on their relative merits. At the end of this phase a specific proposal will be formulated for submission to the Data Standards Chair for approval. If a single acceptable proposal cannot be identified then the issue may be carried over to a subsequent iteration. This phase has two rituals:
+* Progress checkpoint:  During this meeting the DSB, and community, will review the current progress made on the proposed changes. The review will include the proposal and discussion on potential obligation dates for the proposed changes and impacts.
+* Review and summary of proposals: Review and discussion of remaining change requests and a summary of the positions agreed between the DSB and the community for each proposed change. The review will include discussion on potential obligation dates for the proposed changes and impacts.
 
 **Formal Approval & Update - 2 weeks**
-During this phase the recommended proposals will be provided to the relevant Advisory Council for final review and then submitted to the Data Standards Chair for approval.  The approved proposals will then be incorporated into the formal standards documentation.
+During this phase the recommended proposals will be provided to the Data Standards Advisory Committee for final review and then submitted to the Data Standards Chair for approval. The approved proposals will then be incorporated into the formal standards documentation.
 
 ### Rituals
 Due to the national scope of the CDR regime the bulk of consultation and collaboration is expected to be conducted online using the [issue tracker on this repository](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues) and the associated [project boards](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/projects).
 
-In addition to this consultation two additional rituals are expected to be conducted:
-* A teleconference to discuss the selected backlog items during week 2 of each iteration
-* A teleconference to discuss the final proposals prior to submission to the Advisory Council during week 6 of each iteration
+In addition to this consultation a teleconference to discuss the phase will be conducted every 2 weeks.
 
 ## Visual Project Boards
 
