@@ -37,7 +37,7 @@ https://csiro.webex.com/csiro/j.php?MTID=m0132b1995d8d01d9e9d4e93f4198d923<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 673 5848<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1656735848%23%23 <br/>
 
-**Call to conduct Maintenance Iteration 3 retrospective and Maintenance Iteration 4: Kickoff and backlog review** - *19th of August 2020 @2pm* for 1 hour<br/>
+**Call to conduct Maintenance Iteration 4 Proposal Summary** - *19th of August 2020 @2pm* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
 https://csiro.webex.com/csiro/j.php?MTID=m1a847c216c0578e19845184f08cdd878 <br/>
