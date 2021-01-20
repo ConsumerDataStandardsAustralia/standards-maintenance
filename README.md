@@ -3,47 +3,47 @@
 This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.accc.gov.au/focus-areas/consumer-data-right "ACCC Consumer Data Right webpage") regime.  Please refer to the [Main Standards Repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
 
 ## Next Iteration
-The next maintenance iteration will commence in the second week of September 2020.
+The next maintenance iteration will commence in the third week of February 2021.
 
 ### Key Phase Dates
 
-**Phase 1: Retrospective and Backlog Grooming** - *16th of September 2020 commencement*. 2 weeks duration
+**Phase 1: Backlog Grooming** - *17th of February 2021 commencement*. 2 weeks duration
 
-**Phase 2: Consultation** - *30th of September 2020 commencement*. 4 weeks duration
+**Phase 2: Consultation** - *3rd of March 2021 commencement*. 4 weeks duration
 
-**Phase 3: Approvals and Documentation** - *28th of October 2020 commencement*. 1 week duration
+**Phase 3: Approvals and Documentation** - *31st of March 2021 commencement*. 2 weeks duration
 
 ### Ritual Dates
 
-**Call to discuss backlog** - *16th September 2020 @2pm* for 1 hour<br/>
+**Call to discuss backlog** - *17th of February 2021 @2pm AEDT* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=md498fcab7a2000cbb4b0072b4b266111 <br/>
+https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 106 9550 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1651069550%23%23 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 089 2474  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23  <br/>
 
-**Call to discuss proposals** - *30th of September 2020 @2pm* for 1 hour<br/>
+**Call to discuss proposals** - *3rd of March 2021 @2pm AEDT* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=md498fcab7a2000cbb4b0072b4b266111  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 106 9550  <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1651069550%23%23  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 089 2474   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23   <br/>
 
-**Call to conduct checkpoint on proposals** - *14th of October 2020 @2pm* for 1 hour<br/>
+**Call to conduct checkpoint on proposals** - *17th of March 2021 @2pm AEDT* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=md498fcab7a2000cbb4b0072b4b266111  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 106 9550 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1651069550%23%23  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 1165 089 2474 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23  <br/>
 
-**Call to conduct Maintenance Iteration 4 Proposal Summary** - *28th of September 2020 @2pm* for 1 hour<br/>
+**Call to conduct Maintenance Iteration 4 Proposal Summary** - *31st of March 2021 @2pm AEDT* for 1 hour<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=md498fcab7a2000cbb4b0072b4b266111 <br/>
+https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 106 9550  <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: ++61262464433,1651069550%23%23  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 089 2474   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23   <br/>
 
 ## Maintenance Cadence
 Each maintenance iteration will cover a period of eight weeks broken down in the following phases:
