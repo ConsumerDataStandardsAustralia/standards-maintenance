@@ -1,0 +1,269 @@
+7,9c7,10
+< Network Working Group                                         S. Bradner
+< Request for Comments: 2119                            Harvard University
+< BCP: 14                                                       March 1997
+---
+> Internet Engineering Task Force (IETF)                          B. Leiba
+> Request for Comments: 8174                           Huawei Technologies
+> BCP: 14                                                         May 2017
+> Updates: 2119
+10a12,40
+> ISSN: 2070-1721
+> 
+> 
+>        Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words
+> 
+> Abstract
+> 
+>    RFC 2119 specifies common key words that may be used in protocol
+>    specifications.  This document aims to reduce the ambiguity by
+>    clarifying that only UPPERCASE usage of the key words have the
+>    defined special meanings.
+> 
+> Status of This Memo
+> 
+>    This memo documents an Internet Best Current Practice.
+> 
+>    This document is a product of the Internet Engineering Task Force
+>    (IETF).  It represents the consensus of the IETF community.  It has
+>    received public review and has been approved for publication by the
+>    Internet Engineering Steering Group (IESG).  Further information on
+>    BCPs is available in Section 2 of RFC 7841.
+> 
+>    Information about the current status of this document, any errata,
+>    and how to provide feedback on it may be obtained at
+>    http://www.rfc-editor.org/info/rfc8174.
+> 
+> 
+> 
+> 
+13d42
+<         Key words for use in RFCs to Indicate Requirement Levels
+15d43
+< Status of this Memo
+17,19d44
+<    This document specifies an Internet Best Current Practices for the
+<    Internet Community, and requests discussion and suggestions for
+<    improvements.  Distribution of this memo is unlimited.
+21d45
+< Abstract
+23,27d46
+<    In many standards track documents several words are used to signify
+<    the requirements in the specification.  These words are often
+<    capitalized.  This document defines these words as they should be
+<    interpreted in IETF documents.  Authors who follow these guidelines
+<    should incorporate this phrase near the beginning of their document:
+29,32d47
+<       The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+<       NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+<       "OPTIONAL" in this document are to be interpreted as described in
+<       RFC 2119.
+34,35d48
+<    Note that the force of these words is modified by the requirement
+<    level of the document in which they are used.
+37,38d49
+< 1. MUST   This word, or the terms "REQUIRED" or "SHALL", mean that the
+<    definition is an absolute requirement of the specification.
+40,41d50
+< 2. MUST NOT   This phrase, or the phrase "SHALL NOT", mean that the
+<    definition is an absolute prohibition of the specification.
+43,46d51
+< 3. SHOULD   This word, or the adjective "RECOMMENDED", mean that there
+<    may exist valid reasons in particular circumstances to ignore a
+<    particular item, but the full implications must be understood and
+<    carefully weighed before choosing a different course.
+48,52d52
+< 4. SHOULD NOT   This phrase, or the phrase "NOT RECOMMENDED" mean that
+<    there may exist valid reasons in particular circumstances when the
+<    particular behavior is acceptable or even useful, but the full
+<    implications should be understood and the case carefully weighed
+<    before implementing any behavior described with this label.
+58c58
+< Bradner                  Best Current Practice                  [Page 1]
+---
+> Leiba                     Best Current Practice                 [Page 1]
+60c60
+< RFC 2119                     RFC Key Words                    March 1997
+---
+> RFC 8174                 RFC 2119 Clarification                 May 2017
+63,73c63
+< 5. MAY   This word, or the adjective "OPTIONAL", mean that an item is
+<    truly optional.  One vendor may choose to include the item because a
+<    particular marketplace requires it or because the vendor feels that
+<    it enhances the product while another vendor may omit the same item.
+<    An implementation which does not include a particular option MUST be
+<    prepared to interoperate with another implementation which does
+<    include the option, though perhaps with reduced functionality. In the
+<    same vein an implementation which does include a particular option
+<    MUST be prepared to interoperate with another implementation which
+<    does not include the option (except, of course, for the feature the
+<    option provides.)
+---
+> Copyright Notice
+75c65,66
+< 6. Guidance in the use of these Imperatives
+---
+>    Copyright (c) 2017 IETF Trust and the persons identified as the
+>    document authors.  All rights reserved.
+77,83c68,76
+<    Imperatives of the type defined in this memo must be used with care
+<    and sparingly.  In particular, they MUST only be used where it is
+<    actually required for interoperation or to limit behavior which has
+<    potential for causing harm (e.g., limiting retransmisssions)  For
+<    example, they must not be used to try to impose a particular method
+<    on implementors where the method is not required for
+<    interoperability.
+---
+>    This document is subject to BCP 78 and the IETF Trust's Legal
+>    Provisions Relating to IETF Documents
+>    (http://trustee.ietf.org/license-info) in effect on the date of
+>    publication of this document.  Please review these documents
+>    carefully, as they describe your rights and restrictions with respect
+>    to this document.  Code Components extracted from this document must
+>    include Simplified BSD License text as described in Section 4.e of
+>    the Trust Legal Provisions and are provided without warranty as
+>    described in the Simplified BSD License.
+85c78
+< 7. Security Considerations
+---
+> Table of Contents
+87,94c80,85
+<    These terms are frequently used to specify behavior with security
+<    implications.  The effects on security of not implementing a MUST or
+<    SHOULD, or doing something the specification says MUST NOT or SHOULD
+<    NOT be done may be very subtle. Document authors should take the time
+<    to elaborate the security implications of not following
+<    recommendations or requirements as most implementors will not have
+<    had the benefit of the experience and discussion that produced the
+<    specification.
+---
+>    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+>    2.  Clarifying Capitalization of Key Words  . . . . . . . . . . .   3
+>    3.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+>    4.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
+>    5.  Normative References  . . . . . . . . . . . . . . . . . . . .   4
+>    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   4
+96c87
+< 8. Acknowledgments
+---
+> 1.  Introduction
+98,101c89,92
+<    The definitions of these terms are an amalgam of definitions taken
+<    from a number of RFCs.  In addition, suggestions have been
+<    incorporated from a number of people including Robert Ullmann, Thomas
+<    Narten, Neal McBurnett, and Robert Elz.
+---
+>    RFC 2119 specifies common key words, such as "MUST", "SHOULD", and
+>    "MAY", that may be used in protocol specifications.  It says that the
+>    key words "are often capitalized," which has caused confusion about
+>    how to interpret non-capitalized words such as "must" and "should".
+102a94,96
+>    This document updates RFC 2119 by clarifying that only UPPERCASE
+>    usage of the key words have the defined special meanings.  This
+>    document is part of BCP 14.
+114c108,114
+< Bradner                  Best Current Practice                  [Page 2]
+---
+> 
+> 
+> 
+> 
+> 
+> 
+> Leiba                     Best Current Practice                 [Page 2]
+116c116
+< RFC 2119                     RFC Key Words                    March 1997
+---
+> RFC 8174                 RFC 2119 Clarification                 May 2017
+119c119
+< 9. Author's Address
+---
+> 2.  Clarifying Capitalization of Key Words
+121,124c121
+<       Scott Bradner
+<       Harvard University
+<       1350 Mass. Ave.
+<       Cambridge, MA 02138
+---
+>    The following change is made to [RFC2119]:
+126c123,150
+<       phone - +1 617 495 3864
+---
+>    === OLD ===
+>    In many standards track documents several words are used to signify
+>    the requirements in the specification.  These words are often
+>    capitalized.  This document defines these words as they should be
+>    interpreted in IETF documents.  Authors who follow these guidelines
+>    should incorporate this phrase near the beginning of their document:
+> 
+>    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+>    "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+>    document are to be interpreted as described in RFC 2119.
+> 
+> 
+>    === NEW ===
+>    In many IETF documents, several words, when they are in all capitals
+>    as shown below, are used to signify the requirements in the
+>    specification.  These capitalized words can bring significant clarity
+>    and consistency to documents because their meanings are well defined.
+>    This document defines how those words are interpreted in IETF
+>    documents when the words are in all capitals.
+> 
+>    o  These words can be used as defined here, but using them is not
+>       required.  Specifically, normative text does not require the use
+>       of these key words.  They are used for clarity and consistency
+>       when that is what's wanted, but a lot of normative text does not
+>       use them and is still normative.
+> 
+>    o  The words have the meanings specified herein only when they are in
+>       all capitals.
+128c152,153
+<       email - sob@harvard.edu
+---
+>    o  When these words are not capitalized, they have their normal
+>       English meanings and are not affected by this document.
+129a155,162
+>    Authors who follow these guidelines should incorporate this phrase
+>    near the beginning of their document:
+> 
+>       The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+>       NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
+>       "MAY", and "OPTIONAL" in this document are to be interpreted as
+>       described in BCP 14 [RFC2119] [RFC8174] when, and only when, they
+>       appear in all capitals, as shown here.
+130a164
+>    === END ===
+135a170,177
+> Leiba                     Best Current Practice                 [Page 3]
+> 
+> RFC 8174                 RFC 2119 Clarification                 May 2017
+> 
+> 
+> 3.  IANA Considerations
+> 
+>    This document does not require any IANA actions.
+136a179
+> 4.  Security Considerations
+137a181,182
+>    This document is purely procedural; there are no related security
+>    considerations.
+138a184
+> 5.  Normative References
+139a186,189
+>    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+>               Requirement Levels", BCP 14, RFC 2119,
+>               DOI 10.17487/RFC2119, March 1997,
+>               <http://www.rfc-editor.org/info/rfc2119>.
+140a191
+> Author's Address
+141a193,194
+>    Barry Leiba
+>    Huawei Technologies
+142a196,198
+>    Phone: +1 646 827 0648
+>    Email: barryleiba@computer.org
+>    URI:   http://internetmessagingtechnology.org/
+170c226
+< Bradner                  Best Current Practice                  [Page 3]
+---
+> Leiba                     Best Current Practice                 [Page 4]
