@@ -62,4 +62,4 @@ The following informative references were current at the time of review. For eac
 | <a id="CDR"></a>**[CDR]**      | Consumer Data Right: | [Link](https://www.accc.gov.au/focus-areas/consumer-data-right) | [**New Link**](https://www.cdr.gov.au) |N/A | N/A |
 | <a id="FAPI"></a>**[FAPI]**      | Financial-Grade API - Home Page | [Link](https://openid.net/wg/fapi/) | No change |N/A | N/A |
 | <a id="RFC4122"></a>**[RFC4122]**  | A Universally Unique Identifier (UUID) URN Namespace | [July 2005](https://tools.ietf.org/html/rfc4122) | No change |N/A | N/A |
-| <a id="X.1254"></a>**[X.1254]**   | X.1254 - Entity authentication assurance framework | [Sept 2012](https://www.itu.int/rec/T-REC-X1254-201209-I/en] | [Sept 2020](https://www.itu.int/rec/T-REC-X.1254-202009-I/en)| N/A | N/A |
+| <a id="X.1254"></a>**[X.1254]**   | X.1254 - Entity authentication assurance framework | [Sept 2012](https://www.itu.int/rec/T-REC-X1254-201209-I/en) | [Sept 2020](https://www.itu.int/rec/T-REC-X.1254-202009-I/en)| N/A | N/A |
