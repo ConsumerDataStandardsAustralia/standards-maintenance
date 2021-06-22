@@ -1,0 +1,1077 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en"><head><title>Final: Financial-grade API Security Profile 1.0 - Part 1: Baseline</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Financial-grade API Security Profile 1.0 - Part 1: Baseline">
+<meta name="keywords" content="FAPI, Baseline Security">
+<meta name="generator" content="xml2rfc v1.36 (http://xml2rfc.ietf.org/)">
+<style type='text/css'><!--
+        body {
+                font-family: verdana, charcoal, helvetica, arial, sans-serif;
+                font-size: small; color: #000; background-color: #FFF;
+                margin: 2em;
+        }
+        h1, h2, h3, h4, h5, h6 {
+                font-family: helvetica, monaco, "MS Sans Serif", arial, sans-serif;
+                font-weight: bold; font-style: normal;
+        }
+        h1 { color: #900; background-color: transparent; text-align: right; }
+        h3 { color: #333; background-color: transparent; }
+
+        td.RFCbug {
+                font-size: x-small; text-decoration: none;
+                width: 30px; height: 30px; padding-top: 2px;
+                text-align: justify; vertical-align: middle;
+                background-color: #000;
+        }
+        td.RFCbug span.RFC {
+                font-family: monaco, charcoal, geneva, "MS Sans Serif", helvetica, verdana, sans-serif;
+                font-weight: bold; color: #666;
+        }
+        td.RFCbug span.hotText {
+                font-family: charcoal, monaco, geneva, "MS Sans Serif", helvetica, verdana, sans-serif;
+                font-weight: normal; text-align: center; color: #FFF;
+        }
+
+        table.TOCbug { width: 30px; height: 15px; }
+        td.TOCbug {
+                text-align: center; width: 30px; height: 15px;
+                color: #FFF; background-color: #900;
+        }
+        td.TOCbug a {
+                font-family: monaco, charcoal, geneva, "MS Sans Serif", helvetica, sans-serif;
+                font-weight: bold; font-size: x-small; text-decoration: none;
+                color: #FFF; background-color: transparent;
+        }
+
+        td.header {
+                font-family: arial, helvetica, sans-serif; font-size: x-small;
+                vertical-align: top; width: 33%;
+                color: #FFF; background-color: #666;
+        }
+        td.author { font-weight: bold; font-size: x-small; margin-left: 4em; }
+        td.author-text { font-size: x-small; }
+
+        /* info code from SantaKlauss at http://www.madaboutstyle.com/tooltip2.html */
+        a.info {
+                /* This is the key. */
+                position: relative;
+                z-index: 24;
+                text-decoration: none;
+        }
+        a.info:hover {
+                z-index: 25;
+                color: #FFF; background-color: #900;
+        }
+        a.info span { display: none; }
+        a.info:hover span.info {
+                /* The span will display just on :hover state. */
+                display: block;
+                position: absolute;
+                font-size: smaller;
+                top: 2em; left: -5em; width: 15em;
+                padding: 2px; border: 1px solid #333;
+                color: #900; background-color: #EEE;
+                text-align: left;
+        }
+
+        a { font-weight: bold; }
+        a:link    { color: #900; background-color: transparent; }
+        a:visited { color: #633; background-color: transparent; }
+        a:active  { color: #633; background-color: transparent; }
+
+        p { margin-left: 2em; margin-right: 2em; }
+        p.copyright { font-size: x-small; }
+        p.toc { font-size: small; font-weight: bold; margin-left: 3em; }
+        table.toc { margin: 0 0 0 3em; padding: 0; border: 0; vertical-align: text-top; }
+        td.toc { font-size: small; font-weight: bold; vertical-align: text-top; }
+
+        ol.text { margin-left: 2em; margin-right: 2em; }
+        ul.text { margin-left: 2em; margin-right: 2em; }
+        li      { margin-left: 3em; }
+
+        /* RFC-2629 <spanx>s and <artwork>s. */
+        em     { font-style: italic; }
+        strong { font-weight: bold; }
+        dfn    { font-weight: bold; font-style: normal; }
+        cite   { font-weight: normal; font-style: normal; }
+        tt     { color: #036; }
+        tt, pre, pre dfn, pre em, pre cite, pre span {
+                font-family: "Courier New", Courier, monospace; font-size: small;
+        }
+        pre {
+                text-align: left; padding: 4px;
+                color: #000; background-color: #CCC;
+        }
+        pre dfn  { color: #900; }
+        pre em   { color: #66F; background-color: #FFC; font-weight: normal; }
+        pre .key { color: #33C; font-weight: bold; }
+        pre .id  { color: #900; }
+        pre .str { color: #000; background-color: #CFF; }
+        pre .val { color: #066; }
+        pre .rep { color: #909; }
+        pre .oth { color: #000; background-color: #FCF; }
+        pre .err { background-color: #FCC; }
+
+        /* RFC-2629 <texttable>s. */
+        table.all, table.full, table.headers, table.none {
+                font-size: small; text-align: center; border-width: 2px;
+                vertical-align: top; border-collapse: collapse;
+        }
+        table.all, table.full { border-style: solid; border-color: black; }
+        table.headers, table.none { border-style: none; }
+        th {
+                font-weight: bold; border-color: black;
+                border-width: 2px 2px 3px 2px;
+        }
+        table.all th, table.full th { border-style: solid; }
+        table.headers th { border-style: none none solid none; }
+        table.none th { border-style: none; }
+        table.all td {
+                border-style: solid; border-color: #333;
+                border-width: 1px 2px;
+        }
+        table.full td, table.headers td, table.none td { border-style: none; }
+
+        hr { height: 1px; }
+        hr.insert {
+                width: 80%; border-style: none; border-width: 0;
+                color: #CCC; background-color: #CCC;
+        }
+--></style>
+</head>
+<body>
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<table summary="layout" width="66%" border="0" cellpadding="0" cellspacing="0"><tr><td><table summary="layout" width="100%" border="0" cellpadding="2" cellspacing="1">
+<tr><td class="header">Final</td><td class="header">N. Sakimura</td></tr>
+<tr><td class="header">&nbsp;</td><td class="header">Nat Consulting</td></tr>
+<tr><td class="header">&nbsp;</td><td class="header">J. Bradley</td></tr>
+<tr><td class="header">&nbsp;</td><td class="header">Yubico</td></tr>
+<tr><td class="header">&nbsp;</td><td class="header">E. Jay</td></tr>
+<tr><td class="header">&nbsp;</td><td class="header">Illumila</td></tr>
+<tr><td class="header">&nbsp;</td><td class="header">March 12, 2021</td></tr>
+</table></td></tr></table>
+<h1><br />Financial-grade API Security Profile 1.0 - Part 1: Baseline</h1>
+
+<h3>Foreword</h3>
+
+<p>The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies. As a non-profit international standardizing body, it is comprised by over 160 participating entities (workgroup participants). The work of preparing implementer drafts and final international standards is carried out through OIDF workgroups in accordance with the OpenID Process. Participants interested in a subject for which a workgroup has been established have the right to be represented in that workgroup. International organizations, governmental and non-governmental, in liaison with OIDF, also take part in the work. OIDF collaborates closely with other standardizing bodies in the related fields.
+</p>
+<p>Final drafts adopted by the Workgroup through consensus are circulated publicly for the public review for 60 days and for the OIDF members for voting. Publication as an OIDF Standard requires approval by at least 50 % of the members casting a vote. There is a possibility that some of the elements of this document may be the subject to patent rights. OIDF shall not be held responsible for identifying any or all such patent rights.
+</p>
+<p>Financial-grade API Security Profile 1.0 consists of the following parts:
+</p>
+<p>
+</p>
+<ul class="text">
+<li>Financial-grade API Security Profile 1.0 - Part 1: Baseline
+</li>
+<li><a href='https://openid.net/specs/openid-financial-api-part-2-1_0.html'>Financial-grade API Security Profile 1.0 - Part 2: Advanced</a>
+</li>
+</ul><p>
+
+</p>
+<p>These parts are intended to be used with <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>, <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>, <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a>, and <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>.
+</p>
+<h3>Introduction</h3>
+
+<p>The Financial-grade API is a highly secured OAuth profile that aims to provide specific implementation guidelines for security and interoperability. The Financial-grade API security profile can be applied to APIs in any market area that requires a higher level of security than provided by standard <a href='https://tools.ietf.org/html/rfc6749'>OAuth</a> or <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OpenID Connect</a>. Among other security enhancements, this specification provides a secure alternative to screen scraping. Screen scraping accesses user's data and functions by impresonating a user through password sharing. This brittle, inefficient, and insecure practice creates security vulnerabilities which require financial institutions to allow what appears to be an automated attack against their applications.
+</p>
+<p>This document is Part 1 of FAPI Security Profile 1.0. It specifies a baseline security profile of OAuth that is suitable for protecting APIs with a moderate inherent risk. Importantly, this profile does not provide non-repudiation (signing of authorization requests and responses) and sender-constrained access tokens. If such features or a higher level of security is desired, the use of <a href='https://openid.net/specs/openid-financial-api-part-2-1_0.html'>Financial-grade API Security Profile 1.0 - Part 2: Advanced</a> is recommended.
+</p>
+<p>Although it is possible to code an OpenID Provider and Relying Party from first principles using this specification, the main audience for this specification is parties who already have a certified implementation of OpenID Connect and want to achieve a higher level of security. Implementers are encouraged to understand the security considerations contained in Section 7.6 before embarking on a 'from scratch' implementation.
+</p>
+<h3>Notational Conventions</h3>
+
+<p>The key words &quot;shall&quot;, &quot;shall not&quot;,
+&quot;should&quot;, &quot;should not&quot;, &quot;may&quot;, and
+&quot;can&quot; in this document are to be interpreted as described in
+<a href='https://www.iso.org/sites/directives/current/part2/index.xhtml'>ISO Directive Part 2</a>.
+These key words are not used as dictionary terms such that
+any occurrence of them shall be interpreted as key words
+and are not to be interpreted with their natural language meanings.
+</p><a name="toc"></a><br /><hr />
+<h3>Table of Contents</h3>
+<p class="toc">
+<a href="#scope">1.</a>&nbsp;
+Scope<br />
+<a href="#normative-references">2.</a>&nbsp;
+Normative references<br />
+<a href="#terms-and-definitions">3.</a>&nbsp;
+Terms and definitions<br />
+<a href="#symbols-and-abbreviated-terms">4.</a>&nbsp;
+Symbols and abbreviated terms<br />
+<a href="#baseline-security-profile">5.</a>&nbsp;
+Baseline security profile<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#introduction-1">5.1.</a>&nbsp;
+Introduction<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#baseline-security-provisions">5.2.</a>&nbsp;
+Baseline security provisions<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#introduction-2">5.2.1.</a>&nbsp;
+Introduction<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#authorization-server">5.2.2.</a>&nbsp;
+Authorization server<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#returning-authenticated-user-s-identifier">5.2.2.1.</a>&nbsp;
+Returning authenticated user's identifier<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#client-requesting-openid-scope">5.2.2.2.</a>&nbsp;
+Client requesting openid scope<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#clients-not-requesting-openid-scope">5.2.2.3.</a>&nbsp;
+Clients not requesting openid scope<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#public-client">5.2.3.</a>&nbsp;
+Public client<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#confidential-client">5.2.4.</a>&nbsp;
+Confidential client<br />
+<a href="#accessing-protected-resources">6.</a>&nbsp;
+Accessing Protected Resources<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#introduction-3">6.1.</a>&nbsp;
+Introduction<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#baseline-access-provisions">6.2.</a>&nbsp;
+Baseline access provisions<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#protected-resources-provisions">6.2.1.</a>&nbsp;
+Protected resources provisions<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#client-provisions">6.2.2.</a>&nbsp;
+Client provisions<br />
+<a href="#security-considerations">7.</a>&nbsp;
+Security considerations<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tls-and-dnssec-considerations">7.1.</a>&nbsp;
+TLS and DNSSEC considerations<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#message-source-authentication-failure">7.2.</a>&nbsp;
+Message source authentication failure<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#message-integrity-protection-failure">7.3.</a>&nbsp;
+Message integrity protection failure<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#message-containment-failure">7.4.</a>&nbsp;
+Message containment failure<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#authorization-request-and-response">7.4.1.</a>&nbsp;
+Authorization request and response<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#token-request-and-response">7.4.2.</a>&nbsp;
+Token request and response<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#resource-request-and-response">7.4.3.</a>&nbsp;
+Resource request and response<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#native-apps">7.5.</a>&nbsp;
+Native Apps<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#incomplete-or-incorrect-implementations-of-the-specifications">7.6.</a>&nbsp;
+Incomplete or incorrect implementations of the specifications<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#discovery-multiple-brands">7.7.</a>&nbsp;
+Discovery &amp; Multiple Brands<br />
+<a href="#privacy-considerations">8.</a>&nbsp;
+Privacy considerations<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#introduction-4">8.1.</a>&nbsp;
+Introduction<br />
+<a href="#acknowledgement">9.</a>&nbsp;
+Acknowledgement<br />
+<a href="#bibliography">10.</a>&nbsp;
+Bibliography<br />
+<a href="#copyright-notice-license">Appendix&nbsp;A.</a>&nbsp;
+Copyright notice &amp; license<br />
+<a href="#rfc.authors">&#167;</a>&nbsp;
+Authors' Addresses<br />
+</p>
+<br clear="all" />
+
+<a name="scope"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.1"></a><h3>1.&nbsp;
+Scope</h3>
+
+<p>This document specifies the method for an application to:
+</p>
+<p>
+</p>
+<ul class="text">
+<li>obtain OAuth tokens in a moderately secure manner for access to protected data;
+</li>
+<li>use OpenID Connect (OIDC) to identify the customer (user); and
+</li>
+<li>use tokens to access REST APIs in a moderately secure manner.
+</li>
+</ul><p>
+
+</p>
+<a name="normative-references"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.2"></a><h3>2.&nbsp;
+Normative references</h3>
+
+<p>The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applied. For undated references, the latest edition of the referenced document (including any amendments) applies.
+</p>
+<p><a href='https://www.iso.org/sites/directives/current/part2/index.xhtml'>ISODIR2</a> - ISO/IEC Directives Part 2
+</p>
+<p><a href='https://tools.ietf.org/html/rfc4122'>RFC4122</a> - A Universally Unique IDentifier (UUID) URN Namespace
+</p>
+<p><a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a> - The OAuth 2.0 Authorization Framework
+</p>
+<p><a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a> - The OAuth 2.0 Authorization Framework: Bearer Token Usage
+</p>
+<p><a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a> - Proof Key for Code Exchange by OAuth Public Clients
+</p>
+<p><a href='https://tools.ietf.org/html/rfc6125'>RFC6125</a> - Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
+</p>
+<p><a href='https://tools.ietf.org/html/bcp212'>BCP212</a> - OAuth 2.0 for Native Apps
+</p>
+<p><a href='https://tools.ietf.org/html/rfc6819'>RFC6819</a> - OAuth 2.0 Threat Model and Security Considerations
+</p>
+<p><a href='https://tools.ietf.org/html/bcp195'>BCP195</a> - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)
+</p>
+<p><a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> - OpenID Connect Core 1.0 incorporating errata set 1
+</p>
+<p><a href='https://www.itu.int/rec/T-REC-X.1254'>X.1254</a> - Entity authentication assurance framework
+</p>
+<p><a href='https://tools.ietf.org/html/rfc8705'>MTLS</a> - OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens
+</p>
+<p><a href='https://tools.ietf.org/html/rfc8414'>RFC8414</a> - OAuth 2.0 Authorization Server Metadata
+</p>
+<p><a href='http://openid.net/specs/openid-connect-discovery-1_0.html'>OIDD</a> -  OpenID Connect Discovery 1.0 incorporating errata set 1
+</p>
+<p><a href='https://tools.ietf.org/html/rfc7231'>RFC7231</a> - Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content
+</p>
+<a name="terms-and-definitions"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.3"></a><h3>3.&nbsp;
+Terms and definitions</h3>
+
+<p>For the purpose of this document, the terms defined in <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>, <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>, <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a>, <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OpenID Connect Core</a> apply.
+</p>
+<a name="symbols-and-abbreviated-terms"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.4"></a><h3>4.&nbsp;
+Symbols and abbreviated terms</h3>
+
+<p><strong>API</strong> – Application Programming Interface
+</p>
+<p><strong>CSRF</strong> - Cross Site Request Forgery
+</p>
+<p><strong>FAPI</strong> - Financial-grade API
+</p>
+<p><strong>HTTP</strong> – Hyper Text Transfer Protocol
+</p>
+<p><strong>REST</strong> – Representational State Transfer
+</p>
+<p><strong>TLS</strong> – Transport Layer Security
+</p>
+<a name="baseline-security-profile"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5"></a><h3>5.&nbsp;
+Baseline security profile</h3>
+
+<a name="introduction-1"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.1"></a><h3>5.1.&nbsp;
+Introduction</h3>
+
+<p>The OIDF Financial-grade API (FAPI) security profile specifies security requirements for API resources protected by the OAuth 2.0 Authorization Framework that consists of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>, <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>, <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a>, and other specifications.
+</p>
+<p>FAPI Security Profile 1.0 - Part 1: Baseline and <a href='https://openid.net/specs/openid-financial-api-part-2-1_0.html'>Part 2: Advanced</a> specify different levels of security. The characteristics required of the tokens are different and the methods to obtain tokens are explained separately. This document specifies the baseline security provisions.
+</p>
+<a name="baseline-security-provisions"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2"></a><h3>5.2.&nbsp;
+Baseline security provisions</h3>
+
+<a name="introduction-2"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.1"></a><h3>5.2.1.&nbsp;
+Introduction</h3>
+
+<p>Some APIs, such as ones that provide potentially sensitive information, require a greater level of protection than basic <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a> requires. FAPI provides such greater protection.
+</p>
+<p>As a profile of the OAuth 2.0 Authorization Framework, this document mandates the following to the baseline profile of the FAPI Security Profile 1.0.
+</p>
+<a name="authorization-server"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.2"></a><h3>5.2.2.&nbsp;
+Authorization server</h3>
+
+<p>The authorization server
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall support confidential clients;
+</li>
+<li>should support public clients;
+</li>
+<li>shall provide a client secret that adheres to the requirements in Section 16.19 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> if a symmetric key is used;
+</li>
+<li>shall authenticate the confidential client using one of the following methods:
+
+<ol class="text">
+<li>Mutual TLS for OAuth Client Authentication as specified in Section 2 of <a href='https://tools.ietf.org/html/rfc8705'>MTLS</a>, or
+</li>
+<li><tt>client_secret_jwt</tt> or <tt>private_key_jwt</tt> as specified in Section 9 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+</ol>
+</li>
+<li>shall require and use a key of size 2048 bits or larger for RSA algorithms;
+</li>
+<li>shall require and use a key of size 160 bits or larger for elliptic curve algorithms;
+</li>
+<li>shall require <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a> with <tt>S256</tt> as the code challenge method;
+</li>
+<li>shall require redirect URIs to be pre-registered;
+</li>
+<li>shall require the <tt>redirect_uri</tt> in the authorization request;
+</li>
+<li>shall require the value of <tt>redirect_uri</tt> to exactly match one of the pre-registered redirect URIs;
+</li>
+<li>shall require user authentication to an appropriate Level of Assurance for the operations the client will be authorized to perform on behalf of the user;
+</li>
+<li>shall require explicit approval by the user to authorize the requested scope if it has not been previously authorized;
+</li>
+<li>shall reject an authorization code (Section 1.3.1 of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>) if it has been previously used;
+</li>
+<li>shall return token responses that conform to Section 4.1.4 of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>;
+</li>
+<li>shall return the list of granted scopes with the issued access token if the request was passed in the front channel and was not integrity protected;
+</li>
+<li>shall provide non-guessable access tokens, authorization codes, and refresh token
+(where applicable), with sufficient entropy such that the probability of an attacker guessing
+the generated token is computationally infeasible as per <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a> Section 10.10;
+</li>
+<li>should clearly identify the details of the grant to the user during authorization as in 16.18 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+<li>should provide a mechanism for the end-user to revoke access tokens and refresh tokens granted to a client as in 16.18 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+<li>shall return an <tt>invalid_client</tt> error as defined in 5.2 of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a> when mis-matched client identifiers were provided through the client authentication methods that permits sending the client identifier in more than one way;
+</li>
+<li>shall require redirect URIs to use the https scheme;
+</li>
+<li>should issue access tokens with a lifetime of under 10 minutes unless the tokens are sender-constrained; and
+</li>
+<li>shall support <a href='http://openid.net/specs/openid-connect-discovery-1_0.html'>OIDD</a>, may support <a href='https://tools.ietf.org/html/rfc8414'>RFC8414</a> and shall not distribute discovery metadata (such as the authorization endpoint) by any other means.<br />
+
+<strong>NOTE</strong>: The use of refresh tokens instead of long-lived access tokens for both
+public and confidential clients is recommended.<br />
+
+<strong>NOTE</strong>: The Financial-grade API Security Profile 1.0 server may limit the scopes for the purpose of not implementing certain APIs.<br />
+
+<strong>NOTE</strong>: Clients are expected to treat access tokens as opaque strings and replay them as is. Authorization servers can issue unstructured or structured access tokens (for example, a signed JWT).<br />
+
+<strong>NOTE</strong>: The requirement to return the list of granted scopes allows clients to detect when the authorization request was modified to include different scopes. Servers must still return the granted scopes if they are different from those requested.
+</li>
+</ol><p>
+
+</p>
+<a name="returning-authenticated-user-s-identifier"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.2.1"></a><h3>5.2.2.1.&nbsp;
+Returning authenticated user's identifier</h3>
+
+<p>Further, if it is desired to provide the authenticated user's identifier to the client in the token response, the authorization server:
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall support the authentication request as in Section 3.1.2.1 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+<li>shall perform the authentication request verification as in Section 3.1.2.2 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+<li>shall authenticate the user as in Section 3.1.2.2 and 3.1.2.3 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+<li>shall provide the authentication response as in Section 3.1.2.4 and 3.1.2.5 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> depending on the outcome of the authentication;
+</li>
+<li>shall perform the token request verification as in Section 3.1.3.2 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>; and
+</li>
+<li>shall issue an ID Token in the token response when <tt>openid</tt> was included in the requested <tt>scope</tt>
+as in Section 3.1.3.3 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> with its <tt>sub</tt> value corresponding to the authenticated user
+and optional <tt>acr</tt> value in ID Token.
+</li>
+</ol><p>
+
+</p>
+<a name="client-requesting-openid-scope"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.2.2"></a><h3>5.2.2.2.&nbsp;
+Client requesting openid scope</h3>
+
+<p>If the client requests the openid scope, the authorization server
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall require the <tt>nonce</tt> parameter defined in Section 3.1.2.1 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> in the authentication request.
+</li>
+</ol><p>
+
+</p>
+<a name="clients-not-requesting-openid-scope"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.2.3"></a><h3>5.2.2.3.&nbsp;
+Clients not requesting openid scope</h3>
+
+<p>If the client does not requests the openid scope, the authorization server
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall require the <tt>state</tt> parameter defined in Section 4.1.1 of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>.
+</li>
+</ol><p>
+
+</p>
+<a name="public-client"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.3"></a><h3>5.2.3.&nbsp;
+Public client</h3>
+
+<p>A public client
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall support <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a>;
+</li>
+<li>shall use <tt>S256</tt> as the code challenge method for the <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a>;
+</li>
+<li>shall use separate and distinct redirect URI for each authorization server that it talks to;
+</li>
+<li>shall store the redirect URI value in the resource owner's user-agents (such as browser) session and compare it with the redirect URI that the authorization response was received at, where, if the URIs do not match, the client shall terminate the process with error;
+</li>
+<li>(withdrawn); and
+</li>
+<li>shall implement an effective CSRF protection.<br />
+
+Further, if it is desired to obtain a persistent identifier of the authenticated user, then the public client
+</li>
+<li>shall include <tt>openid</tt> in the <tt>scope</tt> value; and
+</li>
+<li>shall include the <tt>nonce</tt> parameter defined in Section 3.1.2.1 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> in the authentication request.<br />
+
+If <tt>openid</tt> is not in the <tt>scope</tt> value, then the public client
+</li>
+<li>shall include the <tt>state</tt> parameter defined in Section 4.1.1 of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>;
+</li>
+<li>shall verify that the <tt>scope</tt> received in the token response is either an exact match,
+or contains a subset of the <tt>scope</tt> sent in the authorization request; and
+</li>
+<li>shall only use Authorization Server metadata obtained from the metadata document published by the Authorization Server at its well known endpoint as defined in <a href='http://openid.net/specs/openid-connect-discovery-1_0.html'>OIDD</a> or <a href='https://tools.ietf.org/html/rfc8414'>RFC8414</a>.<br />
+
+<strong>NOTE</strong>: Adherence to <a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a> means that the token request includes <tt>code_verifier</tt> parameter in the request.
+</li>
+</ol><p>
+
+</p>
+<a name="confidential-client"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.5.2.4"></a><h3>5.2.4.&nbsp;
+Confidential client</h3>
+
+<p>In addition to the provisions for a public client, a confidential client
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall support the following methods to authenticate against the token endpoint:
+
+<ol class="text">
+<li>Mutual TLS for OAuth Client Authentication as specified in Section 2 of <a href='https://tools.ietf.org/html/rfc8705'>MTLS</a>, and
+</li>
+<li><tt>client_secret_jwt</tt> or <tt>private_key_jwt</tt> as specified in Section 9 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a>;
+</li>
+</ol>
+</li>
+<li>shall use RSA keys with a minimum 2048 bits if using RSA cryptography;
+</li>
+<li>shall use elliptic curve keys with a minimum of 160 bits if using Elliptic Curve cryptography; and
+</li>
+<li>shall verify that its client secret has a minimum of 128 bits if using symmetric key cryptography.
+</li>
+</ol><p>
+
+</p>
+<a name="accessing-protected-resources"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.6"></a><h3>6.&nbsp;
+Accessing Protected Resources</h3>
+
+<a name="introduction-3"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.6.1"></a><h3>6.1.&nbsp;
+Introduction</h3>
+
+<p>The FAPI endpoints are OAuth 2.0 protected resource endpoints that return protected information for the resource owner associated with the submitted access token.
+</p>
+<a name="baseline-access-provisions"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.6.2"></a><h3>6.2.&nbsp;
+Baseline access provisions</h3>
+
+<a name="protected-resources-provisions"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.6.2.1"></a><h3>6.2.1.&nbsp;
+Protected resources provisions</h3>
+
+<p>The resource server with the FAPI endpoints
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall support the use of the HTTP GET method as in Section 4.3.1 of <a href='https://tools.ietf.org/html/rfc7231'>RFC7231</a>;
+</li>
+<li>shall accept access tokens in the HTTP header as in Section 2.1 of OAuth 2.0 Bearer Token Usage <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>;
+</li>
+<li>shall not accept access tokens in the query parameters stated in Section 2.3 of OAuth 2.0 Bearer Token Usage <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>;
+</li>
+<li>shall verify that the access token is neither expired nor revoked;
+</li>
+<li>shall verify that the scope associated with the access token authorizes access to the resource it is representing;
+</li>
+<li>shall identify the associated entity to the access token;
+</li>
+<li>shall only return the resource identified by the combination of the entity implicit in the access and the granted scope and otherwise return errors as in Section 3.1 of <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>;
+</li>
+<li>shall encode the response in UTF-8 if applicable;
+</li>
+<li>shall send the <tt>Content-type</tt> HTTP header <tt>Content-Type: application/json</tt> if applicable;
+</li>
+<li>shall send the server date in HTTP Date header as in Section 7.1.1.2 of <a href='https://tools.ietf.org/html/rfc7231'>RFC7231</a>;
+</li>
+<li>shall set the response header <tt>x-fapi-interaction-id</tt> to the value received from the corresponding FAPI client request header or to a <a href='https://tools.ietf.org/html/rfc4122'>RFC4122</a> UUID value if the request header was not provided to track the interaction, e.g., <tt>x-fapi-interaction-id: c770aef3-6784-41f7-8e0e-ff5f97bddb3a</tt>;
+</li>
+<li>shall log the value of <tt>x-fapi-interaction-id</tt> in the log entry; and
+</li>
+<li>shall not reject requests with a <tt>x-fapi-customer-ip-address</tt> header containing a
+valid IPv4 or IPv6 address.<br />
+
+<strong>NOTE</strong>: While this document does not specify the exact method to obtain the entity associated with the
+access token and the granted scope, the protected resource can use OAuth Token Introspection <a href='https://tools.ietf.org/html/rfc7662'>RFC7662</a>.<br />
+
+Further, the resource server
+</li>
+<li>should support the use of Cross Origin Resource Sharing (CORS) [CORS] and or other methods as appropriate to enable JavaScript clients to access the endpoint if it decides to provide access to JavaScript clients.<br />
+
+<strong>NOTE</strong>: Providing access to JavaScript clients has other security implications. Before supporting those clients <a href='https://tools.ietf.org/html/rfc6819'>RFC6819</a> should be consulted.
+</li>
+</ol><p>
+
+</p>
+<a name="client-provisions"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.6.2.2"></a><h3>6.2.2.&nbsp;
+Client provisions</h3>
+
+<p>The client supporting this document
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall send access tokens in the HTTP header as in Section 2.1 of OAuth 2.0 Bearer Token Usage <a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a>; and
+</li>
+<li>(withdrawn);<br />
+
+Further, the client
+</li>
+<li>may send the last time the customer logged into the client in the <tt>x-fapi-auth-date</tt> header where the value is supplied as a HTTP-date as in Section 7.1.1.1 of <a href='https://tools.ietf.org/html/rfc7231'>RFC7231</a>, e.g., <tt>x-fapi-auth-date: Tue, 11 Sep 2012 19:43:31 GMT</tt>;
+</li>
+<li>may send the customer’s IP address if this data is available in the <tt>x-fapi-customer-ip-address</tt> header, e.g., <tt>x-fapi-customer-ip-address: 2001:DB8::1893:25c8:1946</tt> or  <tt>x-fapi-customer-ip-address: 198.51.100.119</tt>; and
+</li>
+<li>may send the <tt>x-fapi-interaction-id</tt> request header, in which case the value shall be a
+RFC4122 UUID to the server to help correlate log entries between client and server,
+e.g., <tt>x-fapi-interaction-id: c770aef3-6784-41f7-8e0e-ff5f97bddb3a</tt>.
+</li>
+</ol><p>
+
+</p>
+<a name="security-considerations"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7"></a><h3>7.&nbsp;
+Security considerations</h3>
+
+<a name="tls-and-dnssec-considerations"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.1"></a><h3>7.1.&nbsp;
+TLS and DNSSEC considerations</h3>
+
+<p>As confidential information is being exchanged, all interactions shall be encrypted with TLS (HTTPS).
+</p>
+<p>The recommendations for Secure Use of Transport Layer Security in <a href='https://tools.ietf.org/html/bcp195'>BCP195</a> shall be followed, with the following additional requirements:
+</p>
+<p>
+</p>
+<ol class="text">
+<li>TLS version 1.2 or later shall be used for all communications.
+</li>
+<li>A TLS server certificate check shall be performed, as per <a href='https://tools.ietf.org/html/rfc6125'>RFC6125</a>.
+</li>
+</ol><p>
+
+</p>
+<p>Endpoints for the use by web browsers should use mechanisms to ensure that connections cannot be downgraded using TLS Stripping attacks. A preloaded HTTP Strict Transport Security policy (see <a href='https://hstspreload.org/'>PRELOAD</a> and <a href='https://tools.ietf.org/html/rfc6797'>RFC6797</a>) can be used for this purpose. Some top-level domains, like <tt>.bank</tt> and <tt>.insurance</tt>, have set such a policy and therefore protect all second-level domains below them.
+</p>
+<p>For a comprehensive protection against network attackers, all
+endpoints should additionally use DNSSEC to protect against DNS
+spoofing attacks that can lead to the issuance of rogue
+domain-validated TLS certificates.
+</p>
+<p><strong>NOTE</strong>: Even if an endpoint uses only
+organization validated (OV) or extended validation (EV) TLS
+certificates, rogue domain-validated certificates can be used to
+impersonate the endpoints and conduct man-in-the-middle attacks.
+CAA records <a href='https://tools.ietf.org/html/rfc8659'>RFC8659</a> can help to mitigate this risk.
+</p>
+<a name="message-source-authentication-failure"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.2"></a><h3>7.2.&nbsp;
+Message source authentication failure</h3>
+
+<p>Authorization request and response are not authenticated.
+For higher risk scenarios, they should be authenticated.
+See <a href='https://openid.net/specs/openid-financial-api-part-2-1_0.html'>Financial-grade API Security Profile 1.0 - Part 2: Advanced</a>, which uses request objects to achieve the message source authentication.
+</p>
+<a name="message-integrity-protection-failure"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.3"></a><h3>7.3.&nbsp;
+Message integrity protection failure</h3>
+
+<p>The authorization request does not have message integrity protection and hence
+request tampering and parameter injection are possible.
+Where such protection is desired, <a href='https://openid.net/specs/openid-financial-api-part-2-1_0.html'>Financial-grade API Security Profile 1.0 - Part 2: Advanced</a> should be used.
+</p>
+<p>The response is integrity protected when the ID Token is returned
+from the authorization endpoint.
+</p>
+<a name="message-containment-failure"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.4"></a><h3>7.4.&nbsp;
+Message containment failure</h3>
+
+<a name="authorization-request-and-response"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.4.1"></a><h3>7.4.1.&nbsp;
+Authorization request and response</h3>
+
+<p>In this document, the authorization request is not encrypted.
+Thus, it is possible to leak the information contained
+if the web browser is compromised.
+</p>
+<p>Authorization response can be encrypted as ID Token
+can be encrypted.
+</p>
+<p>It is possible to leak the information through the logs
+if the parameters were recorded in the logs and
+the access to the logs are compromised.
+Strict access control to the logs in such cases should be
+enforced.
+</p>
+<a name="token-request-and-response"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.4.2"></a><h3>7.4.2.&nbsp;
+Token request and response</h3>
+
+<p>It is possible to leak information through the logs
+if the parameters were recorded in the logs and
+the access to the logs are compromised.
+Strict access control to the logs in such cases should be
+enforced.
+</p>
+<a name="resource-request-and-response"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.4.3"></a><h3>7.4.3.&nbsp;
+Resource request and response</h3>
+
+<p>Care should be taken so that the sensitive data will not be leaked
+through the referrer.
+</p>
+<p>If the access token is a bearer token, it is possible to
+exercise the stolen token. Since the access token can be
+used against multiple URIs, the risk of leaking is
+much larger than the refresh token, which is used only
+against the token endpoint. Thus, the lifetime of
+the access token should be much shorter than that of
+the refresh token. Refer to Section 16.18 of <a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> for
+more discussion on the lifetimes of access tokens and
+refresh tokens.
+</p>
+<a name="native-apps"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.5"></a><h3>7.5.&nbsp;
+Native Apps</h3>
+
+<p>When native apps are used as either public clients, dynamically registered confidential clients or user-agents receiving the authorization response for a server based confidential client, the recommendations for OAuth 2.0 for Native Apps in <a href='https://tools.ietf.org/html/bcp212'>BCP212</a> shall be followed, with the following additional requirements:
+</p>
+<p>When registering redirect URIs, authorization servers
+</p>
+<p>
+</p>
+<ol class="text">
+<li>shall not support &quot;Private-Use URI Scheme Redirection&quot;; and
+</li>
+<li>shall not support &quot;Loopback Interface Redirection&quot;.
+</li>
+</ol><p>
+
+</p>
+<p>These requirements mean that FAPI Security Profile 1.0 compliant implementations can only
+support native apps through the use of &quot;Claimed https Scheme URI Redirection&quot;.
+</p>
+<p><strong>NOTE</strong>: Nothing in this document seeks to disallow fixed urls in the
+form https://localhost:port-number/callback, as these are particularly
+useful in non-production systems or in clients used in development, to
+facilitate faster and easier development.
+</p>
+<a name="incomplete-or-incorrect-implementations-of-the-specifications"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.6"></a><h3>7.6.&nbsp;
+Incomplete or incorrect implementations of the specifications</h3>
+
+<p>To achieve the full security benefits, it is important the implementation of this specification, and the underlying OpenID Connect and OAuth specifications, are both complete and correct.
+</p>
+<p>The OpenID Foundation provides tools that can be used to confirm that an implementation is correct:
+</p>
+<p><a href='https://openid.net/certification/'>https://openid.net/certification/</a>
+</p>
+<p>The OpenID Foundation maintains a list of certified implementations:
+</p>
+<p><a href='https://openid.net/developers/certified/'>https://openid.net/developers/certified/</a>
+</p>
+<p>Deployments that use this specification should use a certified implementation.
+</p>
+<a name="discovery-multiple-brands"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.7.7"></a><h3>7.7.&nbsp;
+Discovery &amp; Multiple Brands</h3>
+
+<p>Organizations who need to support multiple &quot;brands&quot; with individual authorization endpoints
+from a single Authorization Server deployment shall use a separate <tt>issuer</tt> per brand.
+This can be achieved either at the domain level (e.g. <tt>https://brand-a.auth.example.com</tt>
+and  <tt>https://brand-b.auth.example.com</tt>) or with different paths (e.g. <tt>https://auth.example.com/brand-a</tt> and <tt>https://auth.example.com/brand-b</tt>)
+</p>
+<p>As stated in 5.2.2-22 Clients shall only use metadata values obtained via metadata documents
+as defined in <a href='http://openid.net/specs/openid-connect-discovery-1_0.html'>OIDD</a>. Communicating metadata through other means (e.g. via email) opens
+up a social engineering attack vector.
+</p>
+<p>Note that the requirement to use <a href='http://openid.net/specs/openid-connect-discovery-1_0.html'>OIDD</a> is not a requirement to support Dynamic Client
+Registration.
+</p>
+<a name="privacy-considerations"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.8"></a><h3>8.&nbsp;
+Privacy considerations</h3>
+
+<a name="introduction-4"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.8.1"></a><h3>8.1.&nbsp;
+Introduction</h3>
+
+<p>There are many factors to be considered in terms of privacy
+when implementing this document. However, since this document
+is a profile of OAuth and OpenID Connect, all of them
+are generic and apply to OAuth or OpenID Connect and
+are not specific to this document. Implementers are advised to
+perform a thorough privacy impact assessment and manage identified risks appropriately.
+</p>
+<p><strong>NOTE</strong>: Implementers can consult documents like
+<a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/c045123_ISO_IEC_29100_2011.zip'>ISO29100</a> and [ISO29134] for this purpose.
+</p>
+<p>Privacy threats to OAuth and OpenID Connect implementations include the following:
+</p>
+<p>
+</p>
+<ul class="text">
+<li>(Inappropriate privacy notice) A privacy notice provided at a <tt>policy_url</tt> or by other means can be inappropriate.
+</li>
+<li>(Inadequate choice) Providing a consent screen without adequate choices does not form consent.
+</li>
+<li>(Misuse of data) An AS, RS or Client can potentially use the data not according to the purpose that was agreed.
+</li>
+<li>(Collection minimization violation) A client asking for more data than it absolutely needs to fulfil the purpose is violating the collection minimization principle.
+</li>
+<li>(Unsolicited personal data from the Resource) Some bad resource server implementations may return more data than was requested. If the data is personal data, then this would be a  violation of privacy principles.
+</li>
+<li>(Data minimization violation) Any process that is processing more data than it needs is violating the data minimization principle.
+</li>
+<li>(RP tracking by AS/OP) AS/OP identifying what data is being provided to which Client/RP.
+</li>
+<li>(User tracking by RPs) Two or more RPs correlating access tokens or ID Tokens to track users.
+</li>
+<li>(RP misidentification by User at AS) User misunderstands who the RP is due to a confusing representation of the RP at
+the AS's authorization page.
+</li>
+<li>(Mismatch between User’s understanding or what RP is displaying to a user and the actual authorization request) To enhance
+the trust of the ecosystem, best practice is for the AS to make clear what is included in the authorization request (for example,
+what data will be released to the RP).
+</li>
+<li>(Attacker observing personal data in authorization request) Authorization request might contain personal data. This can be observed by an attacker.
+</li>
+<li>(Attacker observing personal data in authorization endpoint response) In some frameworks, even state is deemed personal data.
+This can be observed by an attacker through various means.
+</li>
+<li>(Data leak from AS) AS stores personal data. If AS is compromised, these data can leak or be modified.
+</li>
+<li>(Data leak from Resource) Some resource servers store personal data. If a resource server is compromised, these data can leak or be modified.
+</li>
+<li>(Data leak from Clients) Some clients store personal data. If the client is compromised, these data can leak or be modified.
+</li>
+</ul><p>
+
+</p>
+<p>These threats can be mitigated by choosing appropriate options in OAuth or OpenID, or by introducing some operational rules.
+For example, &quot;Attacker observing personal data in authorization request&quot; can be mitigated by either using authorization request by reference
+using <tt>request_uri</tt> or by encrypting the request object.
+Similarly, &quot;Attacker observing personal data in authorization endpoint response&quot; can be mitigated by encrypting the ID Token or JARM response.
+</p>
+<a name="acknowledgement"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.9"></a><h3>9.&nbsp;
+Acknowledgement</h3>
+
+<p>The following people contributed to this document:
+</p>
+<p>
+</p>
+<ul class="text">
+<li>Nat Sakimura (NAT Consulting) -- Chair, Editor
+</li>
+<li>Anoop Saxena (Intuit) -- Co-chair, FS-ISAC Liaison
+</li>
+<li>Anthony Nadalin (Microsoft) -- Co-chair, SC 27 Liaison
+</li>
+<li>Edmund Jay (Illumila) -- Co-editor
+</li>
+<li>Dave Tonge (Moneyhub) -- Co-chair, UK Implementation Entity Liaison
+</li>
+<li>Paul A. Grassi (NIST) -- X9 Liaison
+</li>
+<li>Joseph Heenan (Authlete)
+</li>
+<li>Sascha H. Preibisch (CA)
+</li>
+<li>Henrik Biering (Peercraft)
+</li>
+<li>Anton Taborszky (Deutsche Telecom)
+</li>
+<li>John Bradley (Yubico)
+</li>
+<li>Tom Jones (Independent)
+</li>
+<li>Axel Nennker (Deutsche Telekom)
+</li>
+<li>Daniel Fett (yes.com)
+</li>
+<li>Torsten Lodderstedt (yes.com)
+</li>
+<li>Ralph Bragg (Raidiam)
+</li>
+<li>Brian Campbell (Ping Identity)
+</li>
+<li>Dima Postnikov (Independent)
+</li>
+<li>Stuart Low (Biza.io)
+</li>
+<li>Takahiko Kawasaki (Authlete)
+</li>
+<li>Vladimir Dzhuvinov (Connect2Id)
+</li>
+<li>Chris Michael (Open Banking)
+</li>
+<li>Freddi Gyara (Open Banking)
+</li>
+<li>Rob Otto (Ping Identity)
+</li>
+<li>Francis Pouatcha (adorsys)
+</li>
+<li>Kosuke Koiwai (KDDI)
+</li>
+<li>Bjorn Hjelm (Verizon)
+</li>
+<li>Lukasz Jaromin (Cloudentity)
+</li>
+<li>James Manger
+</li>
+</ul><p>
+
+</p>
+<a name="bibliography"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.10"></a><h3>10.&nbsp;
+Bibliography</h3>
+
+<p>
+</p>
+<ul class="text">
+<li><a href='https://openid.net/specs/openid-financial-api-part-2-1_0.html'>Part2</a> Financial-grade API Security Profile 1.0 - Part 2: Advanced
+</li>
+<li><a href='https://www.iso.org/sites/directives/current/part2/index.xhtml'>ISODIR2</a> ISO/IEC Directives Part 2
+</li>
+<li><a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/c045123_ISO_IEC_29100_2011.zip'>ISO29100</a> ISO/IEC 29100 Information technology — Security techniques — Privacy framework
+</li>
+<li>[ISO29134] ISO/IEC 29134 Information technology — Security techniques — Guidelines for privacy impact assessment
+</li>
+<li><a href='https://tools.ietf.org/html/rfc4122'>RFC4122</a> A Universally Unique IDentifier (UUID) URN Namespace
+</li>
+<li><a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a> The OAuth 2.0 Authorization Framework
+</li>
+<li><a href='https://tools.ietf.org/html/rfc6750'>RFC6750</a> The OAuth 2.0 Authorization Framework: Bearer Token Usage
+</li>
+<li><a href='https://tools.ietf.org/html/rfc6797'>RFC6797</a> HTTP Strict Transport Security (HSTS)
+</li>
+<li><a href='https://tools.ietf.org/html/rfc7636'>RFC7636</a> Proof Key for Code Exchange by OAuth Public Clients
+</li>
+<li><a href='https://tools.ietf.org/html/rfc7662'>RFC7662</a> OAuth 2.0 Token Introspection
+</li>
+<li><a href='https://tools.ietf.org/html/rfc6125'>RFC6125</a> Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
+</li>
+<li><a href='https://tools.ietf.org/html/bcp212'>BCP212</a> OAuth 2.0 for Native Apps
+</li>
+<li><a href='https://tools.ietf.org/html/rfc6819'>RFC6819</a> OAuth 2.0 Threat Model and Security Considerations
+</li>
+<li><a href='https://tools.ietf.org/html/rfc8414'>RFC8414</a> OAuth 2.0 Authorization Server Metadata
+</li>
+<li><a href='https://tools.ietf.org/html/rfc8659'>RFC8659</a> DNS Certification Authority Authorization (CAA) Resource Record
+</li>
+<li><a href='http://openid.net/specs/openid-connect-discovery-1_0.html'>OIDD</a> OpenID Connect Discovery 1.0 incorporating errata set 1
+</li>
+<li><a href='https://tools.ietf.org/html/bcp195'>BCP195</a> Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)
+</li>
+<li><a href='https://openid.net/specs/openid-connect-core-1_0.html'>OIDC</a> OpenID Connect Core 1.0 incorporating errata set 1
+</li>
+<li><a href='https://www.itu.int/rec/T-REC-X.1254'>X.1254</a> Entity authentication assurance framework
+</li>
+<li><a href='https://tools.ietf.org/html/rfc8705'>MTLS</a> OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens
+</li>
+<li><a href='https://hstspreload.org/'>PRELOAD</a> HSTS Preload List Submission
+</li>
+</ul><p>
+
+</p>
+<a name="copyright-notice-license"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<a name="rfc.section.A"></a><h3>Appendix A.&nbsp;
+Copyright notice &amp; license</h3>
+
+<p>Copyright (c) 2021 The OpenID Foundation.
+</p>
+<p>The OpenID Foundation (OIDF) grants to any Contributor, developer, implementer, or other interested party a non-exclusive, royalty-free, worldwide copyright license to reproduce, prepare derivative works from, distribute, perform and display, this Implementers Draft or Final Specification solely for the purposes of (i) developing specifications, and (ii) implementing Implementers Drafts and Final Specifications based on such documents, provided that attribution be made to the OIDF as the source of the material, but that such attribution does not indicate an endorsement by the OIDF.
+</p>
+<p>The technology described in this specification was made available from contributions from various sources, including members of the OpenID Foundation and others. Although the OpenID Foundation has taken steps to help ensure that the technology is available for distribution, it takes no position regarding the validity or scope of any intellectual property or other rights that might be claimed to pertain to the implementation or use of the technology described in this specification or the extent to which any license under such rights might or might not be available; neither does it represent that it has made any independent effort to identify any such rights. The OpenID Foundation and the contributors to this specification make no (and hereby expressly disclaim any) warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to this specification, and the entire risk as to implementing this specification is assumed by the implementer. The OpenID Intellectual Property Rights policy requires contributors to offer a patent promise not to assert certain patent claims against other contributors and against implementers. The OpenID Foundation invites any interested party to bring to its attention any copyrights, patents, patent applications, or other proprietary rights that may cover technology that may be required to practice this specification.
+</p>
+<a name="rfc.authors"></a><br /><hr />
+<table summary="layout" cellpadding="0" cellspacing="2" class="TOCbug" align="right"><tr><td class="TOCbug"><a href="#toc">&nbsp;TOC&nbsp;</a></td></tr></table>
+<h3>Authors' Addresses</h3>
+<table width="99%" border="0" cellpadding="0" cellspacing="0">
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Nat Sakimura</td></tr>
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Nat Consulting</td></tr>
+<tr><td class="author" align="right">Email:&nbsp;</td>
+<td class="author-text"><a href="mailto:nat@nat.consulting">nat@nat.consulting</a></td></tr>
+<tr><td class="author" align="right">URI:&nbsp;</td>
+<td class="author-text"><a href="http://nat.sakimura.org/">http://nat.sakimura.org/</a></td></tr>
+<tr cellpadding="3"><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">John Bradley</td></tr>
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Yubico</td></tr>
+<tr><td class="author" align="right">Email:&nbsp;</td>
+<td class="author-text"><a href="mailto:ve7jtb@ve7jtb.com">ve7jtb@ve7jtb.com</a></td></tr>
+<tr><td class="author" align="right">URI:&nbsp;</td>
+<td class="author-text"><a href="http://www.thread-safe.com/">http://www.thread-safe.com/</a></td></tr>
+<tr cellpadding="3"><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Illumila</td></tr>
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Illumila</td></tr>
+<tr><td class="author" align="right">Email:&nbsp;</td>
+<td class="author-text"><a href="mailto:ejay@mgi1.com">ejay@mgi1.com</a></td></tr>
+<tr><td class="author" align="right">URI:&nbsp;</td>
+<td class="author-text"><a href="http://illumi.la/">http://illumi.la/</a></td></tr>
+</table>
+</body></html>
