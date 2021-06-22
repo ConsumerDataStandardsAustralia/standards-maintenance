@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- This file was created with the aha Ansi HTML Adapter. https://github.com/theZiz/aha -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/xml+xhtml; charset=UTF-8"/>
+<title>stdin</title>
+</head>
+<body style="color:white; background-color:black">
+<pre>
+<span style="color:aqua;">2c2</span>
+<span style="color:red;">&lt; &lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;Draft-06: Financial-grade API - Part 2: Read and Write API Security Profile&lt;/title&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;title&gt;Final: Financial-grade API Security Profile 1.0 - Part 2: Advanced&lt;/title&gt;</span>
+<span style="color:aqua;">4c4,5</span>
+<span style="color:red;">&lt; &lt;meta name=&quot;description&quot; content=&quot;Financial-grade API - Part 2: Read and Write API Security Profile&quot;&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;meta name=&quot;description&quot; content=&quot;Financial-grade API Security Profile 1.0 - Part 2: Advanced&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;meta name=&quot;keywords&quot; content=&quot;FAPI, Advanced  Security&quot;&gt;</span>
+<span style="color:aqua;">144,145c145,146</span>
+<span style="color:red;">&lt; &lt;tr&gt;&lt;td class=&quot;header&quot;&gt;Draft-06&lt;/td&gt;&lt;td class=&quot;header&quot;&gt;N. Sakimura&lt;/td&gt;&lt;/tr&gt;</span>
+<span style="color:red;">&lt; &lt;tr&gt;&lt;td class=&quot;header&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class=&quot;header&quot;&gt;NRI&lt;/td&gt;&lt;/tr&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;tr&gt;&lt;td class=&quot;header&quot;&gt;Final&lt;/td&gt;&lt;td class=&quot;header&quot;&gt;N. Sakimura&lt;/td&gt;&lt;/tr&gt;</span>
+<span style="color:lime;">&gt; &lt;tr&gt;&lt;td class=&quot;header&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class=&quot;header&quot;&gt;Nat Consulting&lt;/td&gt;&lt;/tr&gt;</span>
+<span style="color:aqua;">150c151</span>
+<span style="color:red;">&lt; &lt;tr&gt;&lt;td class=&quot;header&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class=&quot;header&quot;&gt;October 17, 2018&lt;/td&gt;&lt;/tr&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;tr&gt;&lt;td class=&quot;header&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class=&quot;header&quot;&gt;March 12, 2021&lt;/td&gt;&lt;/tr&gt;</span>
+<span style="color:aqua;">152c153</span>
+<span style="color:red;">&lt; &lt;h1&gt;&lt;br /&gt;Financial-grade API - Part 2: Read and Write API Security Profile&lt;/h1&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;h1&gt;&lt;br /&gt;Financial-grade API Security Profile 1.0 - Part 2: Advanced&lt;/h1&gt;</span>
+<span style="color:aqua;">154,165d154</span>
+<span style="color:red;">&lt; &lt;h3&gt;Warning&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;This document is not an OIDF International Standard. It is distributed for review and comment. It is subject to change without notice and may not be referred to as an International Standard.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;Recipients of this draft are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;h3&gt;Copyright notice &amp;amp; license&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;The OpenID Foundation (OIDF) grants to any Contributor, developer, implementer, or other interested party a non-exclusive, royalty free, worldwide copyright license to reproduce, prepare derivative works from, distribute, perform and display, this Implementers Draft or Final Specification solely for the purposes of (i) developing specifications, and (ii) implementing Implementers Drafts and Final Specifications based on such documents, provided that attribution be made to the OIDF as the source of the material, but that such attribution does not indicate an endorsement by the OIDF.</span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;The technology described in this specification was made available from contributions from various sources, including members of the OpenID Foundation and others. Although the OpenID Foundation has taken steps to help ensure that the technology is available for distribution, it takes no position regarding the validity or scope of any intellectual property or other rights that might be claimed to pertain to the implementation or use of the technology described in this specification or the extent to which any license under such rights might or might not be available; neither does it represent that it has made any independent effort to identify any such rights. The OpenID Foundation and the contributors to this specification make no (and hereby expressly disclaim any) warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to this specification, and the entire risk as to implementing this specification is assumed by the implementer. The OpenID Intellectual Property Rights policy requires contributors to offer a patent promise not to assert certain patent claims against other contributors and against implementers. The OpenID Foundation invites any interested party to bring to its attention any copyrights, patents, patent applications, or other proprietary rights that may cover technology that may be required to practice this specification.</span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:aqua;">168c157</span>
+<span style="color:red;">&lt; &lt;p&gt;The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies. As a non-profit international standardizing body, it is comprised by over 160 participating entities (workgroup participants). The work of preparing implementer drafts and final international standards is carried out through OIDF workgroups in accordance with the OpenID Process. Participants interested in a subject for which a workgroup has been established has the right to be represented in that workgroup. International organizations, governmental and non-governmental, in liaison with OIDF, also take part in the work. OIDF collaborates closely with other standardizing bodies in the related fields.</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies. As a non-profit international standardizing body, it is comprised by over 160 participating entities (workgroup participants). The work of preparing implementer drafts and final international standards is carried out through OIDF workgroups in accordance with the OpenID Process. Participants interested in a subject for which a workgroup has been established have the right to be represented in that workgroup. International organizations, governmental and non-governmental, in liaison with OIDF, also take part in the work. OIDF collaborates closely with other standardizing bodies in the related fields.</span>
+<span style="color:aqua;">172c161</span>
+<span style="color:red;">&lt; &lt;p&gt;Financial-grade API consists of the following parts:</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;Financial-grade API Security Profile 1.0 consists of the following parts:</span>
+<span style="color:aqua;">175c164</span>
+<span style="color:red;">&lt;         &lt;/p&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">177,179c166</span>
+<span style="color:red;">&lt; &lt;li&gt;Part 1: Read-Only API Security Profile </span>
+<span style="color:red;">&lt; &lt;/li&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;Part 2: Read and Write API Security Profile </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Financial-grade API Security Profile 1.0 - Part 1: Baseline&lt;/a&gt;</span>
+<span style="color:aqua;">181c168</span>
+<span style="color:red;">&lt; &lt;li&gt;Client Initiated Backchannel Authentication Profile</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Financial-grade API Security Profile 1.0 - Part 2: Advanced</span>
+<span style="color:aqua;">184,186c171</span>
+<span style="color:red;">&lt;       </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;Future parts may follow.</span>
+---
+<span style="color:lime;">&gt; </span>
+<span style="color:aqua;">188c173</span>
+<span style="color:red;">&lt; &lt;p&gt;These parts are intended to be used with [RFC6749], [RFC6750], [RFC7636], and [OIDC].</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;These parts are intended to be used with &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt;, &lt;a href='https://tools.ietf.org/html/rfc6750'&gt;RFC6750&lt;/a&gt;, &lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt;, and &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt;.</span>
+<span style="color:aqua;">192c177</span>
+<span style="color:red;">&lt; &lt;p&gt;Fintech is an area of future economic growth around the world and Fintech organizations need to improve the security of their operations and protect customer data. It is common practice of aggregation services to use screen scraping as a method to capture data by storing users' passwords. This brittle, inefficient, and insecure practice creates security vulnerabilities which require financial institutions to allow what appears to be an automated attack against their applications and to maintain a whitelist of aggregators. A new draft standard, proposed by this workgroup would instead utilize an API model with structured data and a token model, such as OAuth [RFC6749, RFC6750].</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The Financial-grade API is a highly secured OAuth profile that aims to provide specific implementation guidelines for security and interoperability. The Financial-grade API security profile can be applied to APIs in any market area that requires a higher level of security than provided by standard &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;OAuth&lt;/a&gt; or &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OpenID Connect&lt;/a&gt;. Among other security enhancements, this specification provides a secure alternative to screen scraping. Screen scraping accesses user's data and functions by impresonating a user through password sharing. This brittle, inefficient, and insecure practice creates security vulnerabilities which require financial institutions to allow what appears to be an automated attack against their applications.</span>
+<span style="color:aqua;">194c179</span>
+<span style="color:red;">&lt; &lt;p&gt;The Financial-grade API aims to provide specific implementation guidelines for online financial services to adopt by developing a REST/JSON data model protected by a highly secured OAuth profile. The Financial-grade API security profile can be applied to online services in any market area that requires a higher level of security than provided by standard OAuth or OpenID Connect.</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;This document is Part 2 of FAPI Security Profile 1.0 that specifies an advanced security profile of OAuth that is suitable to be used for protecting APIs with high inherent risk. Examples include APIs that give access to highly sensitive data or that can be used to trigger financial transactions (e.g., payment initiation). This document specifies the controls against attacks such as: authorization request tampering, authorization response tampering including code injection, state injection, and token request phishing. Additional details are available in the security considerations section.</span>
+<span style="color:aqua;">196c181</span>
+<span style="color:red;">&lt; &lt;p&gt;This document is Part 2 of FAPI that specifies the Financial-grade API and it provides a profile of OAuth that is suitable to be used in write access to financial data (also known as transaction access) and other similar higher risk access. This document specifies the controls against attacks such as: authorization request tampering, authorization response tampering including code injection, state injection, and token request phishing. Additional details are available in the security considerations section.</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;Although it is possible to code an OpenID Provider and Relying Party from first principles using this specification, the main audience for this specification is parties who already have a certified implementation of OpenID Connect and want to achieve a higher level of security. Implementers are encouraged to understand the security considerations contained in Section 8.7 before embarking on a 'from scratch' implementation.</span>
+<span style="color:aqua;">198,200c183</span>
+<span style="color:red;">&lt; &lt;p&gt;Although it is possible to code an OpenID Provider and Relying Party from first principles using this specification, the main audience for this specification is parties who already have a certified implementation of OpenID Connect and want to achieve a higher level of security. Implementors are encouraged to understand the security considerations contained in section 7.6 before embarking on a 'from scratch' implementation.</span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;h3&gt;Notational conventions&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;h3&gt;Notational Conventions&lt;/h3&gt;</span>
+<span style="color:aqua;">202c185,191</span>
+<span style="color:red;">&lt; &lt;p&gt;The keywords &quot;shall&quot;, &quot;shall not&quot;, &quot;should&quot;, &quot;should not&quot;, &quot;may&quot;, and &quot;can&quot; in this document are to be interpreted as described in ISO Directive Part 2 [ISODIR2]. These keywords are not used as dictionary terms such that any occurrence of them shall be interpreted as keywords and are not to be interpreted with their natural language meanings.</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The keywords &amp;quot;shall&amp;quot;, &amp;quot;shall not&amp;quot;,</span>
+<span style="color:lime;">&gt; &amp;quot;should&amp;quot;, &amp;quot;should not&amp;quot;, &amp;quot;may&amp;quot;, and</span>
+<span style="color:lime;">&gt; &amp;quot;can&amp;quot; in this document are to be interpreted as described in</span>
+<span style="color:lime;">&gt; &lt;a href='https://www.iso.org/sites/directives/current/part2/index.xhtml'&gt;ISO Directive Part 2&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; These keywords are not used as dictionary terms such that</span>
+<span style="color:lime;">&gt; any occurrence of them shall be interpreted as keywords</span>
+<span style="color:lime;">&gt; and are not to be interpreted with their natural language meanings.</span>
+<span style="color:aqua;">214,216c203,205</span>
+<span style="color:red;">&lt; &lt;a href=&quot;#read-and-write-api-security-profile&quot;&gt;5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Read and write API security profile&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction&quot;&gt;5.1.&lt;/a&gt;&amp;nbsp;</span>
+---
+<span style="color:lime;">&gt; &lt;a href=&quot;#advanced-security-profile&quot;&gt;5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Advanced security profile&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-1&quot;&gt;5.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:aqua;">218,220c207,213</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#read-and-write-api-security-provisions&quot;&gt;5.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Read and write API security provisions&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-1&quot;&gt;5.2.1.&lt;/a&gt;&amp;nbsp;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#id-token-as-detached-signature&quot;&gt;5.1.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; ID Token as Detached Signature&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#jwt-secured-authorization-response-mode-for-oauth-2-0-jarm&quot;&gt;5.1.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; JWT Secured Authorization Response Mode for OAuth 2.0 (JARM)&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#advanced-security-provisions&quot;&gt;5.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Advanced security provisions&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-2&quot;&gt;5.2.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:aqua;">224,226c217,221</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#public-client&quot;&gt;5.2.3.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Public client&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#confidential-client&quot;&gt;5.2.4.&lt;/a&gt;&amp;nbsp;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#id-token-as-detached-signature-1&quot;&gt;5.2.2.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; ID Token as detached signature&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#jarm&quot;&gt;5.2.2.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; JARM&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#confidential-client&quot;&gt;5.2.3.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:aqua;">228,229c223,230</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#jwt-secured-authorization-response-mode&quot;&gt;5.2.5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; JWT Secured Authorization Response Mode&lt;br /&gt;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#id-token-as-detached-signature-2&quot;&gt;5.2.3.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; ID Token as detached signature&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#jarm-1&quot;&gt;5.2.3.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; JARM&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#withdrawn&quot;&gt;5.2.4.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; (withdrawn)&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#withdrawn-1&quot;&gt;5.2.5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; (withdrawn)&lt;br /&gt;</span>
+<span style="color:aqua;">232c233</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-2&quot;&gt;6.1.&lt;/a&gt;&amp;nbsp;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-3&quot;&gt;6.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:aqua;">234,235c235,236</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#read-and-write-access-provisions&quot;&gt;6.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Read and write access provisions&lt;br /&gt;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#advanced-access-provisions&quot;&gt;6.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Advanced access provisions&lt;br /&gt;</span>
+<span style="color:aqua;">240,261c241,242</span>
+<span style="color:red;">&lt; &lt;a href=&quot;#request-object-endpoint&quot;&gt;7.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Request object endpoint&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-3&quot;&gt;7.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Introduction&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#request&quot;&gt;7.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Request&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#successful-response&quot;&gt;7.3.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Successful response&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#error-responses&quot;&gt;7.4.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Error responses&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#authorization-required&quot;&gt;7.4.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Authorization required&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#invalid-request&quot;&gt;7.4.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Invalid request&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#method-not-allowed&quot;&gt;7.4.3.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Method not allowed&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#request-entity-too-large&quot;&gt;7.4.4.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Request entity too large&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#too-many-requests&quot;&gt;7.4.5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Too many requests&lt;br /&gt;</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#openid-provider-discovery-metadata&quot;&gt;7.5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; OpenID Provider Discovery Metadata&lt;br /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a href=&quot;#withdrawn-2&quot;&gt;7.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; (Withdrawn)&lt;br /&gt;</span>
+<span style="color:aqua;">276,277c257,258</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#request-object-endpoint-phishing-resistance&quot;&gt;8.3.4.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; Request object endpoint phishing resistance&lt;br /&gt;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#removed&quot;&gt;8.3.4.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; (removed)&lt;br /&gt;</span>
+<span style="color:aqua;">290,291c271,274</span>
+<span style="color:red;">&lt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#jws-algorithm-considerations&quot;&gt;8.6.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:red;">&lt; JWS algorithm considerations&lt;br /&gt;</span>
+---
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#algorithm-considerations&quot;&gt;8.6.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Algorithm considerations&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#encryption-algorithm-considerations&quot;&gt;8.6.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Encryption algorithm considerations&lt;br /&gt;</span>
+<span style="color:aqua;">293a277,284</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#session-fixation&quot;&gt;8.8.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Session Fixation&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#jwks-uris&quot;&gt;8.9.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; JWKS URIs&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#multiple-clients-sharing-the-same-key&quot;&gt;8.10.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Multiple clients sharing the same key&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#duplicate-key-identifiers&quot;&gt;8.11.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Duplicate Key Identifiers&lt;br /&gt;</span>
+<span style="color:aqua;">295a287,288</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#introduction-7&quot;&gt;9.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Introduction&lt;br /&gt;</span>
+<span style="color:aqua;">299a293,312</span>
+<span style="color:lime;">&gt; &lt;a href=&quot;#iana-considerations&quot;&gt;12.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; IANA Considerations&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#additions-to-jwt-claims-registry&quot;&gt;12.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Additions to JWT Claims Registry&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#registry-contents&quot;&gt;12.1.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Registry Contents&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &lt;a href=&quot;#examples&quot;&gt;Appendix&amp;nbsp;A.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Examples&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#example-request-object&quot;&gt;A.1.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example request object&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#example-signed-id-token-for-authorization-endpoint-response&quot;&gt;A.2.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example signed id_token for authorization endpoint response&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#example-signed-and-encrypted-id-token-for-authorization-endpoint-response&quot;&gt;A.3.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example signed and encrypted id_token for authorization endpoint response&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#example-jarm-response&quot;&gt;A.4.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example JARM response&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;#example-private-key-jwt-client-assertion&quot;&gt;A.5.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example private_key_jwt client assertion&lt;br /&gt;</span>
+<span style="color:lime;">&gt; &lt;a href=&quot;#copyright-notice-license&quot;&gt;Appendix&amp;nbsp;B.&lt;/a&gt;&amp;nbsp;</span>
+<span style="color:lime;">&gt; Copyright notice &amp;amp; license&lt;br /&gt;</span>
+<span style="color:aqua;">310c323,325</span>
+<span style="color:red;">&lt; &lt;p&gt;This part of the document specifies the method of </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;This part of the document specifies the method of</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">312d326</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">314c328</span>
+<span style="color:red;">&lt; &lt;li&gt;applications to obtain the OAuth tokens in an appropriately secure manner for higher risk access to data; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;applications to obtain the OAuth tokens in an appropriately secure manner for higher risk access to data;</span>
+<span style="color:aqua;">316c330</span>
+<span style="color:red;">&lt; &lt;li&gt;applications to use OpenID Connect to identify the customer; and </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;applications to use OpenID Connect to identify the customer; and</span>
+<span style="color:aqua;">318c332</span>
+<span style="color:red;">&lt; &lt;li&gt;using tokens to interact with the REST endpoints that provides protected data; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;using tokens to interact with the REST endpoints that provides protected data;</span>
+<span style="color:aqua;">320c334</span>
+<span style="color:red;">&lt; &lt;/ul&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/ul&gt;&lt;p&gt;</span>
+<span style="color:aqua;">322c336,337</span>
+<span style="color:red;">&lt; &lt;p&gt;This document is applicable to higher risk use cases which includes commercial and investment banking and other similar industries.  </span>
+---
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;This document is applicable to higher risk use cases which includes commercial and investment banking and other similar industries.</span>
+<span style="color:aqua;">329c344,350</span>
+<span style="color:red;">&lt; &lt;p&gt;The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applied. For undated references, the latest edition of the referenced document (including any amendments) applies.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applied. For undated references, the latest edition of the referenced document (including any amendments) applies.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://www.iso.org/sites/directives/current/part2/index.xhtml'&gt;ISODIR2&lt;/a&gt; - ISO/IEC Directives Part 2</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt; - The OAuth 2.0 Authorization Framework</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc6750'&gt;RFC6750&lt;/a&gt; - The OAuth 2.0 Authorization Framework: Bearer Token Usage</span>
+<span style="color:aqua;">331c352</span>
+<span style="color:red;">&lt; &lt;p&gt;[ISODIR2] - ISO/IEC Directives Part 2 [ISODIR2]: http://www.iso.org/sites/directives/2016/part2/index.xhtml </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt; - Proof Key for Code Exchange by OAuth Public Clients</span>
+<span style="color:aqua;">333c354</span>
+<span style="color:red;">&lt; &lt;p&gt;[RFC6749] - The OAuth 2.0 Authorization Framework [RFC6749]: https://tools.ietf.org/html/rfc6749 </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc6819'&gt;RFC6819&lt;/a&gt; - OAuth 2.0 Threat Model and Security Considerations</span>
+<span style="color:aqua;">335c356</span>
+<span style="color:red;">&lt; &lt;p&gt;[RFC6750] - The OAuth 2.0 Authorization Framework: Bearer Token Usage [RFC6750]: https://tools.ietf.org/html/rfc6750 </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc7519'&gt;RFC7519&lt;/a&gt; - JSON Web Token (JWT)</span>
+<span style="color:aqua;">337c358</span>
+<span style="color:red;">&lt; &lt;p&gt;[RFC7636] - Proof Key for Code Exchange by OAuth Public Clients [RFC7636]: https://tools.ietf.org/html/rfc7636 </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc7591'&gt;RFC7591&lt;/a&gt; - OAuth 2.0 Dynamic Client Registration Protocol</span>
+<span style="color:aqua;">339c360</span>
+<span style="color:red;">&lt; &lt;p&gt;[RFC6819] - OAuth 2.0 Threat Model and Security Considerations [RFC6819]: https://tools.ietf.org/html/rfc6819 </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc7592'&gt;RFC7592&lt;/a&gt; - OAuth 2.0 Dynamic Client Registration Management Protocol</span>
+<span style="color:aqua;">341c362</span>
+<span style="color:red;">&lt; &lt;p&gt;[RFC7519] - JSON Web Token (JWT) [RFC7519]:https://tools.ietf.org/html/rfc7519 </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/bcp195'&gt;BCP195&lt;/a&gt; - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</span>
+<span style="color:aqua;">343c364</span>
+<span style="color:red;">&lt; &lt;p&gt;[OIDC] - OpenID Connect Core 1.0 incorporating errata set 1 [OIDC]: http://openid.net/specs/openid-connect-core-1_0.html </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt; - OpenID Connect Core 1.0 incorporating errata set 1</span>
+<span style="color:aqua;">345c366</span>
+<span style="color:red;">&lt; &lt;p&gt;[OIDD] - OpenID Connect Discovery 1.0 incorporating errata set 1 [OIDD]: http://openid.net/specs/openid-connect-discovery-1_0.html </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='http://openid.net/specs/openid-connect-discovery-1_0.html'&gt;OIDD&lt;/a&gt; -  OpenID Connect Discovery 1.0 incorporating errata set 1</span>
+<span style="color:aqua;">347c368</span>
+<span style="color:red;">&lt; &lt;p&gt;[OAUTB] - OAuth 2.0 Token Binding [OAUTB]: https://tools.ietf.org/html/draft-ietf-oauth-token-binding </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; - OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens</span>
+<span style="color:aqua;">349c370</span>
+<span style="color:red;">&lt; &lt;p&gt;[MTLS] - OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens [MTLS]: https://tools.ietf.org/html/draft-ietf-oauth-mtls </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; - Financial-grade API: JWT Secured Authorization Response Mode for OAuth 2.0 (JARM)</span>
+<span style="color:aqua;">351c372,374</span>
+<span style="color:red;">&lt; &lt;p&gt;[JARM] - Financial Services &amp;#8211; Financial-grade API: JWT Secured Authorization Response Mode for OAuth 2.0 (JARM) [JARM]: https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt; - OAuth 2.0 Pushed Authorization Requests</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-jwsreq'&gt;JAR&lt;/a&gt; - OAuth 2.0 JWT Secured Authorization Request</span>
+<span style="color:aqua;">358c381</span>
+<span style="color:red;">&lt; &lt;p&gt;For the purpose of this document, the terms defined in [RFC6749], [RFC6750], [RFC7636], [OpenID Connect Core][OIDC] apply.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;For the purpose of this document, the terms defined in &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt;, &lt;a href='https://tools.ietf.org/html/rfc6750'&gt;RFC6750&lt;/a&gt;, &lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt;, &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OpenID Connect Core&lt;/a&gt; and &lt;a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/c045123_ISO_IEC_29100_2011.zip'&gt;ISO29100&lt;/a&gt; apply.</span>
+<span style="color:aqua;">365c388</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;API&lt;/strong&gt; &amp;#8211; Application Programming Interface </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;API&lt;/strong&gt; – Application Programming Interface</span>
+<span style="color:aqua;">367c390</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;CSRF&lt;/strong&gt; - Cross Site Request Forgery </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;CSRF&lt;/strong&gt; - Cross Site Request Forgery</span>
+<span style="color:aqua;">369c392</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;FAPI&lt;/strong&gt; - Financial API </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;FAPI&lt;/strong&gt; - Financial-grade API</span>
+<span style="color:aqua;">371c394</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;HTTP&lt;/strong&gt; &amp;#8211; Hyper Text Transfer Protocol </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;HTTP&lt;/strong&gt; – Hyper Text Transfer Protocol</span>
+<span style="color:aqua;">373c396</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;OIDF&lt;/strong&gt; - OpenID Foundation </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;OIDF&lt;/strong&gt; - OpenID Foundation</span>
+<span style="color:aqua;">375c398</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;REST&lt;/strong&gt; &amp;#8211; Representational State Transfer </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;REST&lt;/strong&gt; – Representational State Transfer</span>
+<span style="color:aqua;">377c400</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;TLS&lt;/strong&gt; &amp;#8211; Transport Layer Security </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;TLS&lt;/strong&gt; – Transport Layer Security</span>
+<span style="color:aqua;">379c402</span>
+<span style="color:red;">&lt; &lt;a name=&quot;read-and-write-api-security-profile&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;advanced-security-profile&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">382c405</span>
+<span style="color:red;">&lt; Read and write API security profile&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; Advanced security profile&lt;/h3&gt;</span>
+<span style="color:aqua;">384c407</span>
+<span style="color:red;">&lt; &lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;introduction-1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">389c412,419</span>
+<span style="color:red;">&lt; &lt;p&gt;The OIDF Financial-grade API (FAPI) is a REST API that provides JSON data representing higher risk data. These APIs are protected by the OAuth 2.0 Authorization Framework that consists of [RFC6749], [RFC6750], [RFC7636], and other specifications.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The OIDF Financial-grade API (FAPI) security profile specifies security requirements</span>
+<span style="color:lime;">&gt; for high risk API resources protected by the OAuth 2.0 Authorization Framework that</span>
+<span style="color:lime;">&gt; consists of &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt;, &lt;a href='https://tools.ietf.org/html/rfc6750'&gt;RFC6750&lt;/a&gt;, &lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt;, and other specifications.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;There are different levels of risks associated with access to these APIs.</span>
+<span style="color:lime;">&gt; For example, read and write access to a bank API has a higher financial risk than read-only access. As</span>
+<span style="color:lime;">&gt; such, the security profiles of the authorization framework protecting these</span>
+<span style="color:lime;">&gt; APIs are also different.</span>
+<span style="color:aqua;">391c421</span>
+<span style="color:red;">&lt; &lt;p&gt;There are different levels of risks associated with access to these APIs. For example, read and write access to a bank API has a higher financial risk than read-only access. As such, the security profiles of the authorization framework protecting these APIs are also different.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;This profile describes security provisions for the server and client that are appropriate for Financial-grade APIs by defining the measures to mitigate:</span>
+<span style="color:aqua;">393c423</span>
+<span style="color:red;">&lt; &lt;p&gt;This profile describes security provisions for the server and client that are appropriate for Financial-grade APIs by defining the measures to mitigate: </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">395d424</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">397c426</span>
+<span style="color:red;">&lt; &lt;li&gt;attacks that leverage the weak binding of endpoints in [RFC6749] (e.g. malicious endpoint attacks, IdP mix-up attacks), </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;attacks that leverage the weak binding of endpoints in &lt;a href='e.g. malicious endpoint attacks, IdP mix-up attacks'&gt;RFC6749&lt;/a&gt;, and</span>
+<span style="color:aqua;">399c428</span>
+<span style="color:red;">&lt; &lt;li&gt;attacks that modify authorization requests and responses unprotected in [RFC6749] by leveraging OpenID Connect's Hybrid Flow that returns an ID Token in the authorization response.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;attacks that modify authorization requests and responses unprotected in &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt;.</span>
+<span style="color:aqua;">401c430</span>
+<span style="color:red;">&lt; &lt;/ul&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/ul&gt;&lt;p&gt;</span>
+<span style="color:aqua;">403d431</span>
+<span style="color:red;">&lt; &lt;p&gt;While the name ID Token suggests that it is something that provides the identity of the resource owner (subject), it is not necessarily so. While it does identify the authorization server by including the issuer identifier, it is perfectly fine to have an ephemeral subject identifier. In this case, the ID Token acts as a detached signature of the issuer to the authorization response and it was an explicit design decision of OpenID Connect Core to make the ID Token act as a detached signature.  </span>
+<span style="color:aqua;">405c433,448</span>
+<span style="color:red;">&lt; &lt;p&gt;This document leverages this fact and protects the authorization response by including the hash of all of the unprotected response parameters, e.g. &lt;tt&gt;code&lt;/tt&gt; and &lt;tt&gt;state&lt;/tt&gt;.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;This profile does not support public clients.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The following ways are specified to protect against modifications of authorization responses: Implementations can leverage OpenID Connect's Hybrid Flow that returns an ID Token in the authorization response or they can utilize the JWT Secured Authorization Response Mode for OAuth 2.0 (&lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt;) that returns and protects all authorization response parameters in a JWT.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;id-token-as-detached-signature&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.1.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.1.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; ID Token as Detached Signature&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;While the name ID Token (as used in the OpenID Connect Hybrid Flow) suggests that it is something that provides the identity of the resource owner (subject), it is not necessarily so. While it does identify the authorization server by including the issuer identifier,</span>
+<span style="color:lime;">&gt; it is perfectly fine to have an ephemeral subject identifier. In this case, the ID Token acts as a detached signature of the issuer to the authorization response and it was an explicit design decision of OpenID Connect Core to make the ID Token act as a detached signature.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;This document leverages this fact and protects the authorization response by including the hash of all of the unprotected response parameters, e.g. &lt;tt&gt;code&lt;/tt&gt; and &lt;tt&gt;state&lt;/tt&gt;, in the ID Token.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;While the hash of the &lt;tt&gt;code&lt;/tt&gt; is defined in &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt;, the hash of the &lt;tt&gt;state&lt;/tt&gt; is not defined.</span>
+<span style="color:lime;">&gt; Thus this document defines it as follows.</span>
+<span style="color:aqua;">407c450</span>
+<span style="color:red;">&lt; &lt;p&gt;While the hash of the &lt;tt&gt;code&lt;/tt&gt; is defined in [OIDC], the hash of the &lt;tt&gt;state&lt;/tt&gt; is not defined.  Thus this document defines it as follows.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;s_hash&lt;/strong&gt;</span>
+<span style="color:aqua;">409c452</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;strong&gt;s_hash&lt;/strong&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">411d453</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">413c455,459</span>
+<span style="color:red;">&lt; &lt;p&gt;State hash value. Its value is the base64url encoding of the left-most half of the hash of the octets of the ASCII representation of the &lt;tt&gt;state&lt;/tt&gt; value, where the hash algorithm used is the hash algorithm used in the &lt;tt&gt;alg&lt;/tt&gt; header parameter of the ID Token's JOSE header. For instance, if the &lt;tt&gt;alg&lt;/tt&gt; is &lt;tt&gt;HS512&lt;/tt&gt;, hash the state value with SHA-512, then take the left-most 256 bits and base64url encode them. The &lt;tt&gt;s_hash&lt;/tt&gt; value is a case sensitive string.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;State hash value. Its value is the base64url encoding of the left-most half of the hash of the octets of the ASCII representation</span>
+<span style="color:lime;">&gt; of the &lt;tt&gt;state&lt;/tt&gt; value, where the hash algorithm used is the hash algorithm used</span>
+<span style="color:lime;">&gt; in the &lt;tt&gt;alg&lt;/tt&gt; header parameter of the ID Token's JOSE header. For instance,</span>
+<span style="color:lime;">&gt; if the &lt;tt&gt;alg&lt;/tt&gt; is &lt;tt&gt;HS512&lt;/tt&gt;, hash the state value with SHA-512, then take the left-most 256 bits and base64url encode them.</span>
+<span style="color:lime;">&gt; The &lt;tt&gt;s_hash&lt;/tt&gt; value is a case sensitive string.</span>
+<span style="color:aqua;">417c463,478</span>
+<span style="color:red;">&lt; &lt;a name=&quot;read-and-write-api-security-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;jwt-secured-authorization-response-mode-for-oauth-2-0-jarm&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.1.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.1.2.&amp;nbsp;</span>
+<span style="color:lime;">&gt; JWT Secured Authorization Response Mode for OAuth 2.0 (JARM)&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;An authorization server may protect authorization responses to clients using the &amp;quot;JWT Secured Authorization Response Mode&amp;quot; &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; allows a client to request that an authorization server encodes the authorization response (of any response type) in a JWT. It is an alternative to utilizing ID Tokens as detached signatures for providing financial-grade security on authorization responses and can be used with plain OAuth.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;This specification facilitates use of &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; in conjunction with the response type &lt;tt&gt;code&lt;/tt&gt;.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; can be used to protect OpenID Connect authentication responses. In this case, the OpenID RP would use response type &lt;tt&gt;code&lt;/tt&gt;, response mode &lt;tt&gt;jwt&lt;/tt&gt; and scope &lt;tt&gt;openid&lt;/tt&gt;. This means &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; protects the authentication response (instead of the ID Token) and the ID Token containing End-User Claims is obtained from the token endpoint. This facilitates privacy since no End-User Claims are sent through the front channel. It also provides decoupling of</span>
+<span style="color:lime;">&gt; message protection and identity providing since a client (or RP) can basically use &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; to protect all</span>
+<span style="color:lime;">&gt; authorization responses and turn on OpenID if needed (e.g. to log the user in).</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;advanced-security-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">420c481</span>
+<span style="color:red;">&lt; Read and write API security provisions&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; Advanced security provisions&lt;/h3&gt;</span>
+<span style="color:aqua;">422c483</span>
+<span style="color:red;">&lt; &lt;a name=&quot;introduction-1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;introduction-2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">427c488,490</span>
+<span style="color:red;">&lt; &lt;p&gt;Read and write access carries higher risk; therefore the protection level required is higher than read-only access.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;API resources may contain sensitive data and/or have increased security requirements.</span>
+<span style="color:lime;">&gt; In order to fulfill different security needs, FAPI Security Profile 1.0 defines an advanced profile that</span>
+<span style="color:lime;">&gt; is beyond the baseline security requirements defined in the &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Part 1: Baseline&lt;/a&gt; document.</span>
+<span style="color:aqua;">429c492</span>
+<span style="color:red;">&lt; &lt;p&gt;As a profile of The OAuth 2.0 Authorization Framework, this document mandates the following for the read and write API of the FAPI.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;As a profile of the OAuth 2.0 Authorization Framework, this document mandates the following for the advanced profile of the FAPI Security Profile 1.0.</span>
+<span style="color:aqua;">436c499,501</span>
+<span style="color:red;">&lt; &lt;p&gt;The authorization server shall support the provisions specified in clause 5.2.2 of Financial-grade API - Part 1: Read-Only API Security Profile.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The authorization server shall support the provisions specified in clause 5.2.2 of</span>
+<span style="color:lime;">&gt; &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Financial-grade API Security Profile 1.0 - Part 1: Baseline&lt;/a&gt;, with the exception</span>
+<span style="color:lime;">&gt; that Section 5.2.2-7 (enforcement of &lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt;) is not required.</span>
+<span style="color:aqua;">438c503,505</span>
+<span style="color:red;">&lt; &lt;p&gt;In addition, the authorization server, for the write operation, </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In addition, the authorization server</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">440d506</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">442c508</span>
+<span style="color:red;">&lt; &lt;li&gt;shall require the &lt;tt&gt;request&lt;/tt&gt; or &lt;tt&gt;request_uri&lt;/tt&gt; parameter to be passed as a JWS signed JWT as in clause 6 of [OIDC]; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall require a JWS signed JWT request object passed by value with the &lt;tt&gt;request&lt;/tt&gt; parameter or by reference with the &lt;tt&gt;request_uri&lt;/tt&gt; parameter;</span>
+<span style="color:aqua;">444,446c510,513</span>
+<span style="color:red;">&lt; &lt;li&gt;shall require the &lt;tt&gt;response_type&lt;/tt&gt; values &lt;tt&gt;code id_token&lt;/tt&gt; or &lt;tt&gt;code id_token token&lt;/tt&gt;; </span>
+<span style="color:red;">&lt; &lt;/li&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;shall return ID Token as a detached signature to the authorization response; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall require</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;the &lt;tt&gt;response_type&lt;/tt&gt; value &lt;tt&gt;code id_token&lt;/tt&gt;, or</span>
+<span style="color:aqua;">448c515</span>
+<span style="color:red;">&lt; &lt;li&gt;shall include state hash, &lt;tt&gt;s_hash&lt;/tt&gt;, in the ID Token to protect the &lt;tt&gt;state&lt;/tt&gt; value if the client supplied a value for &lt;tt&gt;state&lt;/tt&gt;.  &lt;tt&gt;s_hash&lt;/tt&gt; may be omitted from the ID Token returned from the Token Endpoint when &lt;tt&gt;s_hash&lt;/tt&gt; is present in the ID Token returned from the Authorization Endpoint; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;the &lt;tt&gt;response_type&lt;/tt&gt; value &lt;tt&gt;code&lt;/tt&gt; in conjunction with the &lt;tt&gt;response_mode&lt;/tt&gt; value &lt;tt&gt;jwt&lt;/tt&gt;;</span>
+<span style="color:aqua;">450c517</span>
+<span style="color:red;">&lt; &lt;li&gt;shall only issue authorization code, access token, and refresh token that are holder of key bound; </span>
+---
+<span style="color:lime;">&gt; &lt;/ol&gt;</span>
+<span style="color:aqua;">452c519</span>
+<span style="color:red;">&lt; &lt;li&gt;shall support [OAUTB] or [MTLS] as a holder of key mechanism; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.2.1);</span>
+<span style="color:aqua;">454c521</span>
+<span style="color:red;">&lt; &lt;li&gt;shall support user authentication at LoA 3 or greater as defined in [X.1254]; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.2.1);</span>
+<span style="color:aqua;">456c523</span>
+<span style="color:red;">&lt; &lt;li&gt;shall support signed ID Tokens; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall only issue sender-constrained access tokens;</span>
+<span style="color:aqua;">458c525</span>
+<span style="color:red;">&lt; &lt;li&gt;should support signed and encrypted ID Token; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall support &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; as mechanism for constraining the legitimate senders of access tokens;</span>
+<span style="color:aqua;">460c527</span>
+<span style="color:red;">&lt; &lt;li&gt;shall require that all parameters are present inside the signed request object passed in the &lt;tt&gt;request&lt;/tt&gt; or &lt;tt&gt;request_uri&lt;/tt&gt; parameter; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(withdrawn);</span>
+<span style="color:aqua;">462c529</span>
+<span style="color:red;">&lt; &lt;li&gt;may support the request object endpoint as described in section 7; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.2.1);</span>
+<span style="color:aqua;">464c531</span>
+<span style="color:red;">&lt; &lt;li&gt;shall require [RFC7636] with S256 as the code challenge method for public clients only, if it supports public clients; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.2.1);</span>
+<span style="color:aqua;">466c533</span>
+<span style="color:red;">&lt; &lt;li&gt;shall require the request object to contain an &lt;tt&gt;exp&lt;/tt&gt; claim; and </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall only use the parameters included in the signed request object passed via the &lt;tt&gt;request&lt;/tt&gt; or &lt;tt&gt;request_uri&lt;/tt&gt; parameter;</span>
+<span style="color:aqua;">468,470c535</span>
+<span style="color:red;">&lt; &lt;li&gt;shall authenticate the confidential client at the token endpoint using one of the following methods (this overrides FAPI part 1 clause 5.2.2.4): </span>
+<span style="color:red;">&lt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;Mutual TLS for OAuth Client Authentication as specified in section 2 of [MTLS]; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;may support the pushed authorization request endpoint as described in &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt;;</span>
+<span style="color:aqua;">472c537</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;private_key_jwt&lt;/tt&gt; as specified in section 9 of [OIDC]; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(withdrawn);</span>
+<span style="color:aqua;">474c539</span>
+<span style="color:red;">&lt; &lt;/ol&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall require the request object to contain an &lt;tt&gt;exp&lt;/tt&gt; claim that has a lifetime of no longer than 60 minutes after the &lt;tt&gt;nbf&lt;/tt&gt; claim;</span>
+<span style="color:aqua;">476c541</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall authenticate the confidential client using one of the following methods (this overrides &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;FAPI Security Profile 1.0 - Part 1: Baseline&lt;/a&gt; clause 5.2.2-4):</span>
+<span style="color:aqua;">478,487d542</span>
+<span style="color:red;">&lt; &lt;a name=&quot;public-client&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.5.2.3&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.3.&amp;nbsp;</span>
+<span style="color:red;">&lt; Public client&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;A public client shall support the provisions specified in clause 5.2.3 of Financial-grade API - Part 1: Read-Only API Security Profile.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;In addition, the public client for write operations </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">489c544</span>
+<span style="color:red;">&lt; &lt;li&gt;shall support [OAUTB] or [MTLS] as a holder of key mechanism; Note: [MTLS] shall be used with instance-specific keys and (self-signed) certificates to bind access tokens to the particular instance of a public client. It is NOT used as client authentication mechanisms.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;tt&gt;tls_client_auth&lt;/tt&gt; or &lt;tt&gt;self_signed_tls_client_auth&lt;/tt&gt; as specified in section 2 of &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt;, or</span>
+<span style="color:aqua;">491c546</span>
+<span style="color:red;">&lt; &lt;li&gt;shall include the &lt;tt&gt;request&lt;/tt&gt; or &lt;tt&gt;request_uri&lt;/tt&gt; parameter as defined in Section 6 of [OIDC] in the authentication request; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;tt&gt;private_key_jwt&lt;/tt&gt; as specified in section 9 of &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt;;</span>
+<span style="color:aqua;">493,497c548</span>
+<span style="color:red;">&lt; &lt;li&gt;shall request user authentication at LoA 3 or greater by requesting the &lt;tt&gt;acr&lt;/tt&gt; claim as an essential claim as defined in section 5.5.1.1 of [OIDC]; </span>
+<span style="color:red;">&lt; &lt;/li&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;shall require JWS signed ID Token be returned from endpoints; </span>
+<span style="color:red;">&lt; &lt;/li&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;shall verify that the &lt;tt&gt;acr&lt;/tt&gt; claim in an ID Token indicates that user authentication was performed at LoA3 or greater; </span>
+---
+<span style="color:lime;">&gt; &lt;/ol&gt;</span>
+<span style="color:aqua;">499c550</span>
+<span style="color:red;">&lt; &lt;li&gt;shall verify that the &lt;tt&gt;amr&lt;/tt&gt; claim in an ID Token contains values appropriate for the LoA indicated by the &lt;tt&gt;acr&lt;/tt&gt; claim; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall require the aud claim in the request object to be, or to be an array containing, the OP's Issuer Identifier URL;</span>
+<span style="color:aqua;">501c552</span>
+<span style="color:red;">&lt; &lt;li&gt;shall verify that the authorization response was not tampered using ID Token as the detached signature </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall not support public clients;</span>
+<span style="color:aqua;">503c554</span>
+<span style="color:red;">&lt; &lt;li&gt;shall send all parameters inside the authorization request's signed request object </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall require the request object to contain an &lt;tt&gt;nbf&lt;/tt&gt; claim that is no longer than 60 minutes in the past; and</span>
+<span style="color:aqua;">505c556</span>
+<span style="color:red;">&lt; &lt;li&gt;shall additionally send duplicates of the parameters/values using the OAuth 2.0 request syntax where required by the OAuth specification </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall require &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt; requests, if supported, to use PKCE (&lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt;) with &lt;tt&gt;S256&lt;/tt&gt; as the code challenge method.</span>
+<span style="color:aqua;">507c558</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">509d559</span>
+<span style="color:red;">&lt; &lt;p&gt;To verify that the authorization response was not tampered using ID Token as the detached signature, the client shall verify that &lt;tt&gt;s_hash&lt;/tt&gt; value is equal to the value calculated from the &lt;tt&gt;state&lt;/tt&gt; value in the authorization response in addition to all the requirements in 3.3.2.12 of [OIDC].  </span>
+<span style="color:aqua;">511c561,565</span>
+<span style="color:red;">&lt; &lt;a name=&quot;confidential-client&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; MTLS is currently the only mechanism for sender-constrained access tokens that has been widely deployed. Future versions of this specification are likely to allow other mechanisms for sender-constrained access tokens.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt; does not present any additional security concerns that necessitated the requirement to use PKCE - the reason PKCE is not required in other cases is merely to be backwards compatible with earlier drafts of this standard.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;id-token-as-detached-signature-1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">513,514c567,568</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.5.2.4&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.4.&amp;nbsp;</span>
+<span style="color:red;">&lt; Confidential client&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.2.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.2.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; ID Token as detached signature&lt;/h3&gt;</span>
+<span style="color:aqua;">516c570,572</span>
+<span style="color:red;">&lt; &lt;p&gt;In addition to the provisions for the public client in clause 5.2.3 of this document, except for [RFC7636] support, the confidential client for write operations </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In addition, if the &lt;tt&gt;response_type&lt;/tt&gt; value &lt;tt&gt;code id_token&lt;/tt&gt; is used, the authorization server</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">518d573</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">520c575</span>
+<span style="color:red;">&lt; &lt;li&gt;shall support [OAUTB] or [MTLS] as a holder of key mechanism (this overrides clause 5.2.3.1); Note: In case of confidential clients, [MTLS] can also be used as client authentication mechanism.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall support &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt;;</span>
+<span style="color:aqua;">522c577</span>
+<span style="color:red;">&lt; &lt;li&gt;should require both JWS signed and JWE encrypted ID Tokens to be returned from endpoints to protect any sensitive personally identifiable information (PII) contained in the ID Token provided as a detached signature in the authorization response </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall support signed ID Tokens;</span>
+<span style="color:aqua;">524,529c579,587</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;a name=&quot;jwt-secured-authorization-response-mode&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.5.2.5&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.5.&amp;nbsp;</span>
+<span style="color:red;">&lt; JWT Secured Authorization Response Mode&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;should support signed and encrypted ID Tokens;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall return ID Token as a detached signature to the authorization response;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall include state hash, &lt;tt&gt;s_hash&lt;/tt&gt;, in the ID Token to protect the &lt;tt&gt;state&lt;/tt&gt; value if the client supplied a value for &lt;tt&gt;state&lt;/tt&gt;. &lt;tt&gt;s_hash&lt;/tt&gt; may be omitted from the ID Token returned from the Token Endpoint when &lt;tt&gt;s_hash&lt;/tt&gt; is present in the ID Token returned from the Authorization Endpoint; and</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;should not return sensitive PII in the ID Token in the authorization response, but if it needs to, then it should encrypt the ID Token.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">531,533d588</span>
+<span style="color:red;">&lt; &lt;p&gt;In addition to the provisions given in section 5.2.2, an authorization server may protect authorization responses to clients using the &quot;JWT Secured Authorization Response Mode&quot; [JARM].  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;The [JARM] allows a client to request that an authorization server encode the authorization response (of any response type) in a JWT. It is an alternative to utilizing ID Tokens as detached signatures for providing financial-grade security on authorization responses.  </span>
+<span style="color:aqua;">535c590</span>
+<span style="color:red;">&lt; &lt;p&gt;The authorization server should advertise support for the [JARM] response modes using the &lt;tt&gt;response_modes_supported&lt;/tt&gt; metadata parameter.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The authorization server may return more claims in the ID Token from the token endpoint than in the one from the authorization response</span>
+<span style="color:aqua;">537,539c592</span>
+<span style="color:red;">&lt; &lt;p&gt;If [JARM] is used to secure the authorization responses, the clauses 2, 3, and 4 of section 5.2.2. do not apply. For example, clients may use [JARM] in conjunction with the response type &lt;tt&gt;code&lt;/tt&gt;.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;accessing-protected-resources-using-tokens&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;jarm&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">541,547c594,595</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.6&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.&amp;nbsp;</span>
+<span style="color:red;">&lt; Accessing protected resources (using tokens)&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;a name=&quot;introduction-2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.6.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.1.&amp;nbsp;</span>
+<span style="color:red;">&lt; Introduction&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.2.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.2.2.&amp;nbsp;</span>
+<span style="color:lime;">&gt; JARM&lt;/h3&gt;</span>
+<span style="color:aqua;">549c597</span>
+<span style="color:red;">&lt; &lt;p&gt;The FAPI endpoints are OAuth 2.0 protected resource endpoints that return protected information for the resource owner associated with the submitted access token.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In addition, if the &lt;tt&gt;response_type&lt;/tt&gt; value &lt;tt&gt;code&lt;/tt&gt; is used in conjunction with the &lt;tt&gt;response_mode&lt;/tt&gt; value &lt;tt&gt;jwt&lt;/tt&gt;, the authorization server</span>
+<span style="color:aqua;">551,561c599</span>
+<span style="color:red;">&lt; &lt;a name=&quot;read-and-write-access-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.6.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.2.&amp;nbsp;</span>
+<span style="color:red;">&lt; Read and write access provisions&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;a name=&quot;protected-resources-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.6.2.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.2.1.&amp;nbsp;</span>
+<span style="color:red;">&lt; Protected resources provisions&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;The protected resources supporting this document </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">563d600</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">565c602</span>
+<span style="color:red;">&lt; &lt;li&gt;shall support the provisions specified in clause 6.2.1 Financial-grade API - Part 1: Read Only API Security Profile; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall create JWT-secured authorization responses as specified in &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt;, Section 4.3.</span>
+<span style="color:aqua;">567,574c604</span>
+<span style="color:red;">&lt; &lt;li&gt;shall adhere to the requirements in [MTLS] or [OAUTB].  </span>
+<span style="color:red;">&lt; &lt;/li&gt;</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;a name=&quot;client-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.6.2.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.2.2.&amp;nbsp;</span>
+<span style="color:red;">&lt; Client provisions&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">576d605</span>
+<span style="color:red;">&lt; &lt;p&gt;The client supporting this document shall support the provisions specified in clause 6.2.2 of Financial-grade API - Part 1: Read-Only API Security Profile.  </span>
+<span style="color:aqua;">578,583c607</span>
+<span style="color:red;">&lt; &lt;a name=&quot;request-object-endpoint&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.&amp;nbsp;</span>
+<span style="color:red;">&lt; Request object endpoint&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;a name=&quot;introduction-3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;confidential-client&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">585,586c609,610</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.1.&amp;nbsp;</span>
+<span style="color:red;">&lt; Introduction&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.3&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.3.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Confidential client&lt;/h3&gt;</span>
+<span style="color:aqua;">588,590c612</span>
+<span style="color:red;">&lt; &lt;p&gt;The client may not want to send the request object by value, either because it is too large, or because it contains sensitive data and the client does not want to encrypt the request object.  In such cases it is possible to send the request object by reference using a &lt;tt&gt;request_uri&lt;/tt&gt;.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;Note that &lt;tt&gt;request_uri&lt;/tt&gt; can be either URL or URN.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;A confidential client shall support the provisions specified in clause 5.2.3 and 5.2.4 of &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Financial-grade API Security Profile 1.0 - Part 1: Baseline&lt;/a&gt;, except for &lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt; support.</span>
+<span style="color:aqua;">592c614</span>
+<span style="color:red;">&lt; &lt;p&gt;Although the request URI could be hosted by the client, within the FAPI spec it is hosted by the authorization server. The advantage of the authorization server hosting the request object is that it does not have to support outbound requests to a client specified request URI nor rely on the entropy of the URI for the confidentiality of the request object.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In addition, the confidential client</span>
+<span style="color:aqua;">594,596c616</span>
+<span style="color:red;">&lt; &lt;p&gt;When the request object is stored at the authorization server, the &lt;tt&gt;request_uri&lt;/tt&gt; value typically is a URN.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;This section defines the methods for the authorization server's request object endpoint to exchange a request object for a request URI.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">598,603d617</span>
+<span style="color:red;">&lt; &lt;a name=&quot;request&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.2.&amp;nbsp;</span>
+<span style="color:red;">&lt; Request&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">605c619</span>
+<span style="color:red;">&lt; &lt;li&gt;The request object endpoint shall be a RESTful API at the authorization server that accepts a signed request object as an HTTPS POST payload.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall support &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; as mechanism for sender-constrained access tokens;</span>
+<span style="color:aqua;">607c621</span>
+<span style="color:red;">&lt; &lt;li&gt;The request object shall be signed for client authentication and as evidence of the client submitting the request object, which is referred to as 'non-repudiation'.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall include the &lt;tt&gt;request&lt;/tt&gt; or &lt;tt&gt;request_uri&lt;/tt&gt; parameter as defined in Section 6 of &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt; in the authentication request;</span>
+<span style="color:aqua;">609,629c623</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;The following is an example of such a request: </span>
+<span style="color:red;">&lt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;</span>
+<span style="color:red;">&lt; POST https://as.example.com/ros/ HTTP/1.1</span>
+<span style="color:red;">&lt; Host: as.example.com</span>
+<span style="color:red;">&lt; Content-Type: application/jws</span>
+<span style="color:red;">&lt; Content-Length: 1288</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; eyJhbGciOiJSUzI1NiIsImtpZCI6ImsyYmRjIn0.ew0KICJpc3MiOiA</span>
+<span style="color:red;">&lt; (... abbreviated for brevity ...)</span>
+<span style="color:red;">&lt; zCYIb_NMXvtTIVc1jpspnTSD7xMbpL-2QgwUsAlMGzw</span>
+<span style="color:red;">&lt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;successful-response&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.3&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.3.&amp;nbsp;</span>
+<span style="color:red;">&lt; Successful response&lt;/h3&gt;</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;The authorization server shall verify that the request object is valid, the signature algorithm is not &lt;tt&gt;none&lt;/tt&gt;, and the signature is correct as in clause 6.3 of [OIDC].  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall ensure the Authorization Server has authenticated the user to an appropriate Level of Assurance for the client's intended purpose;</span>
+<span style="color:aqua;">631c625</span>
+<span style="color:red;">&lt; &lt;li&gt;If the verification is successful, the server shall generate a request URI and return a JSON payload that contains &lt;tt&gt;request_uri&lt;/tt&gt;, &lt;tt&gt;aud&lt;/tt&gt;, &lt;tt&gt;iss&lt;/tt&gt;, and &lt;tt&gt;exp&lt;/tt&gt; claims at the top level with &lt;tt&gt;201 Created&lt;/tt&gt; HTTP response code.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.3.1);</span>
+<span style="color:aqua;">633c627</span>
+<span style="color:red;">&lt; &lt;li&gt;The &lt;tt&gt;request_uri&lt;/tt&gt; shall be based on a cryptographic random value so that it is difficult to predict for an attacker.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(withdrawn);</span>
+<span style="color:aqua;">635c629</span>
+<span style="color:red;">&lt; &lt;li&gt;The request URI shall be bound to the client identifier of the client that posted the request object.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(withdrawn);</span>
+<span style="color:aqua;">637c631</span>
+<span style="color:red;">&lt; &lt;li&gt;Since the request URI can be replayed, its lifetime should be short and preferably limited to one-time use.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved 5.2.3.1);</span>
+<span style="color:aqua;">639,641c633</span>
+<span style="color:red;">&lt; &lt;li&gt;The value of these claims in the JSON payload shall be as follows: </span>
+<span style="color:red;">&lt; &lt;ul class=&quot;text&quot;&gt;</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;request_uri&lt;/tt&gt; : The request URI corresponding to the request object posted.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall send all parameters inside the authorization request's signed request object;</span>
+<span style="color:aqua;">643c635</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;aud&lt;/tt&gt; : A JSON string that represents the client identifier of the client that posted the request object.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall additionally send duplicates of the &lt;tt&gt;response_type&lt;/tt&gt;, &lt;tt&gt;client_id&lt;/tt&gt;, and &lt;tt&gt;scope&lt;/tt&gt; parameters/values using the OAuth 2.0 request syntax as required by Section 6.1 of the OpenID Connect specification if not using &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt;;</span>
+<span style="color:aqua;">645c637</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;iss&lt;/tt&gt; : A JSON string that represents the issuer identifier of the authorization server as defined in [RFC7519]. When a pure OAuth 2.0 is used, the value is the redirection URI. When OpenID Connect is used, the value is the issuer value of the authorization server.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall send the &lt;tt&gt;aud&lt;/tt&gt; claim in the request object as the OP's Issuer Identifier URL;</span>
+<span style="color:aqua;">647c639</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;exp&lt;/tt&gt; : A JSON number that represents the expiry time of the request URI as defined in [RFC7519].  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall send an &lt;tt&gt;exp&lt;/tt&gt; claim in the request object that has a lifetime of no longer than 60 minutes;</span>
+<span style="color:aqua;">649c641</span>
+<span style="color:red;">&lt; &lt;/ul&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.3.1);</span>
+<span style="color:aqua;">651c643,651</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(moved to 5.2.3.1);</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall send a &lt;tt&gt;nbf&lt;/tt&gt; claim in the request object;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall use &lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt; with &lt;tt&gt;S256&lt;/tt&gt; as the code challenge method if using &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt;; and</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall additionally send a duplicate of the &lt;tt&gt;client_id&lt;/tt&gt; parameter/value using the OAuth 2.0 request syntax to the authorization endpoint, as required by Section 5 of &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-jwsreq'&gt;JAR&lt;/a&gt;, if using &lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">653,666c653,654</span>
+<span style="color:red;">&lt; &lt;p&gt;The following is an example of such a response: </span>
+<span style="color:red;">&lt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;</span>
+<span style="color:red;">&lt; HTTP/1.1 201 Created</span>
+<span style="color:red;">&lt; Date: Tue, 2 May 2017 15:22:31 GMT</span>
+<span style="color:red;">&lt; Content-Type: application/json</span>
+<span style="color:red;">&lt; </span>
+<span style="color:red;">&lt; {</span>
+<span style="color:red;">&lt;     &quot;iss&quot;: &quot;https://as.example.com/&quot;,</span>
+<span style="color:red;">&lt;     &quot;aud&quot;: &quot;s6BhdRkqt3&quot;,</span>
+<span style="color:red;">&lt;     &quot;request_uri&quot;: &quot;urn:example:MTAyODAK&quot;,</span>
+<span style="color:red;">&lt;     &quot;exp&quot;: 1493738581</span>
+<span style="color:red;">&lt; }</span>
+<span style="color:red;">&lt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;error-responses&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;id-token-as-detached-signature-2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">668,669c656,657</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.4&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.4.&amp;nbsp;</span>
+<span style="color:red;">&lt; Error responses&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.3.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.3.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; ID Token as detached signature&lt;/h3&gt;</span>
+<span style="color:aqua;">671,674c659,675</span>
+<span style="color:red;">&lt; &lt;a name=&quot;authorization-required&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.4.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.4.1.&amp;nbsp;</span>
+<span style="color:red;">&lt; Authorization required&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In addition, if the &lt;tt&gt;response_type&lt;/tt&gt; value &lt;tt&gt;code id_token&lt;/tt&gt; is used, the client</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall include the value &lt;tt&gt;openid&lt;/tt&gt; into the &lt;tt&gt;scope&lt;/tt&gt; parameter in order to activate &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt; support;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall require JWS signed ID Token be returned from endpoints;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall verify that the authorization response was not tampered using ID Token as the detached signature;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall verify that &lt;tt&gt;s_hash&lt;/tt&gt; value is equal to the value calculated from the &lt;tt&gt;state&lt;/tt&gt; value in the authorization response in addition to all the requirements in 3.3.2.12 of &lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt;; and</span>
+<span style="color:lime;">&gt; &lt;strong&gt;NOTE:&lt;/strong&gt; This enables the client to verify that the authorization response was not tampered with, using the ID Token as a detached signature.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall support both signed and signed &amp;amp; encrypted ID Tokens.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">676d676</span>
+<span style="color:red;">&lt; &lt;p&gt;If the signature validation fails, the authorization server shall return &lt;tt&gt;401 Unauthorized&lt;/tt&gt; HTTP error response.  </span>
+<span style="color:aqua;">678c678</span>
+<span style="color:red;">&lt; &lt;a name=&quot;invalid-request&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;jarm-1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">680,681c680,681</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.4.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.4.2.&amp;nbsp;</span>
+<span style="color:red;">&lt; Invalid request&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.3.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.3.2.&amp;nbsp;</span>
+<span style="color:lime;">&gt; JARM&lt;/h3&gt;</span>
+<span style="color:aqua;">683c683</span>
+<span style="color:red;">&lt; &lt;p&gt;If the request object received is invalid, the authorization server shall return &lt;tt&gt;400 Bad Request&lt;/tt&gt; HTTP error response.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In addition, if the &lt;tt&gt;response_type&lt;/tt&gt; value &lt;tt&gt;code&lt;/tt&gt; is used in conjunction with the &lt;tt&gt;response_mode&lt;/tt&gt; value &lt;tt&gt;jwt&lt;/tt&gt;, the client</span>
+<span style="color:aqua;">685,688c685,690</span>
+<span style="color:red;">&lt; &lt;a name=&quot;method-not-allowed&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:red;">&lt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.4.3&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.4.3.&amp;nbsp;</span>
+<span style="color:red;">&lt; Method not allowed&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall verify the authorization responses as specified in &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt;, Section 4.4.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">690d691</span>
+<span style="color:red;">&lt; &lt;p&gt;If the request did not use POST, the authorization server shall return &lt;tt&gt;405 Method Not Allowed&lt;/tt&gt; HTTP error response.  </span>
+<span style="color:aqua;">692c693</span>
+<span style="color:red;">&lt; &lt;a name=&quot;request-entity-too-large&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;withdrawn&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">694,695c695,696</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.4.4&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.4.4.&amp;nbsp;</span>
+<span style="color:red;">&lt; Request entity too large&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.4&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.4.&amp;nbsp;</span>
+<span style="color:lime;">&gt; (withdrawn)&lt;/h3&gt;</span>
+<span style="color:aqua;">697,699c698</span>
+<span style="color:red;">&lt; &lt;p&gt;If the request size was beyond the upper bound that the authorization server allows, the authorization server shall return a &lt;tt&gt;413 Request Entity Too Large&lt;/tt&gt; HTTP error response.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;a name=&quot;too-many-requests&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;withdrawn-1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">701,702c700,706</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.4.5&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.4.5.&amp;nbsp;</span>
+<span style="color:red;">&lt; Too many requests&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.5.2.5&quot;&gt;&lt;/a&gt;&lt;h3&gt;5.2.5.&amp;nbsp;</span>
+<span style="color:lime;">&gt; (withdrawn)&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;a name=&quot;accessing-protected-resources-using-tokens&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.6&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Accessing protected resources (using tokens)&lt;/h3&gt;</span>
+<span style="color:aqua;">704c708,713</span>
+<span style="color:red;">&lt; &lt;p&gt;If the request from the client per a time period goes beyond the number the authorization server allows, the authorization server shall return a &lt;tt&gt;429 Too Many Requests&lt;/tt&gt; HTTP error response.  </span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;introduction-3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.6.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Introduction&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;The FAPI endpoints are OAuth 2.0 protected resource endpoints that return protected information for the resource owner associated with the submitted access token.</span>
+<span style="color:aqua;">706c715</span>
+<span style="color:red;">&lt; &lt;a name=&quot;openid-provider-discovery-metadata&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;advanced-access-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">708,709c717,723</span>
+<span style="color:red;">&lt; &lt;a name=&quot;rfc.section.7.5&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.5.&amp;nbsp;</span>
+<span style="color:red;">&lt; OpenID Provider Discovery Metadata&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.6.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.2.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Advanced access provisions&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;a name=&quot;protected-resources-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.6.2.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.2.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Protected resources provisions&lt;/h3&gt;</span>
+<span style="color:aqua;">711c725,727</span>
+<span style="color:red;">&lt; &lt;p&gt;If the authorization server has a request object endpoint and supports [OIDD], it shall include the following OpenID Provider Metadata parameter in discovery responses: </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The protected resources supporting this document</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">713d728</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">715c730</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;request_object_endpoint&lt;/tt&gt; : The url of the request object endpoint at which the client can exchange a request object for a request URI.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall support the provisions specified in clause 6.2.1 &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Financial-grade API Security Profile 1.0 - Part 1: Baseline&lt;/a&gt;; and</span>
+<span style="color:aqua;">717c732,747</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall adhere to the requirements in &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;client-provisions&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.6.2.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;6.2.2.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Client provisions&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;The client supporting this document shall support the provisions specified in clause 6.2.2 of &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Financial-grade API Security Profile 1.0 - Part 1: Baseline&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;withdrawn-2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.7&quot;&gt;&lt;/a&gt;&lt;h3&gt;7.&amp;nbsp;</span>
+<span style="color:lime;">&gt; (Withdrawn)&lt;/h3&gt;</span>
+<span style="color:aqua;">729c759</span>
+<span style="color:red;">&lt; &lt;p&gt;As a profile of the OAuth 2.0 Authorization Framework, this specification references the security considerations defined in section 10 of [RFC6749], as well as [RFC6819] - OAuth 2.0 Threat Model and Security Considerations, which details various threats and mitigations.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;As a profile of the OAuth 2.0 Authorization Framework, this specification references the security considerations defined in Section 10 of &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt;, as well as &lt;a href='https://tools.ietf.org/html/rfc6819'&gt;RFC6819&lt;/a&gt; - OAuth 2.0 Threat Model and Security Considerations, which details various threats and mitigations. The security of OAuth 2.0 has been proven formally - under certain assumptions - in &lt;a href='https://arxiv.org/abs/1601.01229'&gt;OAUTHSEC&lt;/a&gt;. A detailed security analysis of FAPI Security Profile 1.0 can be found in &lt;a href='https://arxiv.org/abs/1901.11520'&gt;FAPISEC&lt;/a&gt;.</span>
+<span style="color:aqua;">736c766,770</span>
+<span style="color:red;">&lt; &lt;p&gt;There is no way that the client can find out whether the resource access was granted for the bearer token or holder of key token.  The two differ in the risk profile and the client may want to differentiate them. The protected resources that conforms to this document shall not accept a plain bearer token. They shall only support token bound access tokens via [MTLS] or [OAUTB].  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;There is no way that the client can find out whether the resource access was granted for a bearer or sender-constrained access token.</span>
+<span style="color:lime;">&gt; The two differ in the risk profile and the client may want to differentiate them.</span>
+<span style="color:lime;">&gt; The protected resources that conform to this document differentiate them.</span>
+<span style="color:lime;">&gt; The protected resources that conform to this document shall not accept a bearer access token.</span>
+<span style="color:lime;">&gt; They shall only support sender-constrained access tokens via &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt;.</span>
+<span style="color:aqua;">748c782,787</span>
+<span style="color:red;">&lt; &lt;p&gt;In [RFC6749] and [RFC6750], the endpoints that the authorization server offers are not tightly bound together. There is no notion of authorization server identifier (issuer identifier) and it is not indicated in the authorization response unless the client uses different redirection URI per authorization server. While it is assumed in the OAuth model, it is not explicitly spelled out and thus many clients use the same redirection URI for different authorization servers exposing an attack surface.  Several attacks have been identified and the threats are explained in detail in [RFC6819].  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt; and &lt;a href='https://tools.ietf.org/html/rfc6750'&gt;RFC6750&lt;/a&gt;, the endpoints that the authorization server offers are not tightly bound together.</span>
+<span style="color:lime;">&gt; There is no notion of authorization server identifier (issuer identifier) and it is not indicated in</span>
+<span style="color:lime;">&gt; the authorization response unless the client uses different redirection URI per authorization server.</span>
+<span style="color:lime;">&gt; While it is assumed in the OAuth model, it is not explicitly spelled out and thus many clients</span>
+<span style="color:lime;">&gt; use the same redirection URI for different authorization servers exposing an attack surface.</span>
+<span style="color:lime;">&gt; Several attacks have been identified and the threats are explained in detail in &lt;a href='https://tools.ietf.org/html/rfc6819'&gt;RFC6819&lt;/a&gt;.</span>
+<span style="color:aqua;">755c794,796</span>
+<span style="color:red;">&lt; &lt;p&gt;In this attack, the client developer is social engineered into believing that the token endpoint has changed to the URL that is controlled by the attacker. As the result, the client sends the &lt;tt&gt;code&lt;/tt&gt; and the client secret to the attacker, which will be replayed subsequently.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In this attack, the client developer is socially engineered into believing that the token endpoint has changed</span>
+<span style="color:lime;">&gt; to the URL that is controlled by the attacker. As a result, the client sends the &lt;tt&gt;code&lt;/tt&gt; and the client secret to</span>
+<span style="color:lime;">&gt; the attacker, which will be replayed subsequently.</span>
+<span style="color:aqua;">757c798,799</span>
+<span style="color:red;">&lt; &lt;p&gt;When the FAPI client uses [MTLS] or [OAUTB], the authorization code is bound to the TLS channel, any phished client credentials and authorization codes submitted to the token endpoint cannot be used since the authorization code is bound to a particular TLS channel.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;When the FAPI Security Profile 1.0 client uses &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt;, the client's secret (the private key corresponding to its TLS certificate) is</span>
+<span style="color:lime;">&gt; not exposed to the attacker, which therefore cannot authenticate towards the token endpoint of the authorization server.</span>
+<span style="color:aqua;">764,766c806,817</span>
+<span style="color:red;">&lt; &lt;p&gt;In this attack, the client has registered multiple IdPs and one of them is a rogue IdP that returns the same &lt;tt&gt;client_id&lt;/tt&gt; that belongs to one of the honest IdPs. When a user clicks on a malicious link or visits a compromised site, an authorization request is sent to the rogue IdP. The rogue IdP then redirects the client to the honest IdP that has the same &lt;tt&gt;client_id&lt;/tt&gt;. If the user is already logged on at the honest IdP, then the authentication may be skipped and a code is generated and returned to the client.  Since the client was interacting with the rogue IdP, the code is sent to the rogue IdP's token endpoint. At the point, the attacker has a valid code that can be exchanged for an access token at the honest IdP.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:red;">&lt; &lt;p&gt;This is mitigated by the use of OpenID Connect Hybrid Flow in which the honest IdP's issuer identifier is included as the value of &lt;tt&gt;iss&lt;/tt&gt;. The client then sends the &lt;tt&gt;code&lt;/tt&gt; to the token endpoint that is associated with the issuer identifier thus it will not get to the attacker.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In this attack, the client has registered multiple IdPs and one of them is a rogue IdP that returns the same &lt;tt&gt;client_id&lt;/tt&gt;</span>
+<span style="color:lime;">&gt; that belongs to one of the honest IdPs. When a user clicks on a malicious link or visits a compromised site,</span>
+<span style="color:lime;">&gt; an authorization request is sent to the rogue IdP.</span>
+<span style="color:lime;">&gt; The rogue IdP then redirects the client to the honest IdP that has the same &lt;tt&gt;client_id&lt;/tt&gt;.</span>
+<span style="color:lime;">&gt; If the user is already logged on at the honest IdP,</span>
+<span style="color:lime;">&gt; then the authentication may be skipped and a code is generated and returned to the client.</span>
+<span style="color:lime;">&gt; Since the client was interacting with the rogue IdP, the code is sent to the rogue IdP's token endpoint.</span>
+<span style="color:lime;">&gt; At the point, the attacker has a valid code that can be exchanged for an access token at the honest IdP. See &lt;a href='https://arxiv.org/abs/1601.01229'&gt;OAUTHSEC&lt;/a&gt; for a detailed description of the attack.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;This attack is mitigated by the use of OpenID Connect Hybrid Flow in which the honest IdP's issuer identifier is included as the value of &lt;tt&gt;iss&lt;/tt&gt; or &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt;</span>
+<span style="color:lime;">&gt; where the &lt;tt&gt;iss&lt;/tt&gt; included in the response JWT. On receiving the authorization response, the client compares the &lt;tt&gt;iss&lt;/tt&gt; value from the response with the</span>
+<span style="color:lime;">&gt; issuer URL of the IdP it sent the authorization request to (the rogue IdP). The client detects the conflicting issuer values and aborts the transaction.</span>
+<span style="color:aqua;">768c819</span>
+<span style="color:red;">&lt; &lt;a name=&quot;request-object-endpoint-phishing-resistance&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;removed&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">771c822</span>
+<span style="color:red;">&lt; Request object endpoint phishing resistance&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; (removed)&lt;/h3&gt;</span>
+<span style="color:aqua;">773,774d823</span>
+<span style="color:red;">&lt; &lt;p&gt;An attacker can use social engineering to have the administrator of the client set the request object endpoint to a URL under the attacker's control. In this case, sensitive information included in the request object will be revealed to the attacker. To prevent this, the authorization server should communicate to the client developer the proper change process repeatedly to help client developers to be less susceptible to such social engineering.  </span>
+<span style="color:red;">&lt; &lt;/p&gt;</span>
+<span style="color:aqua;">780c829</span>
+<span style="color:red;">&lt; &lt;p&gt;When the FAPI client uses [MTLS] or [OAUTB], the access token is bound to the TLS channel, it is access token phishing resistant as the phished access tokens cannot be used.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;Various mechanisms in this specification aim at preventing access token phishing, e.g., the requirement of exactly matching redirect URIs and the restriction on response types that do not return access tokens in the front channel. As a second layer of defense, FAPI Security Profile 1.0 Advanced clients use &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; meaning the access token is bound to the client's TLS certificate. Even if an access token is phished, it cannot be used by the attacker. An attacker could try to trick a client under his control to make use of the access token as described in [FAPISEC] (&amp;quot;Cuckoo's Token Attack&amp;quot; and &amp;quot;Access Token Injection with ID Token Replay&amp;quot;), but these attacks additionally require a rogue AS or misconfigured token endpoint.</span>
+<span style="color:aqua;">792c841,842</span>
+<span style="color:red;">&lt; &lt;p&gt;In [RFC6749] the authorization request and responses are not integrity protected. Thus, an attacker can modify them.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt; the authorization request and responses are not integrity protected.</span>
+<span style="color:lime;">&gt; Thus, an attacker can modify them.</span>
+<span style="color:aqua;">799c849,850</span>
+<span style="color:red;">&lt; &lt;p&gt;In [RFC6749], the authorization request is sent as query parameter. Although [RFC6749] mandates the use of TLS, the TLS is terminated in the browser and thus not protected within the browser; as a result an attacker can tamper the authorization request and insert any parameter values.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;In &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt;, the authorization request is sent as a query parameter.</span>
+<span style="color:lime;">&gt; Although &lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt; mandates the use of TLS, the TLS is terminated in the browser and thus not protected within the browser; as a result an attacker can tamper the authorization request and insert any parameter values.</span>
+<span style="color:aqua;">801c852</span>
+<span style="color:red;">&lt; &lt;p&gt;The use of a &lt;tt&gt;request&lt;/tt&gt; object or &lt;tt&gt;request_uri&lt;/tt&gt; in the authorization request will prevent tampering with the request parameters.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The use of a &lt;tt&gt;request&lt;/tt&gt; object or &lt;tt&gt;request_uri&lt;/tt&gt; in the authorization request will prevent tampering with the request parameters.</span>
+<span style="color:aqua;">803c854</span>
+<span style="color:red;">&lt; &lt;p&gt;The IdP confusion attack reported in &lt;a href='https://www.nds.rub.de/media/ei/veroeffentlichungen/2017/01/30/oidc-security.pdf'&gt;SoK: Single Sign-On Security &amp;#8211; An Evaluation of OpenID Connect&lt;/a&gt; is an example of this kind of attack.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The IdP confusion attack reported in &lt;a href='https://www.nds.rub.de/media/ei/veroeffentlichungen/2017/01/30/oidc-security.pdf'&gt;SoK: Single Sign-On Security – An Evaluation of OpenID Connect&lt;/a&gt; is an example of this kind of attack.</span>
+<span style="color:aqua;">810c861,867</span>
+<span style="color:red;">&lt; &lt;p&gt;This attack occurs when the victim and attacker use the same relying party client. The attacker is somehow able to capture the authorization code and state from the victim's authorization response and uses them in his own authorization response.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;This attack occurs when the victim and attacker use the same relying party client. The attacker is somehow able to</span>
+<span style="color:lime;">&gt; capture the authorization code and state from the victim's authorization response and uses them in his own</span>
+<span style="color:lime;">&gt; authorization response.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;This can be mitigated by using OpenID Connect Hybrid Flow where the &lt;tt&gt;c_hash&lt;/tt&gt;, &lt;tt&gt;at_hash&lt;/tt&gt;,</span>
+<span style="color:lime;">&gt; and &lt;tt&gt;s_hash&lt;/tt&gt; can be used to verify the validity of the authorization code, access token,</span>
+<span style="color:lime;">&gt; and state parameters. It can also be mitigated using &lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; by verifying the integrity of the authorization response JWT.</span>
+<span style="color:aqua;">812c869</span>
+<span style="color:red;">&lt; &lt;p&gt;This can be mitigated by using OpenID Connect Hybrid Flow where the &lt;tt&gt;c_hash&lt;/tt&gt;, &lt;tt&gt;at_hash&lt;/tt&gt;, and &lt;tt&gt;s_hash&lt;/tt&gt; can be used to verify the validity of the authorization code, access token, and state parameters. The server can verify that the state is the same as what was stored in the browser session at the time of the authorization request.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The server can verify that the state is the same as what was stored in the browser session at the time of the authorization request.</span>
+<span style="color:aqua;">819c876</span>
+<span style="color:red;">&lt; &lt;p&gt;As confidential information is being exchanged, all interactions shall be encrypted with TLS (HTTPS).  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;As confidential information is being exchanged, all interactions shall be encrypted with TLS (HTTPS).</span>
+<span style="color:aqua;">821c878,880</span>
+<span style="color:red;">&lt; &lt;p&gt;Section 7.1 of Financial-grade API - Part 1: Read Only API Security Profile shall apply, with the following additional requirements: </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;Section 7.1 of &lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Financial-grade API Security Profile 1.0 - Part 1: Baseline&lt;/a&gt; shall apply, with the following additional requirements:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">823d881</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">825c883,884</span>
+<span style="color:red;">&lt; &lt;li&gt;Only the following 4 cipher suites shall be permitted: </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;For TLS versions below 1.3, only the following 4 cipher suites shall be permitted:</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:aqua;">827c886</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;TLS_DHE_RSA_WITH_AES_128_GCM_SHA256&lt;/tt&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;tt&gt;TLS_DHE_RSA_WITH_AES_128_GCM_SHA256&lt;/tt&gt;</span>
+<span style="color:aqua;">829c888</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256&lt;/tt&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;tt&gt;TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256&lt;/tt&gt;</span>
+<span style="color:aqua;">831c890</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;TLS_DHE_RSA_WITH_AES_256_GCM_SHA384&lt;/tt&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;tt&gt;TLS_DHE_RSA_WITH_AES_256_GCM_SHA384&lt;/tt&gt;</span>
+<span style="color:aqua;">833c892</span>
+<span style="color:red;">&lt; &lt;li&gt;&lt;tt&gt;TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384&lt;/tt&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;tt&gt;TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384&lt;/tt&gt;</span>
+<span style="color:aqua;">835c894</span>
+<span style="color:red;">&lt; &lt;/ul&gt; </span>
+---
+<span style="color:lime;">&gt; &lt;/ul&gt;</span>
+<span style="color:aqua;">837c896,897</span>
+<span style="color:red;">&lt; &lt;li&gt;For the &lt;tt&gt;authorization_endpoint&lt;/tt&gt;, the authorisation server MAY allow additional cipher suites that are permitted by the latest version of [BCP195], if necessary to allow sufficient interoperability with users' web browsers.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;For the &lt;tt&gt;authorization_endpoint&lt;/tt&gt;, the authorization server MAY allow additional cipher suites that are permitted by the latest version of &lt;a href='https://tools.ietf.org/html/bcp195'&gt;BCP195&lt;/a&gt;, if necessary to allow sufficient interoperability with users' web browsers or are required by local regulations.</span>
+<span style="color:lime;">&gt; &lt;strong&gt;NOTE:&lt;/strong&gt; Permitted cipher suites are those that &lt;a href='https://tools.ietf.org/html/bcp195'&gt;BCP195&lt;/a&gt; does not explicity say MUST NOT use.</span>
+<span style="color:aqua;">839c899,901</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;When using the &lt;tt&gt;TLS_DHE_RSA_WITH_AES_128_GCM_SHA256&lt;/tt&gt; or &lt;tt&gt;TLS_DHE_RSA_WITH_AES_256_GCM_SHA384&lt;/tt&gt; cipher suites, key lengths of at least 2048 bits are required.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">841c903,904</span>
+<span style="color:red;">&lt; &lt;a name=&quot;jws-algorithm-considerations&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;algorithm-considerations&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:aqua;">844c907</span>
+<span style="color:red;">&lt; JWS algorithm considerations&lt;/h3&gt;</span>
+---
+<span style="color:lime;">&gt; Algorithm considerations&lt;/h3&gt;</span>
+<span style="color:aqua;">846c909,911</span>
+<span style="color:red;">&lt; &lt;p&gt;Both clients and authorisation servers: </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;For JWS, both clients and authorization servers</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">848d912</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">850c914</span>
+<span style="color:red;">&lt; &lt;li&gt;shall use &lt;tt&gt;PS256&lt;/tt&gt; or &lt;tt&gt;ES256&lt;/tt&gt; algorithms; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall use &lt;tt&gt;PS256&lt;/tt&gt; or &lt;tt&gt;ES256&lt;/tt&gt; algorithms;</span>
+<span style="color:aqua;">852c916</span>
+<span style="color:red;">&lt; &lt;li&gt;should not use algorithms that use RSASSA-PKCS1-v1_5 (e.g.  &lt;tt&gt;RS256&lt;/tt&gt;); </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;should not use algorithms that use RSASSA-PKCS1-v1_5 (e.g. &lt;tt&gt;RS256&lt;/tt&gt;); and</span>
+<span style="color:aqua;">854c918</span>
+<span style="color:red;">&lt; &lt;li&gt;shall not use &lt;tt&gt;none&lt;/tt&gt;; </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;shall not use &lt;tt&gt;none&lt;/tt&gt;.</span>
+<span style="color:aqua;">856c920</span>
+<span style="color:red;">&lt; &lt;/ol&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:aqua;">857a922,937</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;encryption-algorithm-considerations&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.8.6.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;8.6.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Encryption algorithm considerations&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;For JWE, both clients and authorization servers</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;shall not use the &lt;tt&gt;RSA1_5&lt;/tt&gt; algorithm.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">863c943,997</span>
+<span style="color:red;">&lt; &lt;p&gt;To achieve the full security benefits, it is important the implementation of this specification, and the underlying OpenID Connect and OAuth specifications, are both complete and correct.  </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;To achieve the full security benefits, it is important the implementation of this specification, and the underlying OpenID Connect and OAuth specifications, are both complete and correct.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The OpenID Foundation provides tools that can be used to confirm that an implementation is correct:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://openid.net/certification/'&gt;https://openid.net/certification/&lt;/a&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The OpenID Foundation maintains a list of certified implementations:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;a href='https://openid.net/developers/certified/'&gt;https://openid.net/developers/certified/&lt;/a&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;Deployments that use this specification should use a certified implementation.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;session-fixation&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.8.8&quot;&gt;&lt;/a&gt;&lt;h3&gt;8.8.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Session Fixation&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;An attacker could prepare an authorization request URL and trick a victim</span>
+<span style="color:lime;">&gt; into authorizing access to the requested resources, e.g. by sending the URL</span>
+<span style="color:lime;">&gt; via e-Mail or utilizing it on a fake site.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;OAuth 2.0 prevents this kind of attack since the process for obtaining the</span>
+<span style="color:lime;">&gt; access token (code exchange, CSRF protection etc.) is designed in a way that the</span>
+<span style="color:lime;">&gt; attacker will be unable to obtain and use the token as long as it does not</span>
+<span style="color:lime;">&gt; control the victim's browser.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;However, if the API allows execution of any privileged action in the course of</span>
+<span style="color:lime;">&gt; the authorization process before the access token is issued, these controls are</span>
+<span style="color:lime;">&gt; rendered ineffective. Implementers of this specification therefore shall ensure</span>
+<span style="color:lime;">&gt; any action is executed using the access token issued by the authorization</span>
+<span style="color:lime;">&gt; process.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;For example, payments shall not be executed in the authorization process but</span>
+<span style="color:lime;">&gt; after the Client has exchanged the authorization code for a token and sent an</span>
+<span style="color:lime;">&gt; &amp;quot;execute payment&amp;quot; request with the access token to a protected endpoint.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;jwks-uris&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.8.9&quot;&gt;&lt;/a&gt;&lt;h3&gt;8.9.&amp;nbsp;</span>
+<span style="color:lime;">&gt; JWKS URIs&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;This profile requires both Clients and Authorization Servers to verify payloads</span>
+<span style="color:lime;">&gt; with keys from the other party. The AS verifies request objects and &lt;tt&gt;private_key_jwt&lt;/tt&gt;</span>
+<span style="color:lime;">&gt; assertions. The Client verifies ID Tokens and authorization response JWTs. For AS's</span>
+<span style="color:lime;">&gt; this profile strongly recommends the use of JWKS URI endpoints to distribute</span>
+<span style="color:lime;">&gt; public keys. For Clients this profile recommends either the use of JWKS URI endpoints</span>
+<span style="color:lime;">&gt; or the use of the &lt;tt&gt;jwks&lt;/tt&gt; parameter in combination with &lt;a href='https://tools.ietf.org/html/rfc7591'&gt;RFC7591&lt;/a&gt;</span>
+<span style="color:lime;">&gt; and &lt;a href='https://tools.ietf.org/html/rfc7592'&gt;RFC7592&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The definition of the AS &lt;tt&gt;jwks_uri&lt;/tt&gt; can be found in &lt;a href='https://tools.ietf.org/html/rfc8414'&gt;RFC8414&lt;/a&gt;, while the definition</span>
+<span style="color:lime;">&gt; of the Client &lt;tt&gt;jwks_uri&lt;/tt&gt; can be found in &lt;a href='https://tools.ietf.org/html/rfc7591'&gt;RFC7591&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;In addition, this profile</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">865c999,1007</span>
+<span style="color:red;">&lt; &lt;p&gt;The OpenID Foundation provides tools that can be used to confirm that an implementation is correct: </span>
+---
+<span style="color:lime;">&gt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;requires that &lt;tt&gt;jwks_uri&lt;/tt&gt; endpoints shall be served over TLS;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;recommends that JOSE headers for &lt;tt&gt;x5u&lt;/tt&gt; and &lt;tt&gt;jku&lt;/tt&gt; should not be used; and</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;recommends that the JWK set does not contain multiple keys with the same &lt;tt&gt;kid&lt;/tt&gt;.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:aqua;">867c1009,1020</span>
+<span style="color:red;">&lt; &lt;p&gt;https://openid.net/certification/ </span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;multiple-clients-sharing-the-same-key&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.8.10&quot;&gt;&lt;/a&gt;&lt;h3&gt;8.10.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Multiple clients sharing the same key&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;The use of &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; for client authentication and sender constraining access tokens brings</span>
+<span style="color:lime;">&gt; significant security benefits over the use of shared secrets. However in some deployments</span>
+<span style="color:lime;">&gt; the certificates used for &lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; are issued by a Certificate Authority at an organization</span>
+<span style="color:lime;">&gt; level rather than a client level. In such situations it may be common for an organization</span>
+<span style="color:lime;">&gt; with multiple clients to use the same certificates (or certificates with the same DN)</span>
+<span style="color:lime;">&gt; across clients. Implementers should be aware that such sharing means that a compromise</span>
+<span style="color:lime;">&gt; of any one client, would result in a compromise of all clients sharing the same key.</span>
+<span style="color:aqua;">869c1022,1031</span>
+<span style="color:red;">&lt; &lt;p&gt;The OpenID Foundation maintains a list of certified implementations: </span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;duplicate-key-identifiers&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.8.11&quot;&gt;&lt;/a&gt;&lt;h3&gt;8.11.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Duplicate Key Identifiers&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;JWK sets should not contain multiple keys with the same &lt;tt&gt;kid&lt;/tt&gt;. However, to increase</span>
+<span style="color:lime;">&gt; interoperability when there are multiple keys with the same &lt;tt&gt;kid&lt;/tt&gt;,  the verifier shall</span>
+<span style="color:lime;">&gt; consider other JWK attributes, such as &lt;tt&gt;kty&lt;/tt&gt;, &lt;tt&gt;use&lt;/tt&gt;, &lt;tt&gt;alg&lt;/tt&gt;, etc., when selecting the</span>
+<span style="color:lime;">&gt; verification key for the particular JWS message. For example, the following algorithm</span>
+<span style="color:lime;">&gt; could be used in selecting which key to use to verify a message signature:</span>
+<span style="color:aqua;">871c1033</span>
+<span style="color:red;">&lt; &lt;p&gt;https://openid.net/developers/certified/ </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">873c1035,1043</span>
+<span style="color:red;">&lt; &lt;p&gt;Deployments that use this specification should use a certified implementation.  </span>
+---
+<span style="color:lime;">&gt; &lt;ol class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;find keys with a &lt;tt&gt;kid&lt;/tt&gt; that matches the &lt;tt&gt;kid&lt;/tt&gt; in the JOSE header;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;if a single key is found, use that key;</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;if multiple keys are found, then the verifier should iterate through the keys until a key is found that has a matching &lt;tt&gt;alg&lt;/tt&gt;, &lt;tt&gt;use&lt;/tt&gt;, &lt;tt&gt;kty&lt;/tt&gt;, or &lt;tt&gt;crv&lt;/tt&gt; that corresponds to the message being verified.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ol&gt;&lt;p&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:aqua;">880c1050,1068</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;a name=&quot;introduction-7&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.9.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;9.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Introduction&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;There are many factors to be considered in terms of privacy</span>
+<span style="color:lime;">&gt; when implementing this document. However, since this document</span>
+<span style="color:lime;">&gt; is a profile of OAuth and OpenID Connect, all of them</span>
+<span style="color:lime;">&gt; are generic and applies to OAuth or OpenID Connect and</span>
+<span style="color:lime;">&gt; not specific to this document. Implementers are advised to</span>
+<span style="color:lime;">&gt; perform a thorough privacy impact assessment and manage identified risks appropriately.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Implementers can consult documents like</span>
+<span style="color:lime;">&gt; &lt;a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/c045123_ISO_IEC_29100_2011.zip'&gt;ISO29100&lt;/a&gt; and [ISO29134] for this purpose.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;Privacy threats to OAuth and OpenID Connect implementations include the following:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">882c1070</span>
+<span style="color:red;">&lt; &lt;li&gt;If the client is to be used by a single user, the client certificate will provide the means for the websites that belong to different administrative domains to collude and correlate the user's access. For this reason, public clients that reside on a user's terminal should avoid [MTLS] and use [OAUTB] instead.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(Inappropriate privacy notice) A privacy notice provided at a &lt;tt&gt;policy_url&lt;/tt&gt; or by other means can be inappropriate.</span>
+<span style="color:aqua;">884c1072</span>
+<span style="color:red;">&lt; &lt;li&gt;When claims related to the subject are returned in the ID Token in the front channel, implementations should consider encrypting the ID Token to lower the risk of personal information disclosure.  </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(Inadequate choice) Providing a consent screen without adequate choices does not form consent.</span>
+<span style="color:aqua;">886c1074,1104</span>
+<span style="color:red;">&lt; &lt;/ul&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;(Misuse of data) An AS, RS or Client can potentially use the data not according to the purpose that was agreed.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Collection minimization violation) Clients asking for more data than it absolutely needs to fulfil the purpose is violating the collection minimization principle.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Unsolicited personal data from the Resource) Some bad resource server implementations may return more data than was requested. If the data is personal data, then this would be a  violation of privacy principles.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Data minimization violation) Any process that is processing more data than it needs is violating the data minimization principle.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(RP tracking by AS/OP) AS/OP identifying what data is being provided to which Client/RP.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(User tracking by RPs) Two or more RPs correlating access tokens or ID Tokens to track users.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(RP misidentification by User at AS) User misunderstands who the RP is due to a confusing representation of the RP at</span>
+<span style="color:lime;">&gt; the AS's authorization page.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Mismatch between User’s understanding or what RP is displaying to a user and the actual authorization request). To enhance</span>
+<span style="color:lime;">&gt; the trust of the ecosystem, best practice is for the AS to make clear what is included in the authorisation request (for example,</span>
+<span style="color:lime;">&gt; what data will be released to the RP).</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Attacker observing personal data in authorization request) Authorization request might contain personal data. This can be observed by an attacker.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Attacker observing personal data in authorization endpoint response) In some frameworks, even state is deemed personal data.</span>
+<span style="color:lime;">&gt; This can be observed by an attacker through various means.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Data leak from AS) AS stores personal data. If AS is compromised, these data can leak or be modified.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Data leak from Resource) Some resource servers (RS) store personal data. If a RS is compromised, these data can leak or be modified.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;(Data leak from Clients) Some clients store personal data. If the client is compromised, these data can leak or be modified.</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ul&gt;&lt;p&gt;</span>
+<span style="color:aqua;">887a1106,1111</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;These can be mitigated by choosing appropriate options in OAuth or OpenID, or by introducing some operational rules.</span>
+<span style="color:lime;">&gt; For example, &amp;quot;Attacker observing personal data in authorization request&amp;quot; can be mitigated by either using authorization request by reference</span>
+<span style="color:lime;">&gt; using &lt;tt&gt;request_uri&lt;/tt&gt; or by encrypting the request object.</span>
+<span style="color:lime;">&gt; Similarly, &amp;quot;Attacker observing personal data in authorization endpoint response&amp;quot; can be mitigated by encrypting the ID Token or JARM response.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">893c1117,1119</span>
+<span style="color:red;">&lt; &lt;p&gt;The following people contributed to this document: </span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;The following people contributed to this document:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:aqua;">895d1120</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+<span style="color:aqua;">897c1122</span>
+<span style="color:red;">&lt; &lt;li&gt;Nat Sakimura (Nomura Research Institute) -- Chair, Editor </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Nat Sakimura (NAT Consulting) -- Chair, Editor</span>
+<span style="color:aqua;">899c1124</span>
+<span style="color:red;">&lt; &lt;li&gt;Anoop Saxana (Intuit) -- Co-chair, FS-ISAC Liaison </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Anoop Saxena (Intuit) -- Co-chair, FS-ISAC Liaison</span>
+<span style="color:aqua;">901c1126</span>
+<span style="color:red;">&lt; &lt;li&gt;Anthony Nadalin (Microsoft) -- Co-chair, SC 27 Liaison </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Anthony Nadalin (Microsoft) -- Co-chair, SC 27 Liaison</span>
+<span style="color:aqua;">903c1128</span>
+<span style="color:red;">&lt; &lt;li&gt;Edmund Jay (Illumila) -- Co-editor </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Edmund Jay (Illumila) -- Co-editor</span>
+<span style="color:aqua;">905c1130</span>
+<span style="color:red;">&lt; &lt;li&gt;Dave Tonge (Moneyhub) -- Co-chair, UK Implementation Entity Liaison </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Dave Tonge (Moneyhub) -- Co-chair, UK Implementation Entity Liaison</span>
+<span style="color:aqua;">907c1132</span>
+<span style="color:red;">&lt; &lt;li&gt;Paul A. Grassi (NIST) -- X9 Liaison </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Paul A. Grassi (NIST) -- X9 Liaison</span>
+<span style="color:aqua;">909c1134</span>
+<span style="color:red;">&lt; &lt;li&gt;Joseph Heenan (Authlete) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Joseph Heenan (Authlete)</span>
+<span style="color:aqua;">911c1136</span>
+<span style="color:red;">&lt; &lt;li&gt;Sascha H. Preibisch (CA) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Sascha H. Preibisch (CA)</span>
+<span style="color:aqua;">913c1138</span>
+<span style="color:red;">&lt; &lt;li&gt;John Bradley (Yubico) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Henrik Biering (Peercraft)</span>
+<span style="color:aqua;">915c1140</span>
+<span style="color:red;">&lt; &lt;li&gt;Henrik Biering (Peercraft) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Anton Taborszky (Deutsche Telecom)</span>
+<span style="color:aqua;">917c1142</span>
+<span style="color:red;">&lt; &lt;li&gt;Tom Jones (Independent) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;John Bradley (Yubico)</span>
+<span style="color:aqua;">919c1144</span>
+<span style="color:red;">&lt; &lt;li&gt;Axel Nennker (Deutsche Telekom) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Tom Jones (Independent)</span>
+<span style="color:aqua;">921c1146</span>
+<span style="color:red;">&lt; &lt;li&gt;Torsten Lodderstedt (YES) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Axel Nennker (Deutsche Telekom)</span>
+<span style="color:aqua;">923c1148</span>
+<span style="color:red;">&lt; &lt;li&gt;Ralph Bragg (Raidiam) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Daniel Fett (yes.com)</span>
+<span style="color:aqua;">925c1150</span>
+<span style="color:red;">&lt; &lt;li&gt;Brian Campbell (Ping Identity) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Torsten Lodderstedt (yes.com)</span>
+<span style="color:aqua;">927c1152,1180</span>
+<span style="color:red;">&lt; &lt;/ul&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;Ralph Bragg (Raidiam)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Brian Campbell (Ping Identity)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Dima Postnikov (Independent)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Stuart Low (Biza.io)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Takahiko Kawasaki (Authlete)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Vladimir Dzhuvinov (Connect2Id)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Chris Michael (Open Banking)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Freddi Gyara (Open Banking)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Rob Otto (Ping Identity)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Francis Pouatcha (adorsys)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Kosuke Koiwai (KDDI)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Bjorn Hjelm (Verizon)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Lukasz Jaromin (Cloudentity)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;James Manger</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ul&gt;&lt;p&gt;</span>
+<span style="color:aqua;">928a1182</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">934c1188,1189</span>
+<span style="color:red;">&lt; &lt;p&gt;&lt;/p&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">936c1191</span>
+<span style="color:red;">&lt; &lt;li&gt;[ISODIR2] ISO/IEC Directives Part 2 </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://openid.net/specs/openid-financial-api-part-1-1_0.html'&gt;Part1&lt;/a&gt; Financial-grade API Security Profile 1.0 - Part 1: Baseline</span>
+<span style="color:aqua;">938c1193</span>
+<span style="color:red;">&lt; &lt;li&gt;[RFC6749] The OAuth 2.0 Authorization Framework </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://www.iso.org/sites/directives/current/part2/index.xhtml'&gt;ISODIR2&lt;/a&gt; ISO/IEC Directives Part 2</span>
+<span style="color:aqua;">940c1195</span>
+<span style="color:red;">&lt; &lt;li&gt;[RFC6750] The OAuth 2.0 Authorization Framework: Bearer Token Usage </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/c045123_ISO_IEC_29100_2011.zip'&gt;ISO29100&lt;/a&gt; ISO/IEC 29100 Information technology — Security techniques — Privacy framework</span>
+<span style="color:aqua;">942c1197</span>
+<span style="color:red;">&lt; &lt;li&gt;[RFC7636] Proof Key for Code Exchange by OAuth Public Clients </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;[ISO29134] ISO/IEC 29134 Information technology — Security techniques — Guidelines for privacy impact assessment</span>
+<span style="color:aqua;">944c1199</span>
+<span style="color:red;">&lt; &lt;li&gt;[RFC6819] OAuth 2.0 Threat Model and Security Considerations </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;[ISO29184] ISO/IEC 29184 Information technology — Online privacy notices and consent</span>
+<span style="color:aqua;">946c1201</span>
+<span style="color:red;">&lt; &lt;li&gt;[RFC7519] JSON Web Token (JWT) </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc6749'&gt;RFC6749&lt;/a&gt; The OAuth 2.0 Authorization Framework</span>
+<span style="color:aqua;">948c1203</span>
+<span style="color:red;">&lt; &lt;li&gt;[OIDC] OpenID Connect Core 1.0 incorporating errata set 1 </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc6750'&gt;RFC6750&lt;/a&gt; The OAuth 2.0 Authorization Framework: Bearer Token Usage</span>
+<span style="color:aqua;">950c1205</span>
+<span style="color:red;">&lt; &lt;li&gt;[OIDD] OpenID Connect Discovery 1.0 incorporating errata set 1 </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc7636'&gt;RFC7636&lt;/a&gt; Proof Key for Code Exchange by OAuth Public Clients</span>
+<span style="color:aqua;">952c1207</span>
+<span style="color:red;">&lt; &lt;li&gt;[OAUTB] OAuth 2.0 Token Binding </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc6819'&gt;RFC6819&lt;/a&gt; OAuth 2.0 Threat Model and Security Considerations</span>
+<span style="color:aqua;">954c1209</span>
+<span style="color:red;">&lt; &lt;li&gt;[MTLS] OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc7519'&gt;RFC7519&lt;/a&gt; JSON Web Token (JWT)</span>
+<span style="color:aqua;">956c1211</span>
+<span style="color:red;">&lt; &lt;li&gt;[JARM] Financial Services &amp;#8211; Financial-grade API: JWT Secured Authorization Response Mode for OAuth 2.0 </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc7591'&gt;RFC7591&lt;/a&gt; OAuth 2.0 Dynamic Client Registration Protocol</span>
+<span style="color:aqua;">958c1213</span>
+<span style="color:red;">&lt; &lt;li&gt;[SoK] Mainka, C., Mladenov, V., Schwenk, J., and T. Wich: SoK: Single Sign-On Security &amp;#8211; An Evaluation of OpenID Connect </span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc7592'&gt;RFC7592&lt;/a&gt; OAuth 2.0 Dynamic Client Registration Management Protocol</span>
+<span style="color:aqua;">960c1215,1269</span>
+<span style="color:red;">&lt; &lt;/ul&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc8414'&gt;RFC8414&lt;/a&gt; OAuth 2.0 Authorization Server Metadata</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='http://openid.net/specs/openid-connect-core-1_0.html'&gt;OIDC&lt;/a&gt; OpenID Connect Core 1.0 incorporating errata set 1</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='http://openid.net/specs/openid-connect-discovery-1_0.html'&gt;OIDD&lt;/a&gt; OpenID Connect Discovery 1.0 incorporating errata set 1</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/bcp195'&gt;BCP195&lt;/a&gt; Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/rfc8705'&gt;MTLS&lt;/a&gt; OAuth 2.0 Mutual TLS Client Authentication and Certificate Bound Access Tokens</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md'&gt;JARM&lt;/a&gt; Financial-grade API: JWT Secured Authorization Response Mode for OAuth 2.0</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-par'&gt;PAR&lt;/a&gt; OAuth 2.0 Pushed Authorization Requests</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://tools.ietf.org/html/draft-ietf-oauth-jwsreq'&gt;JAR&lt;/a&gt; OAuth 2.0 JWT Secured Authorization Request</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://www.nds.ruhr-uni-bochum.de/media/ei/veroeffentlichungen/2017/01/30/oidc-security.pdf'&gt;SoK&lt;/a&gt; Mainka, C., Mladenov, V., Schwenk, J., and T. Wich: SoK: Single Sign-On Security – An Evaluation of OpenID Connect</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://arxiv.org/abs/1901.11520'&gt;FAPISEC&lt;/a&gt; Fett, D., Hosseyni, P., Kuesters, R.: An Extensive Formal Security Analysis of the OpenID Financial-grade API</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;&lt;a href='https://arxiv.org/abs/1601.01229'&gt;OAUTHSEC&lt;/a&gt; Fett, D., Kuesters, R., Schmitz, G.: A Comprehensive Formal Security Analysis of OAuth 2.0</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ul&gt;&lt;p&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;iana-considerations&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.12&quot;&gt;&lt;/a&gt;&lt;h3&gt;12.&amp;nbsp;</span>
+<span style="color:lime;">&gt; IANA Considerations&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;a name=&quot;additions-to-jwt-claims-registry&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.12.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;12.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Additions to JWT Claims Registry&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;This specification adds the following values to the &amp;quot;JSON Web Token Claims&amp;quot; registry</span>
+<span style="color:lime;">&gt; established by &lt;a href='https://tools.ietf.org/html/rfc7519'&gt;RFC7519&lt;/a&gt;.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;registry-contents&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.12.1.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;12.1.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Registry Contents&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;ul class=&quot;text&quot;&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Claim name: s_hash</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Claim Description: State hash value</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Change Controller: OpenID Foundation Financial-Grade API Working Group - openid-specs-fapi@lists.openid.net</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;li&gt;Reference: Section 5 of [[ this specification ]]</span>
+<span style="color:lime;">&gt; &lt;/li&gt;</span>
+<span style="color:lime;">&gt; &lt;/ul&gt;&lt;p&gt;</span>
+<span style="color:aqua;">961a1271,1475</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;examples&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.A&quot;&gt;&lt;/a&gt;&lt;h3&gt;Appendix A.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Examples&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;The following are non-normative examples of various objects compliant with this specification, with line wraps within values for display purposes only.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The examples signed by the client may be verified with the following JWK:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;kty&quot;: &quot;RSA&quot;,</span>
+<span style="color:lime;">&gt;   &quot;e&quot;: &quot;AQAB&quot;,</span>
+<span style="color:lime;">&gt;   &quot;use&quot;: &quot;sig&quot;,</span>
+<span style="color:lime;">&gt;   &quot;kid&quot;: &quot;client-2020-08-28&quot;,</span>
+<span style="color:lime;">&gt;   &quot;alg&quot;: &quot;PS256&quot;,</span>
+<span style="color:lime;">&gt;   &quot;n&quot;: &quot;i0Ybm4TJyErnD5FIs-6sgAdtP6fG631FXbe5gcOGYgn9aC2BS2h9Ah5cRGQpr3aLLVKCRWU6</span>
+<span style="color:lime;">&gt; HRfnGseUBOejo57vI-kgab2YsQJSwedAxvtKrIrJlgKn1gTXMNsz-NQd1LyLSV50qJVEy5l9RtsdDzOV</span>
+<span style="color:lime;">&gt; 8_kLCbzroEL3rc00iqVZBcQiYm8Bx4z0G8LYZ4oMJAG462Mf_znJkKXsuSIH735xnSmx74CC8TOe6G-V</span>
+<span style="color:lime;">&gt; 0Wi_wVSJ9bHPphSki_kWUtjVGcnyjYuQVE0LRj3qrGPAX9bsVKSqs8T9AM41TB9oV5Sjz5YhggwICvvC</span>
+<span style="color:lime;">&gt; CGwil9qhUoQRkeXtWuGCfvCSeTdawQ&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The examples signed by the server may be verified with the following JWK:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;kty&quot;: &quot;RSA&quot;,</span>
+<span style="color:lime;">&gt;   &quot;e&quot;: &quot;AQAB&quot;,</span>
+<span style="color:lime;">&gt;   &quot;use&quot;: &quot;sig&quot;,</span>
+<span style="color:lime;">&gt;   &quot;kid&quot;: &quot;server-2020-08-28&quot;,</span>
+<span style="color:lime;">&gt;   &quot;alg&quot;: &quot;PS256&quot;,</span>
+<span style="color:lime;">&gt;   &quot;n&quot;: &quot;pz6g0h7Cu63SHE8_Ib4l3hft8XuptZ-Or7v_j1EkCboyAEn_ZCuBrQOmpUIoPKrA0JNWK_fF</span>
+<span style="color:lime;">&gt; eZ2q1_26Gvn3E4dQlcOWpiWkKmxAhYCWnNDv3urVgldDp_kw0Dx2H8yn9tmFW28E_WvrZRwHEF5Czigb</span>
+<span style="color:lime;">&gt; xlmFIrkniMHRzjyYQTHRU0gW3DRV9MrQQrmP71McvfLPeMBPPgsHgLo7KmUBDoUjsgnwgycEOWPm8MWJ</span>
+<span style="color:lime;">&gt; 13dpTsVnoWNIFQqVNz1L5pRU3Uoknl0MGoE6v0M9lfgQgzxIX9gSB1VGp5zZRcsnZGU3MFpwBhOWwiCU</span>
+<span style="color:lime;">&gt; wqztoX0H5P0g7OWocspHrDn6YOgxHw&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;example-request-object&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.A.1&quot;&gt;&lt;/a&gt;&lt;h3&gt;A.1.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example request object&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; &lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;eyJraWQiOiJjbGllbnQtMjAyMC0wOC0yOCIsImFsZyI6IlBTMjU2In0.eyJhdWQiOiJodHRwczpcL1wv</span>
+<span style="color:lime;">&gt; ZmFwaS1hcy5leGFtcGxlLmNvbVwvIiwibmJmIjoxNTk0MTQwMDMwLCJzY29wZSI6Im9wZW5pZCBwYXlt</span>
+<span style="color:lime;">&gt; ZW50cyIsImlzcyI6IjUyNDgwNzU0MDUzIiwicmVzcG9uc2VfdHlwZSI6ImNvZGUgaWRfdG9rZW4iLCJy</span>
+<span style="color:lime;">&gt; ZWRpcmVjdF91cmkiOiJodHRwczpcL1wvZmFwaS1jbGllbnQuZXhhbXBsZS5vcmdcL2ZhcGktYXMtY2Fs</span>
+<span style="color:lime;">&gt; bGJhY2siLCJzdGF0ZSI6IlZnU1VJRW5mbG5EeFRlMXZBdHI1NG8iLCJleHAiOjE1OTQxNDAzOTAsIm5v</span>
+<span style="color:lime;">&gt; bmNlIjoiN3hEQ0h2aXVQTVNYSklpZ2tIT2NEaSIsImNsaWVudF9pZCI6IjUyNDgwNzU0MDUzIn0.VSo5</span>
+<span style="color:lime;">&gt; VWN3lOiCry2KItU5RI62i9KG2KQlBdpsDT0DI0vSMK-q85aJZvsMiHBNBv1PQ9qAWmU3oJS-yi-Ks_lD</span>
+<span style="color:lime;">&gt; lP6lIMFrOL_Ym3VxJ_SM6lrc8JSZH_nNx6sqxPpeMQTF4SFPx30vHrlBVJaCGfnCMVC6Nbzwef0vOEpN</span>
+<span style="color:lime;">&gt; ixZT-9cwa3dZ-pddAyt58dKGxS76NR_wxdBaSKN0AfPoui0HSSaAkIdRds21NKIOf4r9BjV5lr1Oi-4I</span>
+<span style="color:lime;">&gt; JUQp-xdeLCPD3fD6Y-TJbHFToJ4FsQzglN83BfNYaeXV_yTtK7yeSw2R-ee0b3uMV0iD1ee77b7bbcjR</span>
+<span style="color:lime;">&gt; 3msLISFjM40d9Pv8qQ</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;which when decoded has the following body:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;aud&quot;: &quot;https://fapi-as.example.com/&quot;,</span>
+<span style="color:lime;">&gt;   &quot;nbf&quot;: 1594140030,</span>
+<span style="color:lime;">&gt;   &quot;scope&quot;: &quot;openid payments&quot;,</span>
+<span style="color:lime;">&gt;   &quot;iss&quot;: &quot;52480754053&quot;,</span>
+<span style="color:lime;">&gt;   &quot;response_type&quot;: &quot;code id_token&quot;,</span>
+<span style="color:lime;">&gt;   &quot;redirect_uri&quot;: &quot;https://fapi-client.example.org/fapi-as-callback&quot;,</span>
+<span style="color:lime;">&gt;   &quot;state&quot;: &quot;VgSUIEnflnDxTe1vAtr54o&quot;,</span>
+<span style="color:lime;">&gt;   &quot;exp&quot;: 1594140390,</span>
+<span style="color:lime;">&gt;   &quot;nonce&quot;: &quot;7xDCHviuPMSXJIigkHOcDi&quot;,</span>
+<span style="color:lime;">&gt;   &quot;client_id&quot;: &quot;52480754053&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;example-signed-id-token-for-authorization-endpoint-response&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.A.2&quot;&gt;&lt;/a&gt;&lt;h3&gt;A.2.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example signed id_token for authorization endpoint response&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; &lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;eyJraWQiOiJzZXJ2ZXItMjAyMC0wOC0yOCIsImFsZyI6IlBTMjU2In0.eyJzdWIiOiIxMDAxIiwiYXVk</span>
+<span style="color:lime;">&gt; IjoiNTI0ODA3NTQwNTMiLCJjX2hhc2giOiJRUjJ6dWNmWVpraUxyYktCS0RWcGdRIiwic19oYXNoIjoi</span>
+<span style="color:lime;">&gt; OXM2Q0JiT3hpS0U2NWQ5LVFyMFFJUSIsImF1dGhfdGltZSI6MTU5NDE0MDA5MCwiaXNzIjoiaHR0cHM6</span>
+<span style="color:lime;">&gt; XC9cL2ZhcGktYXMuZXhhbXBsZS5jb21cLyIsImV4cCI6MTU5NDE0MDM5MCwiaWF0IjoxNTk0MTQwMDkw</span>
+<span style="color:lime;">&gt; LCJub25jZSI6Ijd4RENIdml1UE1TWEpJaWdrSE9jRGkifQ.Z-LpQRuYoiTqEBfVfctn-e6bLwSMqi8wA</span>
+<span style="color:lime;">&gt; 3TuARGW6GyD05gPF6TVlUwHgJnSUlhETrzhEUAKKiyGDxGspuBU0OAnB4qepgrEBizk980NjCEVXNkog</span>
+<span style="color:lime;">&gt; v0ANv9VX_01Lcl0d_6_c-AUjwDSuKY8rDfvggKSJFzRilbQuB8b1drAIAZpc6kMObY3PcQZ_vKTMsQ8l</span>
+<span style="color:lime;">&gt; HCuXXRuAo__0xRE6l_iiRCos_940GrJr0Sih9uTQpnCWBoEab1dC0l-vUp4lP0TQRKNpDoPoMOj10KJA</span>
+<span style="color:lime;">&gt; 8T8pKhjZ8TKM-wo9A4qH2LBgUIYJyjd8bWfKTZxCNmLRzRr-_JBG7fF_fpOUhGT_DhzMw</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;which when decoded has the following body:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;sub&quot;: &quot;1001&quot;,</span>
+<span style="color:lime;">&gt;   &quot;aud&quot;: &quot;52480754053&quot;,</span>
+<span style="color:lime;">&gt;   &quot;c_hash&quot;: &quot;QR2zucfYZkiLrbKBKDVpgQ&quot;,</span>
+<span style="color:lime;">&gt;   &quot;s_hash&quot;: &quot;9s6CBbOxiKE65d9-Qr0QIQ&quot;,</span>
+<span style="color:lime;">&gt;   &quot;auth_time&quot;: 1594140090,</span>
+<span style="color:lime;">&gt;   &quot;iss&quot;: &quot;https://fapi-as.example.com/&quot;,</span>
+<span style="color:lime;">&gt;   &quot;exp&quot;: 1594140390,</span>
+<span style="color:lime;">&gt;   &quot;iat&quot;: 1594140090,</span>
+<span style="color:lime;">&gt;   &quot;nonce&quot;: &quot;7xDCHviuPMSXJIigkHOcDi&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;example-signed-and-encrypted-id-token-for-authorization-endpoint-response&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.A.3&quot;&gt;&lt;/a&gt;&lt;h3&gt;A.3.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example signed and encrypted id_token for authorization endpoint response&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; &lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;eyJraWQiOiJjbGllbnQtZW5jLTIwMjAtMDgtMjgiLCJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwi</span>
+<span style="color:lime;">&gt; YWxnIjoiUlNBLU9BRVAtMjU2In0.LFvxFCzJ-1NRl48pXTUs8f2axm5MRe9Cv0dgV6sXTRKwkT3nC2SJ</span>
+<span style="color:lime;">&gt; QlutOol36VARLd3uaIoj4Z7LVV_MrdIYYvDci2WLlKSlI_NRgR3qJ25N3S6fCqNEYRgDDbNzSr15MDRc</span>
+<span style="color:lime;">&gt; WQR5Jdl3VP8g748cowD_2gaopaCzZWTa3r_J2VOEETfcBAIMX0NbtVA3hHW-rQ0aCC7UIbP0_oEB2YF0</span>
+<span style="color:lime;">&gt; u6qAXCXuC02nO6coMSpSHTDZwkqkmFiFEKERM_Gayz3lVddlgfcPR2k76bCUjWy934-rOrOBGcLyS1Ww</span>
+<span style="color:lime;">&gt; aTIqMUS3WEIsAwCDr1Jt4pAioryRLZfLmWNff4QZSBxWejRqpw.uRANzseIWYB9YeAW.sJGqF2ERkMEE</span>
+<span style="color:lime;">&gt; jm8h62tUA4UeZIBqvVRpkQqjTuae7-4ac-4sSth0A3zeERvlyC5GcP0W2tj7uxMi0I4gpN33OfAOR-tA</span>
+<span style="color:lime;">&gt; 9E_47oCHXrOH-7cpLgVIxxWZFx43dhxUh5QHuBfli4nHErMVUsFq6CzQj8Z5SHvBD2Qx3suPEeCNo_M2</span>
+<span style="color:lime;">&gt; woohCprwjOKhE-Q_VkWUJb-Elrq9HxJcBtadw0spolqgYYTIWvV4fcKmbtGANYLac29oKWd5-jyDAsSF</span>
+<span style="color:lime;">&gt; FZrSCNxv-BtJUiUVWUn5eVufjJYCx62Ju-MZ8vsPNTE-_I5em9RTBja6ylcivjzhW9Ncl6yKVfnB0XJN</span>
+<span style="color:lime;">&gt; cSSHQSFhc6Gvy7oYMBXx1C5G31OsiklkKQX2gsAZlxFQ_X25AXpMoV8-5xsUwdMdTaPxIIsccbrK2dfA</span>
+<span style="color:lime;">&gt; aP0rUruSV8zrlrbsN3ftjTJSka2XGG3kra76EPAlzSwxy6XdFVtEV31hirV3f9g04Gj_e-Q7J7HR62eY</span>
+<span style="color:lime;">&gt; 3_09WyARShQL3DVXWOcK_8YrLr58JjNAbm0s5dAUq-zt9cMv8rl05t_dE59Gi6Hnl2YAiRdYG6B71FxJ</span>
+<span style="color:lime;">&gt; CE2Uqciy2jLe6mCDFDfqkog4G5R9FzNz5VzhVpmZVm3OJkug-UzayN7nwZ7jsmxQ2ucCM03xq-0MLdsk</span>
+<span style="color:lime;">&gt; H-cleahkFw5S-W40cn5hLrRXSqUoYfKmVSd9RltOZ6T0VrYpw2LaF2uUYEO9w9bMmg2zzfxft4WHsEbD</span>
+<span style="color:lime;">&gt; OlJVb5SE8mUjzBBZAcgaHYSv0Wii70lEJvLSdnVI1r9kuu9ae_j1Tu08RVyFGfgixYjI9z2L_sc8uOoO</span>
+<span style="color:lime;">&gt; HJ-Tq1iuncL3lCQJBuwBFoxyINlFgz4YV2AgreNsX8bDfE9XbRB9TnfvSd6rmes9lO0-3VQFlsC0C5dx</span>
+<span style="color:lime;">&gt; VXgp5o05E8nisPwuLmlGO5BTtBzCQ3tIH2SuTLTG-gohTEUVn4fACwIiyuXdPXcF4GxJNRNgNOH7xwxx</span>
+<span style="color:lime;">&gt; 55qEM0xl2GuSseV59FiZR-WKMMs.kScy0JLB4XECklDAwTIVNA</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;which when decrypted using the following key:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;     &quot;kty&quot;: &quot;RSA&quot;,</span>
+<span style="color:lime;">&gt;     &quot;d&quot;: &quot;OjDe8EkZXgvB-Gy5A4EdU8fBuAjdHLMyHKAtMaS_W_joEJHDvZRhIYbh1jAyHYoR3kFMXu</span>
+<span style="color:lime;">&gt; tCIYpRjDrsUEhjYuVKLm90CVtysoRjjkiXyupcEW3o--X_HBJhKm1Y-0I7LQ-cA7CotJpTVMR2fRTqP1</span>
+<span style="color:lime;">&gt; T4FsORAjg9l-fbdpVmeDiZBRbL2zCWmKWhtDpHyy7vbSCRghntihz_M5Hrchk7r8ito_K3dFrV9IZSF9</span>
+<span style="color:lime;">&gt; RoEY7kyK5bL36Kpgai44PYCzqOzqP2fteO_rZ9fn-uK59pI3ySo_PgSbJ55n14Nd9Z8m70zE9Z4aIeND</span>
+<span style="color:lime;">&gt; EFspZUhavngRwc7MuJ7f_hVGQ9RFbbkQ&quot;,</span>
+<span style="color:lime;">&gt;     &quot;e&quot;: &quot;AQAB&quot;,</span>
+<span style="color:lime;">&gt;     &quot;use&quot;: &quot;enc&quot;,</span>
+<span style="color:lime;">&gt;     &quot;kid&quot;: &quot;client-enc-2020-08-28&quot;,</span>
+<span style="color:lime;">&gt;     &quot;n&quot;: &quot;jVc92j0ntTV0V1nwZ3mpGaV2bME4d6AMS2SRrJBM0fLehaTEqDNzGu0warz2SC9bhcBOB5</span>
+<span style="color:lime;">&gt; _q3mYBFjmTwWzSbsk6RYETnAgViXg67PgH7Vkx2NCtwgQW3cNdnUZWRNYHsoevkx_Ta1X6Vi9ulebU_B</span>
+<span style="color:lime;">&gt; CKjrF-6CjVcGgEsO_S5DKcukGHdf81WlQOq3zGQg4h7MLArrbPSTHHORDsu_87qY9m2EhiYSOBSF5rHs</span>
+<span style="color:lime;">&gt; fDo7zWI5FWNG-_HO-CBM005bykIIS1aXCXx1jOW1OrKcp5xv3e-BR6MJTxncZJ4o1GtynJI8kLXRgltL</span>
+<span style="color:lime;">&gt; ArSOkbzNEr9GjU9lnSSxKLMtRLKkG2Ow&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;has the following body:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;sub&quot;: &quot;1001&quot;,</span>
+<span style="color:lime;">&gt;   &quot;aud&quot;: &quot;2334382354153498&quot;,</span>
+<span style="color:lime;">&gt;   &quot;acr&quot;: &quot;urn:cds.au:cdr:2&quot;,</span>
+<span style="color:lime;">&gt;   &quot;c_hash&quot;: &quot;BLfy9hvQUZTDq6_KmF4kDQ&quot;,</span>
+<span style="color:lime;">&gt;   &quot;s_hash&quot;: &quot;9s6CBbOxiKE65d9-Qr0QIQ&quot;,</span>
+<span style="color:lime;">&gt;   &quot;auth_time&quot;: 1595827190,</span>
+<span style="color:lime;">&gt;   &quot;iss&quot;: &quot;https://fapi-as.example.com/&quot;,</span>
+<span style="color:lime;">&gt;   &quot;exp&quot;: 1595827490,</span>
+<span style="color:lime;">&gt;   &quot;iat&quot;: 1595827190,</span>
+<span style="color:lime;">&gt;   &quot;nonce&quot;: &quot;7xDCHviuPMSXJIigkHOcDi&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;example-jarm-response&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.A.4&quot;&gt;&lt;/a&gt;&lt;h3&gt;A.4.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example JARM response&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; &lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;eyJraWQiOiJzZXJ2ZXItMjAyMC0wOC0yOCIsImFsZyI6IlBTMjU2In0.eyJhdWQiOiI0NjkxODA2NDgw</span>
+<span style="color:lime;">&gt; MzkwNTEiLCJjb2RlIjoiendrR2FjOWp1TFg4RjhmcmFwRElTaTNLMkZ3bG40cXh3eWZOSUkzQ2p6MCIs</span>
+<span style="color:lime;">&gt; ImlzcyI6Imh0dHBzOlwvXC9mYXBpLWFzLmV4YW1wbGUuY29tXC8iLCJzdGF0ZSI6IlZnU1VJRW5mbG5E</span>
+<span style="color:lime;">&gt; eFRlMXZBdHI1NG8iLCJleHAiOjE1OTQxNDEwOTB9.k_3df0dIDX6watKxQkzAHOLgf4FBi_xIPN-n8aT</span>
+<span style="color:lime;">&gt; 5hMX3gaBbeDqdUA5NR764L4ugdDgXyQm8dNcZrZldKIPfSfRcjBTtSx9PEdiffn_xUkwnS18YNAfEoq0</span>
+<span style="color:lime;">&gt; HjvkOQ59F21ImKn113kon00uC2dqBGByRrZcaUYOnvW2DdHCVA0VTW2je5nzbI02z9csLa8uGGGwjWRP</span>
+<span style="color:lime;">&gt; Ec9j9bvR1Adc2m2Z-o0QCRIBl81sZz6_AnE-wPTw-KZFQBs3FgS-r0FDYOzE7FHIMgDBSKAg1J5tWY3J</span>
+<span style="color:lime;">&gt; wRuIv_oAbYdSlxdYzrbFQ9grX4MA0p7pk5lS-kwnN845GZ2k1_yaOLtYYyvRFrw</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;which when decoded has the following body:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;aud&quot;: &quot;469180648039051&quot;,</span>
+<span style="color:lime;">&gt;   &quot;code&quot;: &quot;zwkGac9juLX8F8frapDISi3K2Fwln4qxwyfNII3Cjz0&quot;,</span>
+<span style="color:lime;">&gt;   &quot;iss&quot;: &quot;https://fapi-as.example.com/&quot;,</span>
+<span style="color:lime;">&gt;   &quot;state&quot;: &quot;VgSUIEnflnDxTe1vAtr54o&quot;,</span>
+<span style="color:lime;">&gt;   &quot;exp&quot;: 1594141090</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;example-private-key-jwt-client-assertion&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.A.5&quot;&gt;&lt;/a&gt;&lt;h3&gt;A.5.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Example private_key_jwt client assertion&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; &lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;eyJraWQiOiJjbGllbnQtMjAyMC0wOC0yOCIsImFsZyI6IlBTMjU2In0.eyJzdWIiOiI1MjQ4MDc1NDA1</span>
+<span style="color:lime;">&gt; MyIsImF1ZCI6Imh0dHBzOlwvXC9mYXBpLWFzLmV4YW1wbGUuY29tXC9hcGlcL3Rva2VuIiwiaXNzIjoi</span>
+<span style="color:lime;">&gt; NTI0ODA3NTQwNTMiLCJleHAiOjE1OTQxNDAxNTEsImlhdCI6MTU5NDE0MDA5MSwianRpIjoiNHZCY3RN</span>
+<span style="color:lime;">&gt; U2tLNHdmdU91aTlDeWMifQ.h3i0k2DWc7V6WEiinHAsse-pOFiWxe5kD4KetdGX65Q03orj0Fh6EWfdE</span>
+<span style="color:lime;">&gt; AntCrOodUsypKjM1ia3evbQmsSkhIb4YK5s53hYYtEbJC_eG9jFnVc4ki7Qc5O-1K-D80w7WT1UI--Ih</span>
+<span style="color:lime;">&gt; Ku-i22Ai_nMed-71UWLHcPi7W20SCroPHXfaLiFj_TOsr7I8h7VNsoa7P3-coHlXT5q4cMjIA7t8cRag</span>
+<span style="color:lime;">&gt; sGtKlIgwdFYySlimtSESDM0U-_NUPperTgnF8FVn7SqtizBJneZNAWwSLJD9AVsnMOH6kOeNLtpopsru</span>
+<span style="color:lime;">&gt; Dcs54S_aIlroP-BdiHw9R1qRTIVSoX3k_EStvoWSf8NcQ</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;which when decoded has the following body:</span>
+<span style="color:lime;">&gt; &lt;/p&gt;&lt;div style='display: table; width: 0; margin-left: 3em; margin-right: auto'&gt;&lt;pre&gt;{</span>
+<span style="color:lime;">&gt;   &quot;sub&quot;: &quot;52480754053&quot;,</span>
+<span style="color:lime;">&gt;   &quot;aud&quot;: &quot;https://fapi-as.example.com/api/token&quot;,</span>
+<span style="color:lime;">&gt;   &quot;iss&quot;: &quot;52480754053&quot;,</span>
+<span style="color:lime;">&gt;   &quot;exp&quot;: 1594140151,</span>
+<span style="color:lime;">&gt;   &quot;iat&quot;: 1594140091,</span>
+<span style="color:lime;">&gt;   &quot;jti&quot;: &quot;4vBctMSkK4wfuOui9Cyc&quot;</span>
+<span style="color:lime;">&gt; }</span>
+<span style="color:lime;">&gt; &lt;/pre&gt;&lt;/div&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;copyright-notice-license&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr /&gt;</span>
+<span style="color:lime;">&gt; &lt;table summary=&quot;layout&quot; cellpadding=&quot;0&quot; cellspacing=&quot;2&quot; class=&quot;TOCbug&quot; align=&quot;right&quot;&gt;&lt;tr&gt;&lt;td class=&quot;TOCbug&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;&amp;nbsp;TOC&amp;nbsp;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span>
+<span style="color:lime;">&gt; &lt;a name=&quot;rfc.section.B&quot;&gt;&lt;/a&gt;&lt;h3&gt;Appendix B.&amp;nbsp;</span>
+<span style="color:lime;">&gt; Copyright notice &amp;amp; license&lt;/h3&gt;</span>
+<span style="color:lime;">&gt; </span>
+<span style="color:lime;">&gt; &lt;p&gt;Copyright (c) 2021 The OpenID Foundation.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The OpenID Foundation (OIDF) grants to any Contributor, developer, implementer, or other interested party a non-exclusive, royalty-free, worldwide copyright license to reproduce, prepare derivative works from, distribute, perform and display, this Implementers Draft or Final Specification solely for the purposes of (i) developing specifications, and (ii) implementing Implementers Drafts and Final Specifications based on such documents, provided that attribution be made to the OIDF as the source of the material, but that such attribution does not indicate an endorsement by the OIDF.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:lime;">&gt; &lt;p&gt;The technology described in this specification was made available from contributions from various sources, including members of the OpenID Foundation and others. Although the OpenID Foundation has taken steps to help ensure that the technology is available for distribution, it takes no position regarding the validity or scope of any intellectual property or other rights that might be claimed to pertain to the implementation or use of the technology described in this specification or the extent to which any license under such rights might or might not be available; neither does it represent that it has made any independent effort to identify any such rights. The OpenID Foundation and the contributors to this specification make no (and hereby expressly disclaim any) warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to this specification, and the entire risk as to implementing this specification is assumed by the implementer. The OpenID Intellectual Property Rights policy requires contributors to offer a patent promise not to assert certain patent claims against other contributors and against implementers. The OpenID Foundation invites any interested party to bring to its attention any copyrights, patents, patent applications, or other proprietary rights that may cover technology that may be required to practice this specification.</span>
+<span style="color:lime;">&gt; &lt;/p&gt;</span>
+<span style="color:aqua;">969c1483</span>
+<span style="color:red;">&lt; &lt;td class=&quot;author-text&quot;&gt;Nomura Research Institute, Ltd.&lt;/td&gt;&lt;/tr&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;td class=&quot;author-text&quot;&gt;Nat Consulting&lt;/td&gt;&lt;/tr&gt;</span>
+<span style="color:aqua;">971c1485</span>
+<span style="color:red;">&lt; &lt;td class=&quot;author-text&quot;&gt;&lt;a href=&quot;mailto:n-sakimura@nri.co.jp&quot;&gt;n-sakimura@nri.co.jp&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;td class=&quot;author-text&quot;&gt;&lt;a href=&quot;mailto:nat@nat.consulting&quot;&gt;nat@nat.consulting&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;</span>
+<span style="color:aqua;">985c1499</span>
+<span style="color:red;">&lt; &lt;td class=&quot;author-text&quot;&gt;Edmund Jay&lt;/td&gt;&lt;/tr&gt;</span>
+---
+<span style="color:lime;">&gt; &lt;td class=&quot;author-text&quot;&gt;Illumila&lt;/td&gt;&lt;/tr&gt;</span>
+</pre>
+</body>
+</html>
