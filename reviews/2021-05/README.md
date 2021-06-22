@@ -78,3 +78,19 @@ The following informative references were current at the time of review. For eac
 | <a id="FAPI"></a>**[FAPI]**      | Financial-Grade API - Home Page | [Link](https://openid.net/wg/fapi/) | No change |N/A | N/A |
 | <a id="RFC4122"></a>**[RFC4122]**  | A Universally Unique Identifier (UUID) URN Namespace | [July 2005](https://tools.ietf.org/html/rfc4122) | No change |N/A | N/A |
 | <a id="X.1254"></a>**[X.1254]**   | X.1254 - Entity authentication assurance framework | [Sept 2012](https://www.itu.int/rec/T-REC-X1254-201209-I/en) | [Sept 2020](https://www.itu.int/rec/T-REC-X.1254-202009-I/en)| N/A | N/A |
+
+## Additional Specifications
+These specifications are relied upon within the Consumer Data Standards but are not currently listed in either the normative or informative references.
+
+Name | Title | URL
+:-- | :-- | :--
+WCAG 2.1 | Web Content Accessibility Guidelines (WCAG) 2.1 | https://www.w3.org/TR/WCAG21/
+Australia Post Data Guide | Guidelines for using Australia Post data | https://auspost.com.au/content/dam/auspost_corp/media/documents/australia-post-data-guide.pdf
+RFC: 5246 | The Transport Layer Security (TLS) Protocol Version 1.2 | https://www.ietf.org/rfc/rfc5246.txt
+RFC: 3339 | Date and Time on the Internet: Timestamps | https://tools.ietf.org/html/rfc3339.html
+RFC: 3966 | The tel URI for Telephone Numbers | https://tools.ietf.org/html/rfc3966
+ISO 9362 | Business Identifier Code (BIC) | https://www.iso9362.org/, https://www.iso.org/standard/60390.html
+ISO 8601 | Data elements and interchange formats – Information interchange – Representation of dates and times| https://www.iso.org/standard/70907.html
+ISO 3166 | Country Codes | https://www.iso.org/iso-3166-country-codes.html
+ISO 4217 | Current currency & funds code list | https://www.currency-iso.org/en/home/tables/table-a1.html
+ISO 17442 | Legal Entity Identifier | https://www.iso.org/standard/59771.html
