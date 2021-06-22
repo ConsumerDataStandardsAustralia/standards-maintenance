@@ -24,6 +24,21 @@ Performing this review achieves several outcomes, notably:
 * Maintain improved vendor support for implementers
 * Maintain interoperability within the CDR and internationally
 
+### Considerations
+This purpose of this impact analysis is to identify key changes between current baseline versions of normative references relied upon in v1.11.0 of the Consumer Data Standards and the current stable target version of these normative references. Changes identified may broadly fall into one of three categories:
+
+1. Non-material changes: Changes in the documentation text, format or presentation of the normative standards that don't materially change the intent of of the baseline standard. These changes do not impact the Consumer Data Standards or participants.
+2. Implicit breaking changes: Breaking changes that impact participants but do not change statements presented in the Consumer Data Standards. The scope of these changes are considerations for phasing and implementation timeframes but they don't give rise to explicit changes in the Consumer Data Standards themselves. Participants would be impacted with changes required to existing implementations to be compliant with the target-state normative references.
+3. Explicit breaking changes: Changes that directly impact the Consumer Data Standards and result in changes to statements presented within the Consumer Data Standards. These by definition will create implementation impacts for participants and require sufficient phasing with new obligation dates to be determined.
+
+Breaking changes documented in this analyses may result in a number of outcomes, notably:
+- Existing implementations must be changed, requiring new builds to meet the desired requirements
+- Deviations of the Consumer Data Standards from the normative references. In some circumstances, for example, the lack of vendor adoption, or considerations of co-existence with existing functionality and maintaining ecosystem interoperability, or diverse phasing, testing and deployment across the ecosystem may necessitate deviation or staggered adoption of certain requirements defined within normative references.
+- Interoperability between implementations will, potentially significantly, be impacted. The result of this lack of interoperability has significant flow on effects with respect to software vendor diversity and competition
+- Changes to certification and testing processes provided by CDR regulators and commercial vendors
+- Changes to accreditation and existing industry certification processes may be non-functional requiring a separate certification process to be established and maintained by the creating entity
+- Impacts to other non-functional requirements such as performance
+
 ## Normative References
 
 The following normative references were current at the time of review. For each reference, the version relied upon in the Consumer Data Standards as well as the most current version available of the reference are listed.
