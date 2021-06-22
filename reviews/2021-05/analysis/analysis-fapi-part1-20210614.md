@@ -25,6 +25,15 @@ Impact analysis is compared against v1.10.0 of the Consumer Data Standards.
 ## Trust Authority (CDR Register)
 * **Data Holder Registration** Organizations who need to support multiple "brands" with individual authorization endpoints from a single Authorization Server deployment shall use a separate `issuer` per brand.
 
+
+# Transitioning the CDR ecosystem
+
+## Step 1
+
+## Step 2
+
+## Step 3
+
 # Analysis
 
 ## 1. Scope
