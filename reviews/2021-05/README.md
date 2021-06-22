@@ -45,8 +45,8 @@ The following normative references were current at the time of review. For each 
 
 | **Reference**  | **Description**  | **Baseline Version** | **05-2021 Version** | **Spec Diff** | **Spec Analysis** |
 | --- | --- | --- | --- | --- | --- |
-| <a id="FAPI-R"></a>**[FAPI-R]**    | Financial-grade API - Part 1: Read Only API Security Profile:                                                     |[Draft-06](https://openid.net/specs/openid-financial-api-part-1-ID2.html) | [1.0 Final - March 12, 2021](https://openid.net/specs/openid-financial-api-part-1-1_0.html) | pending | pending |
-| <a id="FAPI-RW"></a>**[FAPI-RW]**  | Financial-grade API - Part 2: Read and Write API Security Profile |[Draft-06](https://openid.net/specs/openid-financial-api-part-2-ID2.html) | [1.0 Final - March 12, 2021](https://openid.net/specs/openid-financial-api-part-2-1_0.html) | pending | pending |
+| <a id="FAPI-R"></a>**[FAPI-R]**    | Financial-grade API - Part 1: Read Only API Security Profile:                                                     |[Draft-06](https://openid.net/specs/openid-financial-api-part-1-ID2.html) | [1.0 Final - March 12, 2021](https://openid.net/specs/openid-financial-api-part-1-1_0.html) | [diff-fapi-draft06-part1-fapi-1.0-part1](./diff/diff-fapi-draft06-part1-fapi-1.0-part1.html) | [analysis-fapi-part1](./analysis/analysis-fapi-part1-20210614.md) |
+| <a id="FAPI-RW"></a>**[FAPI-RW]**  | Financial-grade API - Part 2: Read and Write API Security Profile |[Draft-06](https://openid.net/specs/openid-financial-api-part-2-ID2.html) | [1.0 Final - March 12, 2021](https://openid.net/specs/openid-financial-api-part-2-1_0.html) | [diff-fapi-draft06-part2-fapi-1.0-part2](./diff/diff-fapi-draft06-part2-fapi-1.0-part2.html) | pending |
 | <a id="JSON"></a>**[JSON]**        | The JavaScript Object Notation (JSON) Data Interchange Format | [Dec 2017](https://tools.ietf.org/html/rfc8259) | No change | N/A | N/A |
 | <a id="JWA"></a>**[JWA]**          | JSON Web Algorithms (JWA) | [May 2015](https://tools.ietf.org/html/rfc7518) | No change |N/A | N/A |
 | <a id="JWK"></a>**[JWK]**          | JSON Web Key (JWK) | [May 2015](https://tools.ietf.org/html/rfc7517) | No change |N/A | N/A |
@@ -58,12 +58,12 @@ The following normative references were current at the time of review. For each 
 | <a id="OIDC"></a>**[OIDC]**        | OpenID Connect Core 1.0 incorporating errata set 1 | [Nov 2014](http://openid.net/specs/openid-connect-core-1_0.html) | No change |N/A | N/A |
 | <a id="OIDD"></a>**[OIDD]**        | OpenID Connect Discovery 1.0 incorporating errata set 1 | [Nov 2014](http://openid.net/specs/openid-connect-discovery-1_0.html)| No change |N/A | N/A |
 | <a id="TDIF"></a>**[TDIF]**        | Digital Transformation Agency - Trusted Digital Identity Framework | [Apr 2019](https://www.dta.gov.au/our-projects/digital-identity/trusted-digital-identity-framework) | **_in review_** | pending | pending |
-| <a id="RFC2119"></a>**[RFC2119]**  | Key words for use in RFCs to Indicate Requirement Levels | [RFC2119 - Mar 1997](https://tools.ietf.org/html/rfc2119) | [RFC8175 - May 2017](https://datatracker.ietf.org/doc/html/rfc8174) | [diff-rfc2119-rfc8175](./raw/diff-rfc2119rfc8174.txt) | [analysis-rfc2119-rfc8174-20210519](./analysis/analysis-rfc2119-rfc8174-20210519.md) |
+| <a id="RFC2119"></a>**[RFC2119]**  | Key words for use in RFCs to Indicate Requirement Levels | [RFC2119 - Mar 1997](https://tools.ietf.org/html/rfc2119) | [RFC8175 - May 2017](https://datatracker.ietf.org/doc/html/rfc8174) | [diff-rfc2119-rfc8175](./diff/diff-rfc2119-rfc8174.txt) | [analysis-rfc2119-rfc8174-20210519](./analysis/analysis-rfc2119-rfc8174-20210519.md) |
 | <a id="RFC7009"></a>**[RFC7009]**  | OAuth 2.0 Token Revocation | [Aug 2013](https://tools.ietf.org/html/rfc7009) | No change |N/A | N/A |
 | <a id="RFC7523"></a>**[RFC7523]**  | JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants | [May 2015](https://tools.ietf.org/html/rfc7523) | No change |N/A | N/A |
 | <a id="RFC7662"></a>**[RFC7662]**  | OAuth 2.0 Token Introspection | [RFC7662 - Oct 2015](https://tools.ietf.org/html/rfc7662) | [RFC8996 - March 2021](https://datatracker.ietf.org/doc/html/rfc8996) | pending | pending |
 | <a id="RFC6750"></a>**[RFC6750]**  | The OAuth 2.0 Authorization Framework: Bearer Token Usage | [Oct 2012](https://tools.ietf.org/html/rfc6750) | No change |N/A | N/A |
-| <a id="PAR"></a>**[PAR]**          | OAuth 2.0 Pushed Authorization Requests | [Draft 01 - Feb 2020](https://tools.ietf.org/html/draft-ietf-oauth-par-01) | [Draft 08 - May 2021](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-par-08) |pending | pending |
+| <a id="PAR"></a>**[PAR]**          | OAuth 2.0 Pushed Authorization Requests | [Draft 01 - Feb 2020](https://tools.ietf.org/html/draft-ietf-oauth-par-01) | [Draft 08 - May 2021](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-par-08) |[diff-par01-par08](./diff/diff-par01-par08.html) | pending |
 
 
 ## Informative References
