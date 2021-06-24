@@ -191,11 +191,3 @@ Recommendations for privacy impact assessments have been removed.
 ### 8.1.  Introduction
 
 Provides useful statements regarding privacy, security and consent. No material differences related to the standards.
-
-# Impact analysis to the Consumer Data Standards
-
-* TBA
-
-# Recommendations
-
-* TBA
