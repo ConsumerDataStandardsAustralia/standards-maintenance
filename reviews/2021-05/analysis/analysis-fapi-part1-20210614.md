@@ -68,6 +68,11 @@ No material differences.
 * Qualifies the requirements to follow [OIDD] for discovery metadata. **NOTE:** **This will not impact the CDS, already required**
 * Recommends the use of refresh tokens rather than the practice of long-lived access tokens for public and private clients. **NOTE:** **This will have not impact the CDS, already required**
 
+- 5.2.2 (15) changes the requirement to such that scopes must be returned with the access token if "the request was passed in the front channel and was not integrity protected". This will likely have breaking impacts to ADR clients that rely on the scopes being present when the access token is requested via the back channel. It will mean that clients need to obtain the authorised list of scopes by calling the token endpoint or token introspection endpoint. The point of "integrity protected" also warrants discussion. There are significant benefits in the AS returning the authorised list of scopes to the client to ascertain the final consumer's directives for consent. Where a DH does not support a scope, the list will be a subset of what the client originally requested.
+
+> shall return the list of granted scopes with the issued access token if the request was passed in the front channel and was not integrity protected;
+
+
 #### 5.2.2.1.  Returning authenticated user's identifier
 Was "5.2.2.1. Returning authenticated user's identifier Authorization server" in Draft 06
 
