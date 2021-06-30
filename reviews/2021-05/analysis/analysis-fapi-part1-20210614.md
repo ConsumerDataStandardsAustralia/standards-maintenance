@@ -12,37 +12,36 @@ Impact analysis is compared against v1.10.0 of the Consumer Data Standards.
 
 ## Clients (ADRs)
 
-* - 5.2.3 (10) **token response `scope` value** shall verify that the scope received in the token response is either an exact match, or contains a subset of the scope sent in the authorization request
-* **Value of Content-Type header** shall send the Content-type HTTP header Content-Type: application/json if applicable;
+* &sect; 5.2.3 (10) **token response `scope` value** shall verify that the scope received in the token response is either an exact match, or contains a subset of the scope sent in the authorization request
+* &sect; 6.2.1 (9): **Value of Content-Type header** shall send the Content-type HTTP header Content-Type: application/json if applicable;
 
 ## OpenID Provider / Authorisation Server (Data Holders)
 
 The following changes were identified as impacts to Data Holders. The course of action is to be discussed with the community prior to recommendation.
 
-* 7.1.: **TLS and DNSSEC considerations** Endpoints for the use by web browsers should use mechanisms to ensure that connections cannot be downgraded using TLS Stripping attacks
-* 7.1.: **TLS and DNSSEC considerations** all endpoints should additionally use DNSSEC to protect against DNS spoofing attacks that can lead to the issuance of rogue domain-validated TLS certificates
-* **Data Holder Registration** Organizations who need to support multiple "brands" with individual authorization endpoints from a single Authorization Server deployment shall use a separate `issuer` per brand.
-* 5.2.2. (15): The DH only returns scopes where the list granted is different to the list the client requested
-* 6.2.1. (9): **Validation of Content-Type header** shall send the Content-type HTTP header `Content-Type: application/json` if applicable;
+* &sect; 5.2.2. (15): The DH only returns scopes where the list granted is different to the list the client requested
+* &sect; 6.2.1. (9): **Validation of Content-Type header** shall send the Content-type HTTP header `Content-Type: application/json` if applicable;
 * 6.2.1. (13): **`x-fapi-customer-ip-address`** shall not reject requests with a `x-fapi-customer-ip-address` header containing a valid IPv4 or IPv6 address.
-* 7.7.
+* &sect; 7.1.: **TLS and DNSSEC considerations** Endpoints for the use by web browsers should use mechanisms to ensure that connections cannot be downgraded using TLS Stripping attacks
+* &sect; 7.1.: **TLS and DNSSEC considerations** all endpoints should additionally use DNSSEC to protect against DNS spoofing attacks that can lead to the issuance of rogue domain-validated TLS certificates
+* &sect; 7.7.: **Data Holder Registration** Organizations who need to support multiple "brands" with individual authorization endpoints from a single Authorization Server deployment shall use a separate `issuer` per brand.
 
-### 5.2.2 (15) Scope response
+### &sect; 5.2.2 (15) Scope response
 There are benefits to *always* returning the list of scopes in the token response because the CDR deals with the phasing of obligations yet uses the Information Security profile to convey some of this context to ADRs. Until such time that RAR is supported, it may be preferable to retain the requirement that scopes are *always* returned to ADR clients. This will benefit ADRs in that there is no breaking change for this.
 
 ### Content-Type header
 Determination is either to retain more flexible support as a constraint to FAPI 1 or a breaking change to clients to send Content-Type without charset.
 
 ## Trust Authority (CDR Register)
-* 7.7.: **Data Holder Registration** Organizations who need to support multiple "brands" with individual authorization endpoints from a single Authorization Server deployment shall use a separate `issuer` per brand.
+* &sect; 7.7.: **Data Holder Registration** Organizations who need to support multiple "brands" with individual authorization endpoints from a single Authorization Server deployment shall use a separate `issuer` per brand.
 
 ## Conformance Testing
 
-- 5.2.2 (15)
-- 6.2.1. (9)
-- 6.2.1. (13)
-- 5.2.3. (10)
-- 7.7.
+- &sect; 5.2.2 (15)
+- &sect; 6.2.1. (9)
+- &sect; 6.2.1. (13)
+- &sect; 5.2.3. (10)
+- &sect; 7.7.
 
 # Analysis
 
@@ -80,15 +79,15 @@ No differences.
 No material differences.
 
 #### 5.2.2. Authorization server
-* 5.2.2. (11): Delegates required levels of assurance to the downstream jurisdiction / standards implementation where previously this was LoA2 or above. **NOTE:** **This will not impact the CDS which requires LoA2 or above**
-* 5.2.2. (12): Changes the use of the word 'consent' to be 'approval' noting consent has legal connotations. **NOTE:** **This will not impact the CDS**
-* 5.2.2. (13): Previous authorisation codes MUST be rejected (previously this was a should). **NOTE:** **This will not impact the CDS as it is already required**
+* &sect; 5.2.2. (11): Delegates required levels of assurance to the downstream jurisdiction / standards implementation where previously this was LoA2 or above. **NOTE:** **This will not impact the CDS which requires LoA2 or above**
+* &sect; 5.2.2. (12): Changes the use of the word 'consent' to be 'approval' noting consent has legal connotations. **NOTE:** **This will not impact the CDS**
+* &sect; 5.2.2. (13): Previous authorisation codes MUST be rejected (previously this was a should). **NOTE:** **This will not impact the CDS as it is already required**
 > shall reject an authorization code (Section 1.3.1 of <a href='https://tools.ietf.org/html/rfc6749'>RFC6749</a>) if it has been previously used
 
-* 5.2.2. (22): Qualifies the requirements to follow [OIDD] for discovery metadata. **NOTE:** **This will not impact the CDS, already required**
+* &sect; 5.2.2. (22): Qualifies the requirements to follow [OIDD] for discovery metadata. **NOTE:** **This will not impact the CDS, already required**
 * Recommends the use of refresh tokens rather than the practice of long-lived access tokens for public and private clients. **NOTE:** **This will have not impact the CDS, already required**
 
-- 5.2.2 (15): changes the requirement to such that scopes must be returned with the access token if "the request was passed in the front channel and was not integrity protected". This will likely have breaking impacts to ADR clients that rely on the scopes being present when the access token is requested via the back channel. It will mean that clients need to obtain the authorised list of scopes by calling the token endpoint or token introspection endpoint. The point of "integrity protected" also warrants discussion. There are significant benefits in the AS returning the authorised list of scopes to the client to ascertain the final consumer's directives for consent. Where a DH does not support a scope, the list will be a subset of what the client originally requested.
+* &sect; 5.2.2 (15): changes the requirement to such that scopes must be returned with the access token if "the request was passed in the front channel and was not integrity protected". This will likely have breaking impacts to ADR clients that rely on the scopes being present when the access token is requested via the back channel. It will mean that clients need to obtain the authorised list of scopes by calling the token endpoint or token introspection endpoint. The point of "integrity protected" also warrants discussion. There are significant benefits in the AS returning the authorised list of scopes to the client to ascertain the final consumer's directives for consent. Where a DH does not support a scope, the list will be a subset of what the client originally requested.
 
 > shall return the list of granted scopes with the issued access token if the request was passed in the front channel and was not integrity protected;
 
@@ -121,7 +120,7 @@ No applicable.
 #### 5.2.3.  Public client
 **Note:** This section is required as the baseline for confidential clients.
 
-- 5.2.3. (5): Requirement #5 has been withdrawn:
+- &sect; 5.2.3. (5): Requirement #5 has been withdrawn:
 
 > shall adhere to the best practice stated by [BCP212];
 
@@ -130,7 +129,7 @@ No applicable.
 > 10. shall verify that the scope received in the token response is either an exact match, or contains a subset of the scope sent in the authorization request; and
 > 11. shall only use Authorization Server metadata obtained from the metadata document published by the Authorization Server at its well known endpoint as defined in OIDD or RFC8414.
 
-- 5.2.3 (10): Requires token response scope list to be validated as a subset or equal to the scopes requested in the authorisation request
+- &sect; 5.2.3 (10): Requires token response scope list to be validated as a subset or equal to the scopes requested in the authorisation request
 
 **Note:** Although this now requires clients to explicitly validate the scopes returned 5.2.2 (15) essentially overrides this from the perspective that the CDR uses token responses in the back channel that integrity protected. In this situation, ADR clients would not receive a list of scopes and this leaves consent in a somewhat ambigous state. There is also clearly an onus on the DH to only grant the client the scopes that it supports and not additional scopes it doesn't support. With the phasing of obligations in the ecosystem creates something of an undefined behaviour.
 
@@ -154,13 +153,13 @@ No differences.
 No differences.
 
 #### 6.2.1.  Protected resources provisions
-- 6.2.1. (9): Content-type header requirement has changed from `Content-Type: application/json; charset=UTF-8` to `Content-Type: application/json`.
+- &sect; 6.2.1. (9): Content-type header requirement has changed from `Content-Type: application/json; charset=UTF-8` to `Content-Type: application/json`.
 
 The CDS requires conformance to [RFC7231] which means the content type's media type must be `application/json` but `Content-Type` may include wildcard, and charsets. The interpretation is currently clear in the CDS that a DH can't reject a request where the `Content-Type` value is well-formed according to [RFC7231].
 
 **CDS requirement** which requires consultation.
 
-- 6.2.1. (13) Adds additional requirement:  
+- &sect; 6.2.1. (13) Adds additional requirement:  
 
 > shall not reject requests with a `x-fapi-customer-ip-address` header containing a valid IPv4 or IPv6 address.
 
