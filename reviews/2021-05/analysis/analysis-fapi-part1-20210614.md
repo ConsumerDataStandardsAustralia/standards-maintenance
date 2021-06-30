@@ -35,6 +35,14 @@ Determination is either to retain more flexible support as a constraint to FAPI 
 ## Trust Authority (CDR Register)
 * &sect; 7.7.: **Data Holder Registration** Organizations who need to support multiple "brands" with individual authorization endpoints from a single Authorization Server deployment shall use a separate `issuer` per brand.
 
+**Note:** Although this does not require the AS to return scopes when receiving a call via the backchannel from an integrity protected request, per section 5.1 of RFC6749 (https://datatracker.ietf.org/doc/html/rfc6749#section-5.1) the scope value is only “OPTIONAL, if identical to the scope requested by the client; otherwise, REQUIRED.“ suggesting that at the very least the AS return the granted scopes where they differ to what was requested. In this situation, clients also need to test the absence of the scopes in the response inferring _all_ scopes requested were granted. There is clearly an onus on the DH to only grant the client the scopes that it supports and not additional scopes it doesn't support. With the phasing of obligations in the ecosystem creates something of an undefined behaviour.
+
+For this reason, it is probably worth the CDS explicitly requiring the scopes be returned because this removes ambiguity for clients without having to have conditional logic. The DH can be directed to only respond with scopes that it currently supports per phasing obligations.
+
+**Note 2:** This is no longer an issue when RAR (Rich Authorisation Requests) and Grant Management are supported per FAPI 2.0 because the client has a reliable way to get _all_ of the details of the authorisation from the AS including scopes and other rich authorisation details
+
+**Note 3:** The DSB has an open DP on participant capability discovery that is intended to better support clients discovering obligations and capabilities of the DHs (e.g. phasing obligations). This is not OIDD metadata but instead intends to describe specific capabilities and functionalities of the DH. By introducing this, clients would have a mechanism to ascertain when a DH supports future obligations and can update authorisation requests when new scopes become available (contingent on the consumer's consent).
+
 ## Conformance Testing
 
 - &sect; 5.2.2 (15)
