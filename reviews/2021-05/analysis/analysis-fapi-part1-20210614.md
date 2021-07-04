@@ -29,6 +29,8 @@ The following changes were identified as impacts to Data Holders. The course of 
 ### &sect; 5.2.2 (15) Scope response
 There are benefits to *always* returning the list of scopes in the token response because the CDR deals with the phasing of obligations yet uses the Information Security profile to convey some of this context to ADRs. Until such time that RAR is supported, it may be preferable to retain the requirement that scopes are *always* returned to ADR clients. This will benefit ADRs in that there is no breaking change for this.
 
+Community consultation on the CDS requiring scopes to be returned (always) to improve reliability for clients.
+
 ### Content-Type header
 Determination is either to retain more flexible support as a constraint to FAPI 1 or a breaking change to clients to send Content-Type without charset.
 
