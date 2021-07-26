@@ -8,6 +8,8 @@ This document summarises the changes between Pushed Authorization Requests Draft
 
 Impact analysis is compared against v1.11.0 of the Consumer Data Standards.
 
+**Please note:** [Draft 09](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-par-09) has now been published (12 July 2021) . A diff of Draft 08 to Draft 09 is [available here](https://www.ietf.org/rfcdiff?difftype=--hwdiff&url2=draft-ietf-oauth-par-09.txt). Whilst this analysis compared Draft 02 to Draft 08, no material differences have been identified between Draft 08 and Draft 09 that impact this analysis.
+
 # Summary of key changes
 
 At the time of review, the PAR specification is currently draft version 08. Because the PAR specification remains in draft, there are likely future draft revisions that will be published. One consideration the DSB is seeking feedback from the community is whether the data standards should continue to specify an explicit draft version (08) or refer to PAR as being what ever the latest revision is. This would have the advantage that whatever the most recent version is, implementations can rely upon it and potentially use the version provided out of the box by their IAM vendor provided that vendor remains up to date with the most recent version. The downside is that the implementation of new draft versions would be immediate and there would be no future dated obligation if a newer draft version were to create breaking changes.
