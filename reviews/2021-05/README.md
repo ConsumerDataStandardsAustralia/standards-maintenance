@@ -60,10 +60,10 @@ The following normative references were current at the time of review. For each 
 | <a id="TDIF"></a>**[TDIF]**        | Digital Transformation Agency - Trusted Digital Identity Framework | [Apr 2019](https://www.dta.gov.au/our-projects/digital-identity/trusted-digital-identity-framework) | **_in review_** | pending | pending |
 | <a id="RFC2119"></a>**[RFC2119]**  | Key words for use in RFCs to Indicate Requirement Levels | [RFC2119 - Mar 1997](https://tools.ietf.org/html/rfc2119) | [RFC8175 - May 2017](https://datatracker.ietf.org/doc/html/rfc8174) | [diff-rfc2119-rfc8175](./diff/diff-rfc2119-rfc8174.txt) | [analysis-rfc2119-rfc8174-20210519](./analysis/analysis-rfc2119-rfc8174-20210519.md) |
 | <a id="RFC7009"></a>**[RFC7009]**  | OAuth 2.0 Token Revocation | [Aug 2013](https://tools.ietf.org/html/rfc7009) | No change |N/A | N/A |
-| <a id="RFC7523"></a>**[RFC7523]**  | JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants | [May 2015](https://tools.ietf.org/html/rfc7523) | No change |N/A | N/A |
+| <a id="RFC7523"></a>**[RFC7523]**  | JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants | [May 2015](https://tools.ietf.org/html/rfc7523) | No change | N/A | N/A |
 | <a id="RFC7662"></a>**[RFC7662]**  | OAuth 2.0 Token Introspection | [RFC7662 - Oct 2015](https://tools.ietf.org/html/rfc7662) | [RFC8996 - March 2021](https://datatracker.ietf.org/doc/html/rfc8996) | pending | pending |
 | <a id="RFC6750"></a>**[RFC6750]**  | The OAuth 2.0 Authorization Framework: Bearer Token Usage | [Oct 2012](https://tools.ietf.org/html/rfc6750) | No change |N/A | N/A |
-| <a id="PAR"></a>**[PAR]**          | OAuth 2.0 Pushed Authorization Requests | [Draft 01 - Feb 2020](https://tools.ietf.org/html/draft-ietf-oauth-par-01) | [Draft 08 - May 2021](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-par-08) |[diff-par01-par08](./diff/diff-par01-par08.html) | pending |
+| <a id="PAR"></a>**[PAR]** | OAuth 2.0 Pushed Authorization Requests | [Draft 01 - Feb 2020](https://tools.ietf.org/html/draft-ietf-oauth-par-01) | [Draft 08 - May 2021](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-par-08) |[diff-par01-par08](./diff/diff-par01-par08.html) | [analysis-par-20210704](./analysis/analysis-par-20210704.md) |
 
 
 ## Informative References
