@@ -4,48 +4,19 @@ This repository is used to contain discussions and contributions from the commun
 
 See the Consumer Data Standards support portal article [Standards Maintenance](https://cdr-support.zendesk.com/hc/en-us/articles/900005585003) for details of the maintenance cycle. The details for the next maintenance iteration are below.
 
+## Current Iteration 
+Maintenance Iteration 8
+
+Commences on the 14th of July 2021
+
+Concludes on the 8th of September 2021
+
+Refer to: Decision Proposal 202 for all Meeting Agendas and Minutes: [Decision Proposal 202 - Maintenance Iteration 8](https://github.com/ConsumerDataStandardsAustralia/standards/issues/202)
+
 ## Next Iteration
-The next maintenance iteration will commence in the third week of February 2021.
+Maintenance Iteration 9
 
-### Key Phase Dates
-
-**Phase 1: Backlog Grooming** - *17th of February 2021 commencement*. 2 weeks duration
-
-**Phase 2: Consultation** - *3rd of March 2021 commencement*. 4 weeks duration
-
-**Phase 3: Approvals and Documentation** - *31st of March 2021 commencement*. 2 weeks duration
-
-### Ritual Dates
-
-**Call to discuss backlog** - *17th of February 2021 @2pm AEDT* for 1 hour<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 089 2474  <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23  <br/>
-
-**Call to discuss proposals** - *3rd of March 2021 @2pm AEDT* for 1 hour<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 089 2474   <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23   <br/>
-
-**Call to conduct checkpoint on proposals** - *17th of March 2021 @2pm AEDT* for 1 hour<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 1165 089 2474 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23  <br/>
-
-**Call to conduct Maintenance Iteration 4 Proposal Summary** - *31st of March 2021 @2pm AEDT* for 1 hour<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Call details are:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebEx Link: 	
-https://csiro.webex.com/csiro/j.php?MTID=mb6275e281ee11c0a310b1accec9aee37 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Number: +61 2 6246 4433<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dial In Access Code: 165 089 2474   <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Dial: +61262464433,1650892474%23%23   <br/>
+Commences: TBA
 
 ## Rules of engagement for this repository
 
