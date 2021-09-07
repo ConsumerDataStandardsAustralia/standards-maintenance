@@ -16,7 +16,9 @@ Refer to: Decision Proposal 202 for all Meeting Agendas and Minutes: [Decision P
 ## Next Iteration
 Maintenance Iteration 9
 
-Commences: TBA
+Commences: 8th of September 2021
+
+Refer to Decision Proposal 212 for all Meeting Agendas and Minutes: [Decision Proposal 212 - Maintenance Iteration 9](https://github.com/ConsumerDataStandardsAustralia/standards/issues/212)
 
 ## Rules of engagement for this repository
 
