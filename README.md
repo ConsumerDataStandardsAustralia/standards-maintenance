@@ -9,14 +9,14 @@ Maintenance Iteration 9
 
 Commences on the 8th of September 2021
 
-Concludes on the 3rd of November 2021
+Concludes on the 1st of December 2021 (extended)
 
 Refer to Decision Proposal 212 for all Meeting Agendas and Minutes: [Decision Proposal 212 - Maintenance Iteration 9](https://github.com/ConsumerDataStandardsAustralia/standards/issues/212)
 
 ## Next Iteration
 Maintenance Iteration 10
 
-Commences: To-be-advised.
+Commences: 16th of February 2022
 
 Decision Proposal to be drafted.
 
