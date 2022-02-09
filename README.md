@@ -9,6 +9,8 @@ If you would like to participate in the Standards Maintenance fortnightly meetin
 
 You can also sign up to our [mailing list](https://consumerdatastandards.us18.list-manage.com/subscribe?u=fb3bcb1ec5662d9767ab3c414&id=a4414b3906) to stay up to date on DSB News.
 
+The Agenda, Minutes and Actions for Maintenance Iterations are available here: https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Meetings#2020
+
 ## Current Iteration 
 Maintenance Iteration 9
 
