@@ -4,6 +4,11 @@ This repository is used to contain discussions and contributions from the commun
 
 See the Consumer Data Standards support portal article [Standards Maintenance](https://cdr-support.zendesk.com/hc/en-us/articles/900005585003) for details of the maintenance cycle. The details for the next maintenance iteration are below.
 
+## Getting Involved 
+If you would like to participate in the Standards Maintenance fortnightly meetings and contribute to the discussion, send a request via email to contact@consumerdatastandards.gov.au
+
+You can also sign up to our [mailing list](https://consumerdatastandards.us18.list-manage.com/subscribe?u=fb3bcb1ec5662d9767ab3c414&id=a4414b3906) to stay up to date on DSB News.
+
 ## Current Iteration 
 Maintenance Iteration 9
 
