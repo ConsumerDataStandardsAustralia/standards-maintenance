@@ -23,7 +23,7 @@ Refer to Decision Proposal 237 for all Meeting Agendas and Minutes: [Decision Pr
 ## Next Iteration
 Maintenance Iteration 11
 
-Commences: To be confirmed
+Commences on the 27th of April 2022
 
 Decision Proposal to be drafted.
 
