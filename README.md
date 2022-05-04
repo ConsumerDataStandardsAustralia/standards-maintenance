@@ -27,6 +27,10 @@ Scheduled to commence on the 6th of July 2022
 
 Decision Proposal to be drafted.
 
+## Previous Iteration
+
+The Agenda and Minutes for all previous iterations are avilable here: https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Meetings
+
 ## Rules of engagement for this repository
 
 We're committed to undertaking conversations relating to the technical standards in the open. Questions or comments that participants might ask us via email or private message are likely to be questions or comments other participants have as well. Our answers will be of interest to everyone. There are likely to be experiences and lessons everybody working in this ecosystem can learn from. Having these conversations transparently helps us reduce duplication, resolve issues faster and keep everyone up to date with the conversation.
