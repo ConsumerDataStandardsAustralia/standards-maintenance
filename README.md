@@ -14,9 +14,10 @@ The Agenda, Minutes and Actions for Maintenance Iterations are available here: h
 ## Current Iteration 
 Maintenance Iteration 12
 
-Commences on the 20th of July 2022
+Commenced on the 20th of July 2022
+Scheduled to conclude on the 14th of September
 
-Decision Proposal to be drafted.
+[Decision Proposal 259](https://github.com/ConsumerDataStandardsAustralia/standards/issues/259).
 
 ## Next Iteration
 Maintenance Iteration 13
