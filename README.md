@@ -23,7 +23,7 @@ Scheduled to conclude on the 14th of September
 ## Next Iteration
 Maintenance Iteration 13
 
-Scheduled to commence on the 28th of September 2022
+Scheduled to commence on the 5th of October 2022
 
 Decision Proposal to be drafted.
 
