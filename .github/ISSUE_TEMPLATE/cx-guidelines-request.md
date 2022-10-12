@@ -8,8 +8,7 @@ assignees: CDR-CX-Stream
 
 ---
 
-<!--- Do not delete disclaimer --->
-<!--- Start disclaimer --->
+<!--- Do not delete disclaimer start disclaimer--->
 :warning: **Disclaimer** :warning:
 The CX Guidelines provide optional examples of key requirements and recommendations to help organisations build best practice consent models. They are published online [here](https://d61cds.notion.site/). [CX Guidelines](https://d61cds.notion.site/) are optional to follow, while [CX Standards](https://consumerdatastandardsaustralia.github.io/standards/#consumer-experience) are binding data standards that are mandatory to follow. While the CX Guidelines are not mandatory, the CDR Rules require CDR Participants to have regard to them.
 
@@ -18,6 +17,7 @@ The CX Guidelines demonstrate key aspects of the consent model and cover specifi
 Requests for CX Guidelines will be considered by the DSB on a case by case basis, based on whether providing CX Guidelines for the item is in scope for the DSB; consistent with policy objectives; and is supported by the community.
 
 :heavy_exclamation_mark:**N.B.** Because the CX Guidelines span policy, rules, standards, and best practice considerations, their development and release may not fall within a Maintenance Iteration cycle.
+
 <!--- end disclaimer --->
 
 # Description
