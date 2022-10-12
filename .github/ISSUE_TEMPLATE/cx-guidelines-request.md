@@ -17,8 +17,8 @@ Specify the area(s) to be covered or revised. This should include specific CDR R
 # New item or change proposed
 Clear outline of the requirement, journey, or flow for which CX Guidelines are requested to cover or demonstrate.
 
------
 <!--- Do not delete disclaimer: START DISCLAIMER --->
+-----
 :warning: **Disclaimer** :warning:
 The [CX Guidelines](https://d61cds.notion.site/) provide optional implementation examples for key rules, standards, and best practice recommendations.
 
