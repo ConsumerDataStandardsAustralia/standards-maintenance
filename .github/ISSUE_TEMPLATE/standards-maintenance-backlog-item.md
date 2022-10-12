@@ -2,8 +2,8 @@
 name: Standards maintenance backlog item
 about: Create a new standards maintenance backlog item for consideration by the community
 title: "[Descriptive Issue Title]"
-labels: change request
-assignees: ''
+labels: change request, consumer experience, cx guideline
+assignees: CDR-CX-Stream
 
 ---
 
