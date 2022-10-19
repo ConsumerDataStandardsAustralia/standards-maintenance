@@ -16,7 +16,7 @@ Maintenance Iteration 13
 
 Commenced on the 5th of September 2022
 
-Scheduled to conclude on the 23rd of November
+Scheduled to conclude on the 23rd of November 2022
 
 [Decision Proposal 272](https://github.com/ConsumerDataStandardsAustralia/standards/issues/272).
 
