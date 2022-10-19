@@ -12,20 +12,18 @@ You can also sign up to our [mailing list](https://consumerdatastandards.us18.li
 The Agenda, Minutes and Actions for Maintenance Iterations are available here: https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Meetings
 
 ## Current Iteration 
-Maintenance Iteration 12
-
-Commenced on the 20th of July 2022
-
-Scheduled to conclude on the 14th of September
-
-[Decision Proposal 259](https://github.com/ConsumerDataStandardsAustralia/standards/issues/259).
-
-## Next Iteration
 Maintenance Iteration 13
 
-Scheduled to commence on the 5th of October 2022
+Commenced on the 5th of September 2022
 
-Decision Proposal to be drafted.
+Scheduled to conclude on the 23rd of November
+
+[Decision Proposal 272](https://github.com/ConsumerDataStandardsAustralia/standards/issues/272).
+
+## Next Iteration
+Maintenance Iteration 14
+
+Scheduled to commence in the first quarter of 2023, dates TBA
 
 ## Previous Iteration
 
