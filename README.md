@@ -23,9 +23,13 @@ Scheduled to conclude on the 23rd of November 2022
 ## Next Iteration
 Maintenance Iteration 14
 
-Scheduled to commence in the first quarter of 2023, dates TBA
+Scheduled to commence on the 8th of February 2023
 
-## Previous Iteration
+Scheduled to conclude on the 5th of April 2023
+
+Decision Proposal TBA
+
+## Previous Iterations
 
 The Agenda and Minutes for all previous iterations are avilable here: https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Meetings
 
