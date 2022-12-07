@@ -27,7 +27,7 @@ Scheduled to commence on the 8th of February 2023
 
 Scheduled to conclude on the 5th of April 2023
 
-Decision Proposal TBA
+[Decision Proposal 281](https://github.com/ConsumerDataStandardsAustralia/standards/issues/281)
 
 ## Previous Iterations
 
