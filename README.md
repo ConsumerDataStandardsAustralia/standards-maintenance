@@ -11,23 +11,33 @@ You can also sign up to our [mailing list](https://consumerdatastandards.us18.li
 
 The Agenda, Minutes and Actions for Maintenance Iterations are available here: https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Meetings
 
+### Raising Issues
+
+If you would like to propose an enhancement, fix or change to the Data Standards you can raise an issue on [this repository](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues). 
+
+If you would like to suggest a documentation fix, you can post a comment on the holistic feedback issue created for each Maintenance Iteration.  See [Current Iteration](#current-iteration) below for details.
+
+If you would like to request clarification or ask a question you can search the [CDR Support Portal](https://cdr-support.zendesk.com/hc/en-us) for existing guidance or raise a query if you're unable to find an answer.
+
 ## Current Iteration 
-Maintenance Iteration 13
-
-Commenced on the 5th of September 2022
-
-Scheduled to conclude on the 23rd of November 2022
-
-[Decision Proposal 272](https://github.com/ConsumerDataStandardsAustralia/standards/issues/272).
-
-## Next Iteration
 Maintenance Iteration 14
 
-Scheduled to commence on the 8th of February 2023
+Commencing on the 8th of February 2023
 
 Scheduled to conclude on the 5th of April 2023
 
 [Decision Proposal 281](https://github.com/ConsumerDataStandardsAustralia/standards/issues/281)
+
+[Holistic Feedback issue #565](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/565)
+
+## Next Iteration
+Maintenance Iteration 15
+
+Scheduled to commence on the 19th of April 2023
+
+Scheduled to conclude on the 14th of June 2023 
+
+Decision Proposal TBA
 
 ## Previous Iterations
 
