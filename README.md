@@ -20,22 +20,22 @@ If you would like to suggest a documentation fix, you can post a comment on the 
 If you would like to request clarification or ask a question you can search the [CDR Support Portal](https://cdr-support.zendesk.com/hc/en-us) for existing guidance or raise a query if you're unable to find an answer.
 
 ## Current Iteration 
-Maintenance Iteration 14
-
-Commencing on the 8th of February 2023
-
-Scheduled to conclude on the 5th of April 2023
-
-[Decision Proposal 281](https://github.com/ConsumerDataStandardsAustralia/standards/issues/281)
-
-[Holistic Feedback issue #565](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/565)
-
-## Next Iteration
 Maintenance Iteration 15
 
-Scheduled to commence on the 19th of April 2023
+Commencing on 3 May 2023
 
-Scheduled to conclude on the 14th of June 2023 
+Scheduled to conclude on 14 June 2023
+
+[Decision Proposal 304](https://github.com/ConsumerDataStandardsAustralia/standards/issues/304)
+
+[Holistic Feedback issue #586](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/586)
+
+## Next Iteration
+Maintenance Iteration 16
+
+Scheduled to commence on 12 July 2023
+
+Scheduled to conclude on 6 September 2023 
 
 Decision Proposal TBA
 
