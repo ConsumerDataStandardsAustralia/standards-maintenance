@@ -12,7 +12,7 @@ You can also sign up to our [mailing list](https://consumerdatastandards.us18.li
 The Agenda, Minutes and Actions for Maintenance Iterations are available on the [Meetings page](https://github.com/ConsumerDataStandardsAustralia/standards/wiki/MI%20meetings).
 
 
-### Raising Issues
+## Raising Issues
 
 If you would like to propose an enhancement, fix or change to the Data Standards you can raise an issue on [this repository](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues). 
 
