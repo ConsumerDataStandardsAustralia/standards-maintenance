@@ -11,6 +11,9 @@ assignees: CDR-CX-Stream
 # Description
 Briefly described the CX Guideline(s) being requested for development or revision.
 
+# Intention and Value of Change
+Please include details on the intended benefit of the change and the value it brings to the requester and ecosystem participants.
+
 # Area affected
 Specify the area(s) to be covered or revised. This should include specific CDR Rules, Data Standards, or CX Guidelines that relate to the request.
 
