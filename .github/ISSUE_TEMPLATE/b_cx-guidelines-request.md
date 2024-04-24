@@ -23,11 +23,11 @@ Clear outline of the requirement, journey, or flow for which CX Guidelines are r
 <!--- Do not delete disclaimer: START DISCLAIMER --->
 -----
 :warning: **Disclaimer** :warning:
-The [CX Guidelines](https://d61cds.notion.site/) provide optional implementation examples for key rules, standards, and best practice recommendations.
+The [CX Guidelines](https://cx.cds.gov.au/) provide optional implementation examples for key rules, standards, and best practice recommendations.
 
 They demonstrate key aspects of the consent model, but certain areas may be considered out of scope. This may include, for example, where the rules and/or standards are silent or non-prescriptive to provide CDR participants with flexibility or discretion according to their own systems or protocols.
 
 :heavy_exclamation_mark:The CX Guidelines span policy, rules, standards, and best practice, so requests will be considered on a case by case basis and timings may not fall within a Maintenance Iteration cycle.
 
-Importantly, the [CX Guidelines](https://d61cds.notion.site/) are optional to follow, but the CDR rules require CDR participants to have regard to them. The [CX Standards](https://consumerdatastandardsaustralia.github.io/standards/#consumer-experience) differ in that they are binding data standards that must be followed.
+Importantly, the [CX Guidelines](https://cx.cds.gov.au/) are optional to follow, but the CDR rules require CDR participants to have regard to them. The [CX Standards](https://consumerdatastandardsaustralia.github.io/standards/#consumer-experience) differ in that they are binding data standards that must be followed.
 <!--- END DISCLAIMER --->
