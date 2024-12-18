@@ -7,6 +7,7 @@ labels: change request, consumer experience, cx guideline
 assignees: CDR-CX-Stream
 
 ---
+<!--- READ ME: To learn about the Standards Maintenance process, [read this knowledge article](https://cdr-support.zendesk.com/hc/en-us/articles/900005585003-Standards-Maintenance) --->
 
 # Description
 Briefly described the CX Guideline(s) being requested for development or revision.
