@@ -1,22 +1,22 @@
 # Consumer Data Right Standards - Maintenance
 
-This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.accc.gov.au/focus-areas/consumer-data-right "ACCC Consumer Data Right webpage") regime.  Please refer to the [Main Standards Repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
+This repository is used to contain discussions and contributions from the community of participants and other interested parties in the Australian [Consumer Data Right](https://www.cdr.gov.au/). Please refer to the [Standards repository](https://github.com/ConsumerDataStandardsAustralia/standards) for more information.
 
 See the Consumer Data Standards support portal article [Standards Maintenance](https://cdr-support.zendesk.com/hc/en-us/articles/900005585003) for details of the maintenance cycle. The details for the next maintenance iteration are below.
 
-## Getting Involved 
-If you would like to participate in the Standards Maintenance fortnightly meetings and contribute to the discussion, send a request via email to contact@consumerdatastandards.gov.au
+## Getting involved 
+If you would like to participate in the Standards Maintenance fortnightly meetings and contribute to the discussion, send a request via email to contact@dsb.gov.au
 
 You can also sign up to our [mailing list](https://consumerdatastandards.us18.list-manage.com/subscribe?u=fb3bcb1ec5662d9767ab3c414&id=a4414b3906) to stay up to date on DSB News.
 
 The Agenda, Minutes and Actions for Maintenance Iterations are available on the [Meetings page](https://github.com/ConsumerDataStandardsAustralia/standards/wiki/MI%20meetings).
 
 
-## Raising Issues
+## Raising issues
 
 If you would like to propose an enhancement, fix or change to the Data Standards you can raise an issue on [this repository](https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues). 
 
-If you would like to suggest a documentation fix, you can post a comment on the holistic feedback issue created for each Maintenance Iteration.  See [Getting Involved](#getting-involved) above.
+If you would like to suggest a documentation fix, you can post a comment on the holistic feedback issue created for each Maintenance Iteration. See [Getting involved](#getting-involved) above.
 
 If you would like to request clarification or ask a question you can search the [CDR Support Portal](https://cdr-support.zendesk.com/hc/en-us) for existing guidance or raise a query if you're unable to find an answer.
 
