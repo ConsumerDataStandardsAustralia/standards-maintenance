@@ -24,7 +24,7 @@ If you would like to request clarification or ask a question you can search the 
 
 We're committed to undertaking conversations relating to the technical standards in the open. Questions or comments that participants might ask us via email or private message are likely to be questions or comments other participants have as well. Our answers will be of interest to everyone. There are likely to be experiences and lessons everybody working in this ecosystem can learn from. Having these conversations transparently helps us reduce duplication, resolve issues faster and keep everyone up to date with the conversation.
 
-We ask that all contributors to the Consumer Data Standards repositories comply with the [GitHub Community Forum Code of Conduct](https://help.github.com/articles/github-community-forum-code-of-conduct/) and DSB’s [Community Guidelines](https://cdr-support.zendesk.com/hc/en-us/community/posts/900001462983-Community-Guidelines).
+We ask that all contributors to the Consumer Data Standards repositories comply with the [GitHub Community Forum Code of Conduct](https://help.github.com/articles/github-community-forum-code-of-conduct/) and DSB’s [Community Guidelines](https://cdr-support.zendesk.com/hc/en-us/articles/10222408124047-Consultation-meeting-information-and-community-guidelines).
 
 In addition, it would be appreciated if the following rules are adhered to when commenting or contributing:
 * Please provide a single, considered response to each proposal covering all feedback concerning the proposal.
